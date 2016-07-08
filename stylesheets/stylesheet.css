@@ -99,7 +99,7 @@ header h2 {
 }
 
 #downloads {
-  margin-bottom: 40px;
+  margin-bottom: 10px;
 }
 
 a.button {
@@ -335,7 +335,7 @@ footer a:hover {
   content: '.';
 }
 
-.clearfix {display: inline-block;}
+.clearfix {display: inline-block;padding-top: 2px;}
 * html .clearfix {height: 1%;}
 .clearfix {display: block;}
 
@@ -344,6 +344,7 @@ nav ul, footer ul {
     padding: 0px;
     list-style: none;
     font-weight: bold;
+	float: right;
 }
 nav ul li, footer ul li {
     display: inline;
