@@ -1,3 +1,3 @@
 name: Paul Withers Blog
-markdown: framdown
+markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
