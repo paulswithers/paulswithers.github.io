@@ -9,6 +9,13 @@ title: Professional Activity
 [SlideShare](http://slideshare.net/paulswithers1)  
 [YouTube Channel](https://www.youtube.com/channel/UCQ8JoAqdv6t5k5n3Ebha4Cw)
 
+## Awards
+[IBM Champion 2016](https://www.ibm.com/developerworks/community/blogs/ibmchampion/entry/Announcing_the_IBM_Champion_Class_of_2016_for_IBM_Social_Business?lang=en), [Intec blog post](http://www.intec.co.uk/intecs-ibm-champions/), [wikipedia entry](https://en.wikipedia.org/wiki/IBM_Champions#2016_Champions)  
+[IBM Champion 2015](https://www.ibm.com/developerworks/community/blogs/ibmchampion/entry/announcing_the_2015_class_of_ibm_champions_for_ics?lang=en), [Intec blog post](http://www.intec.co.uk/intecs-ibm-champions-renewed/), [wikipedia entry](https://en.wikipedia.org/wiki/IBM_Champions#2015_Champions)  
+[IBM Champion 2014](http://womenstoolbox.com/2013/12/05/announcing-the-2014-ibm-champions-for-ics/)  
+[IBM Champion 2013](http://www.mcpressonline.com/trends/ibm-champion-program-names-2013-champions-including-steve-pitcher.html), [Intec blog post](http://www.intec.co.uk/notesin9-ibm-connect-and-ibm-champion-a-busy-week-and-more-to-come/)  
+IBM Champion 2011-2012, [Ed Brill blog post](http://www.edbrill.com/ebrill/edbrill.nsf/dx/congratulations-to-new-ibm-champions-for-lotus-and-ibm-collaboration-solutions?opendocument&comments#anc1), [Luis Benitez blog post](http://www.lbenitez.com/2011/06/congratulations-to-new-ibm-champions.html), [Intec blog post](http://www.intec.co.uk/ibm-champions-for-lotus-collaboration-solutions/)
+
 ## Books
 
 ### Author
@@ -90,6 +97,7 @@ Jul 2013, [NotesIn9 116: DataContexts and VariableResolvers](http://www.notesin9
 May 2013, [org.openntf.domino - Deploying for XPages](https://www.youtube.com/watch?v=6j9nHOPg-FA)  
 Apr 2013, [Update on org.openntf.domino - Demo Database](https://www.youtube.com/watch?v=IH8T-RvyFz8)  
 Mar 2013, [XPages OpenLog Logger](https://www.youtube.com/watch?v=mbZ8vamCNpE)  
+Jan 2013, [IBM Connect interview](https://www.youtube.com/watch?v=oTv7R4VMnC8)  
 Dec 2012, [NotesIn9 96: Using Designer to Search and Replace Notes Rich Client Elements](http://www.notesin9.com/2012/12/07/notesin9-096-using-designer-to-search-and-replace-notes-rich-client-elements/)  
 Apr 2012, [NotesIn9 65: XPages Mobile Value Picker](http://www.notesin9.com/2012/04/24/notesin9-065-xpages-mobile-value-picker/)  
 Sept 2011, [NotesIn9 34: XPages - F4 Is Your Friend](http://www.notesin9.com/2011/09/02/notesin9-034-xpages-f4-is-your-friend/)
