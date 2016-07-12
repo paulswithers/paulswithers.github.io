@@ -90,8 +90,16 @@ header h2 {
 }
 
 .inner {
-  width: 620px;
-  margin: 0 auto;
+	width: 840px;
+	margin: 0 auto;
+}
+
+/* #### Mobile Phones Portrait #### */
+@media screen and (max-device-width: 640px) and (orientation: portrait){
+	.inner {
+		width: 620px;
+		margin: 0 auto;
+	}
 }
 
 #container .inner img {
