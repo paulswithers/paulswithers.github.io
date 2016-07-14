@@ -2,6 +2,7 @@
 layout: post
 title: "Thoughts on Domino"
 date: 2016-07-13
+comments: true
 ---
 The key to any relationship is periodically stepping back and appreciating the good points in contrast to the little annoyances that grate, so that you're not distracted by the first pretty young face (or muscular torso, depending on your predilection) that you encounter. When you thinking it might be time to leave the relationship, that is the most crucial (though most difficult) time to evaluate honestly and dispassionately what you have / had. Because if you don't, sooner or later you'll find different annoyances that grate; or you'll find something you took for granted and absolutely needed is missing from your new love; and before you know it that love too will turn sour and you'll be crying into your alcohol bemoaning wasted years and shattered dreams while looking at a bank account that's been wiped out by periodic divorce settlements.
 
