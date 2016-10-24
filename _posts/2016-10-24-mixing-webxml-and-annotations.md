@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Mixing web.xml and Annotations
-date: 2016-07-30
+date: 2016-10-24
 comments: true
 ---
 Over the last few months a lot of what I've had to do has come from combining frameworks. Usually one of those frameworks is [Vaadin](https://vaadin.com/home "Vaadin"). But whenever you're combining frameworks of any kind, it usually means some content is pre-configured, which may conflict with settings in another framework. If you're not familiar with the framework and the technologies in use, it's a lot like looking at hieroglyphics without a [Rosetta Stone](https://en.wikipedia.org/wiki/Rosetta_Stone)! The result is a lot of learning on the job.
