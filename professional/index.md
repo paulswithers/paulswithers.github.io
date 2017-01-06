@@ -10,6 +10,7 @@ title: Professional Activity
 [YouTube Channel](https://www.youtube.com/channel/UCQ8JoAqdv6t5k5n3Ebha4Cw)
 
 ## Awards
+[IBM Campion 2017](https://www.ibm.com/developerworks/community/blogs/762e655e-e86c-4624-9662-ee81c6874de1/entry/Introducing_the_2017_IBM_Champions?lang=en), [Intec blog post](http://www.intec.co.uk/intecs-returning-champions/)  
 [IBM Champion 2016](https://www.ibm.com/developerworks/community/blogs/ibmchampion/entry/Announcing_the_IBM_Champion_Class_of_2016_for_IBM_Social_Business?lang=en), [Intec blog post](http://www.intec.co.uk/intecs-ibm-champions/), [wikipedia entry](https://en.wikipedia.org/wiki/IBM_Champions#2016_Champions)  
 [IBM Champion 2015](https://www.ibm.com/developerworks/community/blogs/ibmchampion/entry/announcing_the_2015_class_of_ibm_champions_for_ics?lang=en), [Intec blog post](http://www.intec.co.uk/intecs-ibm-champions-renewed/), [wikipedia entry](https://en.wikipedia.org/wiki/IBM_Champions#2015_Champions)  
 [IBM Champion 2014](http://womenstoolbox.com/2013/12/05/announcing-the-2014-ibm-champions-for-ics/)  
@@ -28,6 +29,8 @@ IBM Champion 2011-2012, [Ed Brill blog post](http://www.edbrill.com/ebrill/edbri
 [Opting In: Lessons in Social Business from a Fortune 500 Product Manager (IBM Press)](https://www.amazon.co.uk/Opting-Lessons-Business-Fortune-Product-ebook/dp/B00AXYKNSM)
 
 ## Speaking (Including Presentations / Downloads)
+IBM Connect, Feb 2017, "OpenNTF Domino API (ODA): Super-Charging Domino Development"  
+IBM Connect, Feb 2017, "GraphQL 101"  
 ICON UK, Sept 2016, "Find Your Data - Use GraphDB Capabilities in XPages Applications - and Beyond" - [slides](http://www.slideshare.net/iconuk_/find-your-data-use-graphdb-capabilities-in-xpages-applications-and-beyond)
 Engage, Mar 2016, "'Marty, You're Just Not Thinking Fourth Dimensionally': Troubleshooting XPages" - [PDF download](http://engage.ug/engage.nsf/Click?Open&e=20160323&s=PaulW&f=2016_Slides_c/$file/Engage2016_Marty.pdf)  
 IBM Connect, Feb 2016, "'Marty, You're Just Not Thinking Fourth Dimensionally': Troubleshooting XPages" - [slides](http://www.slideshare.net/paulswithers1/ad1279-marty-youre-not-thinking-fourth-dimensionally-troubleshooting-xpages), [demo database](http://www.intec.co.uk/wp-content/uploads/2016/02/BTTF.zip)  
@@ -76,6 +79,7 @@ May 2011, Maximising The Benefits of XPages in Domino 8.5.2
 Jun 2010, [Maximising The Benefits of XPages](http://www.intec.co.uk/wp-content/uploads/2012/03/Maximising-The-Benefits-of-XPages.pdf)
 
 ## OpenNTF Projects
+Dec 2017, [Java API for Watson Work Services](https://openntf.org/main.nsf/project.xsp?r=project/Watson%20Work%20Services%20Java%20SDK), with Christian Guedemann, [OpenNTF KnowledgeBase](https://wiki.openntf.org/display/WWSJava)  
 May 2016, [CrossWorlds](https://www.openntf.org/main.nsf/project.xsp?r=project/Crossworlds), with Daniele Vistalli, [OpenNTF KnowledgeBase](https://wiki.openntf.org/display/CW/CrossWorlds)  
 Oct 2015, [OsgiWorlds](https://openntf.org/main.nsf/project.xsp?r=project/OsgiWorlds/summary), with code from Tim Tripcony  
 Oct 2015, [OpenNTF Domino API Demo Database](https://openntf.org/main.nsf/project.xsp?r=project/OpenNTF%20Domino%20API%20Demo%20Database)  
@@ -104,6 +108,7 @@ Apr 2012, [NotesIn9 65: XPages Mobile Value Picker](http://www.notesin9.com/2012
 Sept 2011, [NotesIn9 34: XPages - F4 Is Your Friend](http://www.notesin9.com/2011/09/02/notesin9-034-xpages-f4-is-your-friend/)
 
 ## Webinars
+Dec 2016, TLCC Webinar, "Marty, You're Just Not Thinking Fourth Dimensionally", [recording](https://www.youtube.com/watch?v=t7j_MR5uzCA&feature=youtu.be), [slide](http://www.slideshare.net/Teamstudio/marty-youre-just-not-thinking-fourth-dimensionally), [demo database](http://www.intec.co.uk/wp-content/uploads/2016/02/BTTF.zip)  
 Apr 2016, TLCC Webinar, "Getting Started with the OpenNTF Domino API" - [recording](https://youtu.be/szbz6REdKDU)  
 May 2014, TLCC Webinar, "It's Not Infernal: Dante's None Circles of XPages Heaven" - [recording](http://youtu.be/bOQp3bhGLTg)  
 May 2013, TLCC Webinar, "It’s Not Herculean: 12 Tasks Made easier with IBM Domino XPages" - [slides](http://www.slideshare.net/Teamstudio/twelve-tasks-made-easier-with-ibm-domino-xpages), [recording](http://www.youtube.com/embed/n3dfyAlvc0M)  
@@ -120,6 +125,7 @@ Nov 2014 - present, [OpenNTF Blog](https://www.openntf.org/main.nsf/blogsAll.xsp
 Jan 2016, [Designing your Vaadin based Domino Applications](https://vaadin.com/blog/-/blogs/designing-your-vaadin-based-domino-applications) - vaadin.com Blog guest post
 
 ## Online Documentation / Tutorial Series
+[Watson Work Services API Java SDK](https://wiki.openntf.org/display/WWSJava)  
 [CrossWorlds](https://wiki.openntf.org/display/CW/CrossWorlds)  
 [XPages OpenLog Logger](https://wiki.openntf.org/display/XOL/XPages+OpenLog+Logger)  
 [XPages to Web App Tutorial](http://www.intec.co.uk/tag/xpages-to-web-app-tutorial/)  
