@@ -29,8 +29,9 @@ IBM Champion 2011-2012, [Ed Brill blog post](http://www.edbrill.com/ebrill/edbri
 [Opting In: Lessons in Social Business from a Fortune 500 Product Manager (IBM Press)](https://www.amazon.co.uk/Opting-Lessons-Business-Fortune-Product-ebook/dp/B00AXYKNSM)
 
 ## Speaking (Including Presentations / Downloads)
-IBM Connect, Feb 2017, "OpenNTF Domino API (ODA): Super-Charging Domino Development"  
-IBM Connect, Feb 2017, "GraphQL 101"  
+Engage, May 2017, "GraphQL 101" - [slides](https://www.slideshare.net/paulswithers1/graphql-101-75886294)  
+IBM Connect, Feb 2017, "OpenNTF Domino API (ODA): Super-Charging Domino Development" - [slides](https://www.slideshare.net/paulswithers1/openntf-domino-api-oda-supercharging-domino-development)  
+IBM Connect, Feb 2017, "GraphQL 101" - [slides](https://www.slideshare.net/paulswithers1/graphql-101)  
 ICON UK, Sept 2016, "Find Your Data - Use GraphDB Capabilities in XPages Applications - and Beyond" - [slides](http://www.slideshare.net/iconuk_/find-your-data-use-graphdb-capabilities-in-xpages-applications-and-beyond)
 Engage, Mar 2016, "'Marty, You're Just Not Thinking Fourth Dimensionally': Troubleshooting XPages" - [PDF download](http://engage.ug/engage.nsf/Click?Open&e=20160323&s=PaulW&f=2016_Slides_c/$file/Engage2016_Marty.pdf)  
 IBM Connect, Feb 2016, "'Marty, You're Just Not Thinking Fourth Dimensionally': Troubleshooting XPages" - [slides](http://www.slideshare.net/paulswithers1/ad1279-marty-youre-not-thinking-fourth-dimensionally-troubleshooting-xpages), [demo database](http://www.intec.co.uk/wp-content/uploads/2016/02/BTTF.zip)  
