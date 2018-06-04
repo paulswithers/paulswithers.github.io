@@ -89,7 +89,7 @@ Jun 2010, [Maximising The Benefits of XPages](http://www.intec.co.uk/wp-content/
 ## OpenNTF Projects
 Dec 2017, [Java API for Watson Work Services](https://openntf.org/main.nsf/project.xsp?r=project/Watson%20Work%20Services%20Java%20SDK), with Christian Guedemann, [OpenNTF KnowledgeBase](https://wiki.openntf.org/display/WWSJava)  
 Nov 2017, [Watson Developer Cloud Java SDK](https://openntf.org/main.nsf/project.xsp?r=project/Watson%20Developer%20Cloud%20Java%20SDK%20XPages%20Library)  
-Sept 2017, [OpennTF Domino API Starter Servlet](https://openntf.org/main.nsf/project.xsp?r=project/OpenNTF%20Domino%20API%20Starter%20Servlet)  
+Sept 2017, [OpenNTF Domino API Starter Servlet](https://openntf.org/main.nsf/project.xsp?r=project/OpenNTF%20Domino%20API%20Starter%20Servlet)  
 May 2016, [CrossWorlds](https://www.openntf.org/main.nsf/project.xsp?r=project/Crossworlds), with Daniele Vistalli, [OpenNTF KnowledgeBase](https://wiki.openntf.org/display/CW/CrossWorlds)  
 Oct 2015, [OsgiWorlds](https://openntf.org/main.nsf/project.xsp?r=project/OsgiWorlds/summary), with code from Tim Tripcony  
 Oct 2015, [OpenNTF Domino API Demo Database](https://openntf.org/main.nsf/project.xsp?r=project/OpenNTF%20Domino%20API%20Demo%20Database)  
