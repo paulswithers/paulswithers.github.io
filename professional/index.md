@@ -10,6 +10,8 @@ title: Professional Activity
 [YouTube Channel](https://www.youtube.com/channel/UCQ8JoAqdv6t5k5n3Ebha4Cw)
 
 ## Awards
+[IBM Lifetime Champion](https://www.ibm.com/developerworks/community/blogs/ibmchampion/entry/Wrapping_up_Think?lang=en_us), [Intec blog post](http://www.intec.co.uk/great-start-ibm-think/)
+[IBM Champion 2018](https://www.ibm.com/developerworks/community/blogs/ibmchampion/entry/2018_IBM_Champions?lang=en), [Intec blog post](http://www.intec.co.uk/intecs-ibm-champions-renewed-2/)
 [IBM Champion 2017](https://www.ibm.com/developerworks/community/blogs/762e655e-e86c-4624-9662-ee81c6874de1/entry/Introducing_the_2017_IBM_Champions?lang=en), [Intec blog post](http://www.intec.co.uk/intecs-returning-champions/)  
 [IBM Champion 2016](https://www.ibm.com/developerworks/community/blogs/ibmchampion/entry/Announcing_the_IBM_Champion_Class_of_2016_for_IBM_Social_Business?lang=en), [Intec blog post](http://www.intec.co.uk/intecs-ibm-champions/), [wikipedia entry](https://en.wikipedia.org/wiki/IBM_Champions#2016_Champions)  
 [IBM Champion 2015](https://www.ibm.com/developerworks/community/blogs/ibmchampion/entry/announcing_the_2015_class_of_ibm_champions_for_ics?lang=en), [Intec blog post](http://www.intec.co.uk/intecs-ibm-champions-renewed/), [wikipedia entry](https://en.wikipedia.org/wiki/IBM_Champions#2015_Champions)  
@@ -29,6 +31,11 @@ IBM Champion 2011-2012, [Ed Brill blog post](http://www.edbrill.com/ebrill/edbri
 [Opting In: Lessons in Social Business from a Fortune 500 Product Manager (IBM Press)](https://www.amazon.co.uk/Opting-Lessons-Business-Fortune-Product-ebook/dp/B00AXYKNSM)
 
 ## Speaking (Including Presentations / Downloads)
+Engage, May 2018, "Tips and Tricks: Domino and JavaScript Development MasterClass", [slides](https://www.engage.ug/engage.nsf/pages/Event2018_Sessions_Speakers?Open&Sp=Paul%20Withers%20%28Intec%20Systems%29), [source code](https://github.com/johnjardin/domino-js-masterclass), [blog](www.intec.co.uk/engage-2018-session/)  
+IBM Think 2018, Mar 2018, "Tips and Tricks: Domino and JavaScript Development MasterClass", [slides](https://www.slideshare.net/paulswithers1/ibm-think-session-8598-domino-and-javascript-development-masterclass), [source code](https://github.com/johnjardin/domino-js-masterclass)  
+IBM Think 2018, Mar 2018, "Developing with Watson Work Services Java SDK", [slides](https://www.slideshare.net/paulswithers1/ibm-think-session-3249-watson-work-services-java-sdk), [demo app](https://github.com/paulswithers/wws-java-sample)  
+IBM Think 2018, Mar 2018, "Social Zero to Community Hero"
+Social Connections, Oct 2017, "Using Watson Work Services Java SDK" - [slides](https://www.slideshare.net/soccnx/using-watson-work-services-java-sdk), [demo app](https://github.com/paulswithers/wws-java-sample)  
 Engage, May 2017, "GraphQL 101" - [slides](https://www.slideshare.net/paulswithers1/graphql-101-75886294)  
 IBM Connect, Feb 2017, "OpenNTF Domino API (ODA): Super-Charging Domino Development" - [slides](https://www.slideshare.net/paulswithers1/openntf-domino-api-oda-supercharging-domino-development)  
 IBM Connect, Feb 2017, "GraphQL 101" - [slides](https://www.slideshare.net/paulswithers1/graphql-101)  
@@ -81,6 +88,8 @@ Jun 2010, [Maximising The Benefits of XPages](http://www.intec.co.uk/wp-content/
 
 ## OpenNTF Projects
 Dec 2017, [Java API for Watson Work Services](https://openntf.org/main.nsf/project.xsp?r=project/Watson%20Work%20Services%20Java%20SDK), with Christian Guedemann, [OpenNTF KnowledgeBase](https://wiki.openntf.org/display/WWSJava)  
+Nov 2017, [Watson Developer Cloud Java SDK](https://openntf.org/main.nsf/project.xsp?r=project/Watson%20Developer%20Cloud%20Java%20SDK%20XPages%20Library)  
+Sept 2017, [OpennTF Domino API Starter Servlet](https://openntf.org/main.nsf/project.xsp?r=project/OpenNTF%20Domino%20API%20Starter%20Servlet)  
 May 2016, [CrossWorlds](https://www.openntf.org/main.nsf/project.xsp?r=project/Crossworlds), with Daniele Vistalli, [OpenNTF KnowledgeBase](https://wiki.openntf.org/display/CW/CrossWorlds)  
 Oct 2015, [OsgiWorlds](https://openntf.org/main.nsf/project.xsp?r=project/OsgiWorlds/summary), with code from Tim Tripcony  
 Oct 2015, [OpenNTF Domino API Demo Database](https://openntf.org/main.nsf/project.xsp?r=project/OpenNTF%20Domino%20API%20Demo%20Database)  
@@ -95,6 +104,10 @@ May 2011, [Dojox Charting Legend Extension](https://openntf.org/main.nsf/project
 Sept 2010, [Audit Comments Custom Control](https://openntf.org/main.nsf/project.xsp?r=project/Audit%20Comments%20Custom%20Control/summary)
 
 ## Videos
+Apr 2018, [Scheduling XPages Code](https://youtu.be/qn3TcefprOY)  
+Mar 2018, [RADAAR Deep Dive](https://youtu.be/QxMPopZCeUE)  
+Mar 2018, [RADAAR Overview](https://youtu.be/Yg_kyfZErKQ)  
+May 2017, [REST Servlets](https://youtu.be/98Ujg1wAjxE)  
 May 2016, [Setting Up CrossWorlds Environment](https://www.youtube.com/watch?v=5tpWbgGjJfw)  
 Apr 2016, [Project Spotlight: JsonBeanX and Jackson4XPages](https://www.youtube.com/watch?v=3dAC6vSeuek)  
 Mar 2015, [NotesIn9 172: XPages Java Debugging](http://www.notesin9.com/2015/03/31/notesin9-172-xpages-java-debugging/)  
@@ -109,6 +122,7 @@ Apr 2012, [NotesIn9 65: XPages Mobile Value Picker](http://www.notesin9.com/2012
 Sept 2011, [NotesIn9 34: XPages - F4 Is Your Friend](http://www.notesin9.com/2011/09/02/notesin9-034-xpages-f4-is-your-friend/)
 
 ## Webinars
+Dec 2017, Red Pill Now, "Migration vs Modernization", [blog post](https://www.redpillnow.com/01-migration-v-modernization/)  
 Dec 2016, TLCC Webinar, "Marty, You're Just Not Thinking Fourth Dimensionally", [recording](https://www.youtube.com/watch?v=t7j_MR5uzCA&feature=youtu.be), [slide](http://www.slideshare.net/Teamstudio/marty-youre-just-not-thinking-fourth-dimensionally), [demo database](http://www.intec.co.uk/wp-content/uploads/2016/02/BTTF.zip)  
 Apr 2016, TLCC Webinar, "Getting Started with the OpenNTF Domino API" - [recording](https://youtu.be/szbz6REdKDU)  
 May 2014, TLCC Webinar, "It's Not Infernal: Dante's None Circles of XPages Heaven" - [recording](http://youtu.be/bOQp3bhGLTg)  
