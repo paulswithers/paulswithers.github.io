@@ -34,7 +34,7 @@ IBM Champion 2011-2012, [Ed Brill blog post](http://www.edbrill.com/ebrill/edbri
 Engage, May 2018, "Tips and Tricks: Domino and JavaScript Development MasterClass", [slides](https://www.engage.ug/engage.nsf/pages/Event2018_Sessions_Speakers?Open&Sp=Paul%20Withers%20%28Intec%20Systems%29), [source code](https://github.com/johnjardin/domino-js-masterclass), [blog](www.intec.co.uk/engage-2018-session/)  
 IBM Think 2018, Mar 2018, "Tips and Tricks: Domino and JavaScript Development MasterClass", [slides](https://www.slideshare.net/paulswithers1/ibm-think-session-8598-domino-and-javascript-development-masterclass), [source code](https://github.com/johnjardin/domino-js-masterclass)  
 IBM Think 2018, Mar 2018, "Developing with Watson Work Services Java SDK", [slides](https://www.slideshare.net/paulswithers1/ibm-think-session-3249-watson-work-services-java-sdk), [demo app](https://github.com/paulswithers/wws-java-sample)  
-IBM Think 2018, Mar 2018, "Social Zero to Community Hero"
+IBM Think 2018, Mar 2018, "Social Zero to Community Hero"  
 Social Connections, Oct 2017, "Using Watson Work Services Java SDK" - [slides](https://www.slideshare.net/soccnx/using-watson-work-services-java-sdk), [demo app](https://github.com/paulswithers/wws-java-sample)  
 Engage, May 2017, "GraphQL 101" - [slides](https://www.slideshare.net/paulswithers1/graphql-101-75886294)  
 IBM Connect, Feb 2017, "OpenNTF Domino API (ODA): Super-Charging Domino Development" - [slides](https://www.slideshare.net/paulswithers1/openntf-domino-api-oda-supercharging-domino-development)  
