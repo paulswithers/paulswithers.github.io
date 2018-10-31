@@ -31,6 +31,9 @@ IBM Champion 2011-2012, [Ed Brill blog post](http://www.edbrill.com/ebrill/edbri
 [Opting In: Lessons in Social Business from a Fortune 500 Product Manager (IBM Press)](https://www.amazon.co.uk/Opting-Lessons-Business-Fortune-Product-ebook/dp/B00AXYKNSM)
 
 ## Speaking (Including Presentations / Downloads)
+Social Connections 14, Oct 2018, "ICS Integration with Node-RED and Open Source" with Stefano Pogliani, [slides](https://www.slideshare.net/paulswithers1/social-connections-14-ics-integration-with-nodered-and-open-source)  
+Social Connections 14, Oct 2018, "You Get What You Give" with Luis Suarez, Panagenda, [slides](http://www.slideshare.net/panagenda/social-connections-14-you-get-what-you-give)  
+ICON UK, Sept 2018, "Do You Wanna Build A Chatbot", [slides](https://www.slideshare.net/paulswithers1/iconuk-2018-do-you-wanna-build-a-chatbot)  
 Engage, May 2018, "Tips and Tricks: Domino and JavaScript Development MasterClass", [slides](https://www.engage.ug/engage.nsf/pages/Event2018_Sessions_Speakers?Open&Sp=Paul%20Withers%20%28Intec%20Systems%29), [source code](https://github.com/johnjardin/domino-js-masterclass), [blog](www.intec.co.uk/engage-2018-session/)  
 IBM Think 2018, Mar 2018, "Tips and Tricks: Domino and JavaScript Development MasterClass", [slides](https://www.slideshare.net/paulswithers1/ibm-think-session-8598-domino-and-javascript-development-masterclass), [source code](https://github.com/johnjardin/domino-js-masterclass)  
 IBM Think 2018, Mar 2018, "Developing with Watson Work Services Java SDK", [slides](https://www.slideshare.net/paulswithers1/ibm-think-session-3249-watson-work-services-java-sdk), [demo app](https://github.com/paulswithers/wws-java-sample)  
