@@ -31,6 +31,9 @@ IBM Champion 2011-2012, [Ed Brill blog post](http://www.edbrill.com/ebrill/edbri
 [Opting In: Lessons in Social Business from a Fortune 500 Product Manager (IBM Press)](https://www.amazon.co.uk/Opting-Lessons-Business-Fortune-Product-ebook/dp/B00AXYKNSM)
 
 ## Speaking (Including Presentations / Downloads)
+Engage, May 2019, "Introduction to Node-RED", [slides](https://www.slideshare.net/paulswithers1/engage-2019-introduction-to-nodered), [source code](https://github.com/paulswithers/ics-docker-node-red), [blog](https://www.intec.co.uk/engage-2019-my-sessions/)  
+Engage, May 2019, "Modernising Your Domino and XPages Applications", [slides](https://www.slideshare.net/paulswithers1/engage-2019-modernising-your-domino-and-xpages-applications), [source code](https://github.com/paulswithers/EngageModernisation), [blog](https://www.intec.co.uk/engage-2019-my-sessions/)  
+Engage, May 2019, "AI: What Is It Good Far?", [slides](https://www.slideshare.net/paulswithers1/engage-2019-ai-what-is-it-good-for), [blog](https://www.intec.co.uk/engage-2019-my-sessions/)  
 Social Connections 14, Oct 2018, "ICS Integration with Node-RED and Open Source" with Stefano Pogliani, [slides](https://www.slideshare.net/paulswithers1/social-connections-14-ics-integration-with-nodered-and-open-source)  
 Social Connections 14, Oct 2018, "You Get What You Give" with Luis Suarez, Panagenda, [slides](http://www.slideshare.net/panagenda/social-connections-14-you-get-what-you-give)  
 ICON UK, Sept 2018, "Do You Wanna Build A Chatbot", [slides](https://www.slideshare.net/paulswithers1/iconuk-2018-do-you-wanna-build-a-chatbot)  
