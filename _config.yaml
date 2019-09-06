@@ -1,5 +1,8 @@
 name: Paul Withers Blog
+title: Paul Withers Blog
 markdown: kramdown
+repository: paulswithers/paulswithers.github.io
+github: [metadata]
 permalink: /blog/:year/:month/:day/:title
-gems:
+plugins:
   - jekyll-feed
