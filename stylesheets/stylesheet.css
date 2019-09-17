@@ -401,6 +401,11 @@ ul.posts li {
   }
 }
 
+.categoryTitle {
+  cursor: pointer;
+  color: #043d10;
+}
+
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 @media only screen and (min-width: 480px) and (max-width: 767px) { }
 

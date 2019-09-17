@@ -4,5 +4,8 @@ markdown: kramdown
 repository: paulswithers/paulswithers.github.io
 github: [metadata]
 permalink: /blog/:year/:month/:day/:title
+author: Paul Withers
 plugins:
   - jekyll-feed
+collections:
+  - bio_categories
