@@ -1,5 +1,6 @@
-name: Paul Withers Blog
-title: Paul Withers Blog
+name: Paul Withers' Blog
+title: Paul Withers' Blog
+description: A blog about various HCL software and related learning
 markdown: kramdown
 repository: paulswithers/paulswithers.github.io
 github: [metadata]
