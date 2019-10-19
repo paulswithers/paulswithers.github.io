@@ -2,6 +2,8 @@
 layout: post
 title: "Developing for Performance"
 date: 2017-08-17
+category: coding
+tags: [editorial,performance,support]
 comments: true
 ---
 One of the themes which crops up from time to time in Domino application development and beyond is the theme of "performance". It's a topic which makes me grit my teeth because of the basic premise. Most articles start from what, for me, is a narrow terms of reference: performance optimisation being about how quick a specific amount of data can be served to a specific environment. My interpretation of the term "performance" is much wider and that is the reason for my scepticism and concern of how people may interpret or use such articles. There are important points raised, but there are also caveats that need to be borne in mind.

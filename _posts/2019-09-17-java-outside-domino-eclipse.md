@@ -2,6 +2,8 @@
 layout: post
 title: "Java Outside Domino in Eclipse"
 date: 2019-09-17
+category: Java
+tags: [Domino,Java,Vert.x]
 comments: true
 ---
 Recently I've been diving back into running Java outside of the Domino HTTP stack, picking up some work I did quite a few years ago playing with [Vert.x and Domino](https://github.com/paulswithers/vertx-domino) based on Stephan Wissel's blog series on [Vert.x and Domino](https://www.wissel.net/blog/2014/07/adventures-with-vertx-64bit-and-the-ibm-notes-client.html). Quite a few things have happened since I was last working on the project, not least the laptop I had at the time got rebuilt, I have got a new laptop, several version of Eclipse have been released and XPages SDK has been deployed to the Eclipse Marketplace (thanks Jesse Gallagher).

@@ -2,6 +2,8 @@
 layout: post
 title: "Error Management"
 date: 2019-10-10 22:00:00
+category: coding
+tags: [errors,support,editorial]
 comments: true
 ---
 Over the years I've done a lot of development on a variety of platforms. Error management is something developers either bake in from the start, add in later, or never get round to! It seems a good time to review my experiences and my philosophy.

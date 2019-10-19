@@ -2,6 +2,8 @@
 layout: post
 title: "Danger of Mid Code to Pro Code"
 date: 2019-10-01
+category: coding
+tags: [atom]
 comments: true
 ---
 People discussing Domino application development have been using a new term since early this year - "mid code". This has become necessary because of the evolution of Domino development since Domino V10.
