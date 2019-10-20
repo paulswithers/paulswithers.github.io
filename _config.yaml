@@ -6,7 +6,9 @@ repository: paulswithers/paulswithers.github.io
 github: [metadata]
 permalink: /blog/:year/:month/:day/:title
 author: Paul Withers
+url: "https://paulswithers.github.io"
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 collections:
   - bio_categories
