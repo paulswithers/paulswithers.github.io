@@ -1,5 +1,9 @@
 - slug: atom
   name: atom
+- slug: community
+  name: community
+- slug: conferences
+  name: Conferences
 - slug: Domino
   name: Domino
 - slug: editorial
@@ -14,3 +18,5 @@
   name: support
 - slug: Vert.x
   name: Vert.x
+- slug: XPages
+  name: XPages
