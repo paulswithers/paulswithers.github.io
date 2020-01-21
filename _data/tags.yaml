@@ -12,6 +12,8 @@
   name: errors
 - slug: Java
   name: Java
+- slug: lotusscript
+  name: LotusScript
 - slug: performance
   name: performance
 - slug: support
