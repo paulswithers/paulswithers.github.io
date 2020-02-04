@@ -2,6 +2,8 @@
 layout: post
 title: "Domino on Docker - Some Learning Points"
 date: 2019-12-04
+category: domino
+tags: [domino]
 comments: true
 ---
 

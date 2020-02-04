@@ -1,24 +1,30 @@
 - slug: atom
   name: atom
 - slug: community
-  name: community
+  name: Community
 - slug: conferences
   name: Conferences
-- slug: Domino
+- slug: domino
   name: Domino
 - slug: editorial
-  name: editorial
+  name: Editorial
 - slug: errors
-  name: errors
-- slug: Java
+  name: Errors
+- slug: java
   name: Java
 - slug: lotusscript
   name: LotusScript
+- slug: nomad
+  name: HCL Nomad
 - slug: performance
-  name: performance
+  name: Performance
+- slug: react
+  name: React
 - slug: support
-  name: support
-- slug: Vert.x
+  name: Support
+- slug: tutorials
+  name: Tutorials
+- slug: vert.x
   name: Vert.x
-- slug: XPages
+- slug: xpages
   name: XPages

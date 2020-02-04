@@ -3,7 +3,7 @@ layout: post
 title: "DQL: What Is It Good For?"
 date: 2020-01-21
 category: Domino
-tags: [Domino,XPages,Java,lotusscript]
+tags: [domino,xpages,java,lotusscript]
 comments: true
 ---
 tl;dr - anything you're doing on Domino, but the message doesn't seem to have reached everyone.

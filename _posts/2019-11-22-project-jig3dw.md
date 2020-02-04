@@ -2,6 +2,8 @@
 layout: post
 title: "Project Jig3dw: Tutorials Re-Imagined"
 date: 2019-11-22
+category: tutorials
+tags: [tutorials, domino, nomad]
 comments: true
 ---
 

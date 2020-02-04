@@ -2,6 +2,8 @@
 layout: post
 title: "Unit Tests and Mocks"
 date: 2020-02-03
+category: vert.x
+tags: [vert.x, java]
 comments: true
 ---
 In the pursuit of (optimal code coverage)[https://dzone.com/articles/reporting-code-coverage-using-maven-and-jacoco-plu] with JUnit tests, there will inevitably be code that interacts with environments that are not available at the time of compiling the code. The solution here is **mocking**.

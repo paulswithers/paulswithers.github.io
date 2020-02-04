@@ -2,6 +2,8 @@
 layout: post
 title: "Vert.x and JUnit Testing"
 date: 2019-12-31
+category: vert.x
+tags: [vert.x,java]
 comments: true
 ---
 My experience with unit testing with either JUnit or TestNG is limited. With Domino development, business logic is often tightly coupled to accessing the underlying database. That makes automated testing a challenge. Similarly, the development of OpenNTF Domino API has been typically focused on code that interacts with the Domino server and databases, again making automated testing challenging. Where data persistence and the database-layer API is the main focus of the development, creating mock classes doesn't really bring much benefit. So it was Watson Workspace Java SDK which was my main experience of JUnit testing. Unit tests make a lot of sense where the business logic is about managing REST service access, both inbound and outbound.

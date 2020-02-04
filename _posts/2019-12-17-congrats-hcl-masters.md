@@ -2,6 +2,8 @@
 layout: post
 title: "Congratulations to 2020 HCL Masters"
 date: 2019-12-17
+category: editorial
+tags: [editorial]
 comments: true
 ---
 <p style="text-align:center"><img src="https://www.cwpcollaboration.com/uploads/1/0/2/7/102707030/editor/190429-hcl-master-logo-dark.png?1564666168" alt="HCL Master" /></p>
