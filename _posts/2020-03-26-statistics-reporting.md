@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Statistics Publishing and Reporting: Part One"
+title: "Statistics Publishing and Reporting Part One"
 date: 2020-03-26
 category: domino
 tags: [domino,vert.x]
