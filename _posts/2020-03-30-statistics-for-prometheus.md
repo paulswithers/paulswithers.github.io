@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Statistics Publishing and Reporting Part Two: Statistics for Prometheus"
-date: 2020-03-26
+date: 2020-03-30
 category: vert.x
 tags: [vert.x]
 comments: true
