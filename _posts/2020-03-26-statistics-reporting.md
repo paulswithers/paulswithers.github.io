@@ -3,12 +3,16 @@ layout: post
 title: "Statistics Publishing and Reporting Part One"
 date: 2020-03-26
 category: domino
-tags: [domino,vert.x]
+tags: [domino,vert.x,prometheus,micrometer]
 comments: true
 ---
+[Part One: Domino and Statistics]()  
+[Part Two: Prometheus](/blog/2020/03/30/statistics-for-prometheus)  
+[Part Three: Micrometer and Prometheus](/blog/2020/04/01/statistics-using-micrometer)  
+[Part Two: Micrometer and Composite Registries](/blog/2020/04/18/micrometer-composite-registries)
 ### Domino V10 and Statistics Publishing
 
-One of the big additions in Domino V10 was statistics publishing, initially focused on [New Relic](https://newrelic.com/). But as [Daniel Nashed showed](http://blog.nashcom.de/nashcomblog.nsf/dx/domino-10-statistic-collection.htm) this can easily be re-routed to other locations, for example a Domino database. When I worked at [Intec](https://www.intec.co.uk/) I tried this early on and was very impressed at what was provided. My response wasn't focused on what statistics were delivered - what is outputted is not the important factor, it can easily be change. My opinion came from how easy it was to set up. New Relic itself is straightforward, but what needed to be done on the Domino side was even easier - a few Notes.ini settings, restarting and the statistics flowed. Since the days of Embedded Experiences I have been convinced that ease of implementation is critical for adoption, and adoption is key to value for effort.
+One of the big additions in Domino V10 was statistics publishing, initially focused on [New Relic](https://newrelic.com/). But as [Daniel Nashed showed](http://blog.nashcom.de/nashcomblog.nsf/dx/domino-10-statistic-collection.htm) this can easily be re-routed to other locations, for example a Domino database. When I worked at [Intec](https://www.intec.co.uk/) I tried the New Relic reporting on Domino early on and was very impressed at what was provided. My response wasn't focused on what statistics were delivered - what is outputted is not the important factor, it can easily be change. My opinion came from how easy it was to set up. New Relic itself is straightforward, but what needed to be done on the Domino side was even easier - a few Notes.ini settings, restarting and the statistics flowed. Since the days of Embedded Experiences I have been convinced that ease of implementation is critical for adoption, and adoption is key to value for effort.
 
 Getting the statistics is just one part and I'm not covering which tool is best in this blog post and subsequent. For that sort of topic, there is a [webinar](https://register.gotowebinar.com/register/7882842366917205516) this afternoon on the new partner for Domino statistics, Panopta. This blog post is about producing statistics, and the learning points from my experience.
 

@@ -16,8 +16,12 @@
   name: LotusScript
 - slug: nomad
   name: HCL Nomad
+- slug: micrometer
+  name: Micrometer
 - slug: performance
   name: Performance
+- slug: prometheus
+  name: Prometheus
 - slug: react
   name: React
 - slug: support

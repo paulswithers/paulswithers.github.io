@@ -3,9 +3,13 @@ layout: post
 title: "Statistics Publishing and Reporting Part Two: Statistics for Prometheus"
 date: 2020-03-30
 category: vert.x
-tags: [vert.x]
+tags: [vert.x,micrometer,prometheus]
 comments: true
 ---
+[Part One: Domino and Statistics](/blog/2020/03/26/statistics-reporting)  
+[Part Two: Prometheus]()  
+[Part Three: Micrometer and Prometheus](/blog/2020/04/01/statistics-using-micrometer)  
+[Part Two: Micrometer and Composite Registries](/blog/2020/04/18/micrometer-composite-registries)
 In the last blog post I covered the differences between different statistical reporting tools. I can't speak for Panopta covered in the recent HCL [webinar](https://register.gotowebinar.com/register/7882842366917205516). I suspect they're using "pull" (they install an agent on the Domino server) and I suspect they're using one of the traditional reporting databases (their monitoring covers time periods, so there must be a database; and their offering is based around pre-built dashboards for various products, so no necessity for their USP to build their own reporting repository).
 
 But my comparators were the Domino statistics and the out-of-the-box statistics for Prometheus from Vert.x. This highlighted some significant differences in what was built:

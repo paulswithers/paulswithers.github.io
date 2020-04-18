@@ -3,9 +3,13 @@ layout: post
 title: "Statistics Publishing and Reporting Part Three: Using Micrometer"
 date: 2020-04-01
 category: vert.x
-tags: [vert.x]
+tags: [vert.x,micrometer,prometheus]
 comments: true
 ---
+[Part One: Domino and Statistics](/blog/2020/03/26/statistics-reporting)  
+[Part Two: Prometheus](/blog/2020/03/30/statistics-for-prometheus)  
+[Part Three: Micrometer and Prometheus]()  
+[Part Two: Micrometer and Composite Registries](/blog/2020/04/18/micrometer-composite-registries)
 #### The Easy Way
 In the previous two parts I gave some background on metrics and then described my first pass at coding metrics, quite frankly the hard way. The [elephant in the room](https://en.wikipedia.org/wiki/Elephant_in_the_room) should be apparent: the metrics output was manually coded for a specific reporting tool.
 
