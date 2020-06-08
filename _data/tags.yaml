@@ -26,9 +26,17 @@
   name: React
 - slug: support
   name: Support
+- slug: temenos
+  name: Temenos
+- slug: testing
+  name: Testing
 - slug: tutorials
   name: Tutorials
+- slug: vaadin
+  name: Vaadin
 - slug: vert.x
   name: Vert.x
+- slug: volt
+  name: Volt
 - slug: xpages
   name: XPages
