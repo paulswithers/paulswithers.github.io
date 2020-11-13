@@ -15,35 +15,35 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	padding: 0;
-	margin: 0;
-	font: inherit;
-	font-size: 14px;
-	vertical-align: baseline;
-	border: 0;
+        padding: 0;
+        margin: 0;
+        font: inherit;
+        font-size: 14px;
+        vertical-align: baseline;
+        border: 0;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-	display: block;
+        display: block;
 }
 body {
-	line-height: 1;
+        line-height: 1;
 }
 ol, ul {
-	list-style: none;
+        list-style: none;
 }
 blockquote, q {
-	quotes: none;
+        quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
+        content: '';
+        content: none;
 }
 table {
-	border-spacing: 0;
-	border-collapse: collapse;
+        border-spacing: 0;
+        border-collapse: collapse;
 }
 
 /* LAYOUT STYLES */
@@ -90,16 +90,16 @@ header h2 {
 }
 
 .inner {
-	width: 840px;
-	margin: 0 auto;
+        width: 840px;
+        margin: 0 auto;
 }
 
 /* #### Mobile Phones Portrait #### */
 @media screen and (max-device-width: 640px) and (orientation: portrait){
-	.inner {
-		width: 620px;
-		margin: 0 auto;
-	}
+        .inner {
+                width: 620px;
+                margin: 0 auto;
+        }
 }
 
 #container .inner img {
@@ -353,7 +353,7 @@ nav ul, footer ul {
     padding: 0px;
     list-style: none;
     font-weight: bold;
-	float: right;
+        float: right;
 }
 nav ul li, footer ul li {
     display: inline;
@@ -365,8 +365,8 @@ footer {
     font-size: .8em;
 }
 
-ul.posts { 
-    margin: 10px auto 10px; 
+ul.posts {
+    margin: 10px auto 10px;
     font-size: 1.1em;
 }
 
@@ -405,9 +405,3 @@ ul.posts li {
   cursor: pointer;
   color: #043d10;
 }
-
-/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
-@media only screen and (min-width: 480px) and (max-width: 767px) { }
-
-/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-@media only screen and (max-width: 479px) { }

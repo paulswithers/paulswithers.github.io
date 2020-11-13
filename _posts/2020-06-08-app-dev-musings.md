@@ -3,7 +3,7 @@ layout: post
 title: "Application Development Musings"
 date: 2020-06-08
 category: vert.x
-tags: [domino,vaadin,volt,temenos]
+tags: [domino,vaadin,volt,volt_mx]
 comments: true
 ---
 Since joining HCL Labs my focus for Domino development has been Domino APIs, with [Project Keep](https://frascati.projectkeep.io/). Obviously there is little point using a REST API against a Domino database in an XPages application or LotusScript agent. Consequently, application development has been almost exclusively outside of XPages. This has reinforced key differences between Domino development and other application development frameworks. Now was a good time to cover this, particularly following Chris Toohey's excellent blog post ["Was XPages a waste of time?"](http://www.dominoguru.com/page.xsp?id=POST-DOMO-BQDJ5C.html). I've always been vocal, that my experience of XPages was not a waste of time. But I'm very much one of those who took a huge step further, and took a lot of time to understand very deeply how XPages worked and how other frameworks were similar or different.
