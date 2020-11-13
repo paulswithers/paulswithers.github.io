@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Volt MS LotusScript Toolkit"
+title: "Volt MX LotusScript Toolkit"
 date: 2020-11-13
 category: Domino
 tags: [domino,lotusscript,volt_mx]
