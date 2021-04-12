@@ -18,6 +18,8 @@
   name: HCL Nomad
 - slug: micrometer
   name: Micrometer
+- slug: openntf
+  name: OpenNTF
 - slug: performance
   name: Performance
 - slug: prometheus
