@@ -4,6 +4,8 @@
   name: Community
 - slug: conferences
   name: Conferences
+- slug: Containers
+  name: containers
 - slug: domino
   name: Domino
 - slug: editorial
