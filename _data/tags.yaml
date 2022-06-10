@@ -32,6 +32,8 @@
   name: Support
 - slug: volt_mx
   name: Volt MX
+- slug: volt_mx_go
+  name: Volt MX Go
 - slug: testing
   name: Testing
 - slug: tutorials
@@ -42,5 +44,7 @@
   name: Vert.x
 - slug: volt
   name: Volt
+- slug: voltscript
+  name: VoltScript
 - slug: xpages
   name: XPages
