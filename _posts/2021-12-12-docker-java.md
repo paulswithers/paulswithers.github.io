@@ -35,7 +35,7 @@ If the Java JVM is running as a sub-process, by default it will not receive the 
 
 If the Java program is the main process, it will receive the SIGTERM signal. You can catch that by adding a `Runtime.getRuntime().addShutdownHook()` and action accordingly. This, for example, is how Vertx catches the SIGTERM signal and calls the `stop()` method of each verticle to gracefully shut them down.
 
-You may want to confirm which processes are running in the container and which is the main process. I found [this StackOverflow question](https://stackoverflow.com/questions/34878808/finding-docker-container-processes-from-host-point-of-view) which gave the answers: `docker <container id> top` lists all processes, and `docker inspect -f '{{.State.Pid}}' <container id>` gives the main process.
+You may want to confirm which processes are running in the container and which is the main process. I found [this StackOverflow question](https://stackoverflow.com/questions/34878808/finding-docker-container-processes-from-host-point-of-view) which gave the answers: `docker <container id> top` lists all processes, and `{% raw %}docker inspect -f '{{.State.Pid}}' <container id>{% endraw %}` gives the main process.
 
 ## Java As The Sub Process
 
