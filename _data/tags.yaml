@@ -6,6 +6,8 @@
   name: Conferences
 - slug: Containers
   name: containers
+- slug: documentation
+  name: Documentation
 - slug: domino
   name: Domino
 - slug: editorial
@@ -18,6 +20,8 @@
   name: LotusScript
 - slug: nomad
   name: HCL Nomad
+- slug: markdown
+  name: Markdown
 - slug: micrometer
   name: Micrometer
 - slug: openntf
