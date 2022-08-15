@@ -1,9 +1,9 @@
 ---
 layout: post
-title: LotusScript Classes - Singleton Addendum
+title: "LotusScript Classes - Singleton Addendum"
 date: 2022-08-11
 category: VoltScript
-tags: [lotusscript,domino,vvoltscript,volt_mx_go]
+tags: [lotusscript,domino,voltscript,volt_mx_go]
 comments: true
 ---
 After my [blog post](/blog/2022/07/31/ls-classes-3) last week on LotusScript classes and using `Static Property Get` to create singletons, there was some discussion on [OpenNTF's Discord](https://openntf.org/discord) about the challenges of forcing use of the singleton. "Singleton" is a misnomer really, because it's not scoped to the JVM asaJava singleton would be. But I can't think of a better name yet, so I'll stick with that terminology, but be aware of the specific scope for static instances in LotusScript / VoltScript.

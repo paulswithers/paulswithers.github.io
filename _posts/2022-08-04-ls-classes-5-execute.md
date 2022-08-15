@@ -1,6 +1,6 @@
 ---
 layout: post
-title: LotusScript Classes Deep Dive Part Five: Execute
+title: "LotusScript Classes Deep Dive Part Five: Execute"
 date: 2022-08-04
 category: VoltScript
 tags: [lotusscript,domino,vvoltscript,volt_mx_go]
