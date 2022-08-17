@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "GitHub Pages Sites on Domino 3: How"
-date: 2022-08-16
+date: 2022-08-17
 category: Domino
 tags: [domino,markdown,documentation]
 comments: true
