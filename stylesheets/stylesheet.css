@@ -417,7 +417,7 @@ ul.posts li {
   }
 }
 
-@media (min-width:1025px) {
+@media only screen and (min-width:1096px) {
   /* big landscape tablets, laptops, and desktops */
 
   /* GENERAL ELEMENT TYPE STYLES */
