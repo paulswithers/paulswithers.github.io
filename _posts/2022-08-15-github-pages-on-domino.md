@@ -8,6 +8,7 @@ comments: true
 ---
 Jekyll - Why
 [Jekyll - What](/blog/2022/08/15/github-pages-on-domino-2)
+[Jekyll - How](/blog/2022/08/15/github-pages-on-domino-3)
 
 Source control is a topic that periodically crops up around Domino. And if source control is important, there is only one choice for documentation - **Jekyll**. It's not hard to justify why. I'll come onto more detailed coverage of the technologies involved in the next blog post. But suffice to say, for now, that some key reasons are:
 
