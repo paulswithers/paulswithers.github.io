@@ -8,7 +8,7 @@ comments: true
 ---
 [Jekyll - Why](/blog/2022/08/15/github-pages-on-domino)<br/>
 Jekyll - What<br/>
-[Jekyll - How](/blog/2022/08/15/github-pages-on-domino-3)
+[Jekyll - How](/blog/2022/08/17/github-pages-on-domino-3)
 
 Hosting a GitHub Pages - or more properly, Jekyll - site on Domino may not fit everyone's requirements. But it did fit mine. The "how" is relevant for any static website, although there are other options that I'll mention. But this blog post is covering the "what", the technologies involved. There is a lot that will be unfamiliar to many Domino developers, but technologies worth getting familiar with.
 

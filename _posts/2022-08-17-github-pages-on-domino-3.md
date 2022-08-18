@@ -7,7 +7,7 @@ tags: [domino,markdown,documentation]
 comments: true
 ---
 [Jekyll - Why](/blog/2022/08/15/github-pages-on-domino)<br/>
-[Jekyll - What](/blog/2022/08/15/github-pages-on-domino-2)<br/>
+[Jekyll - What](/blog/2022/08/16/github-pages-on-domino-2)<br/>
 Jekyll - How
 
 There are many ways to host static websites on Domino, and [Project KEEP](https://opensource.hcltechsw.com/domino-keep-docs) provides another option. In my scenario, for reasons I won't go into, hosting within the NSF made most sense.
