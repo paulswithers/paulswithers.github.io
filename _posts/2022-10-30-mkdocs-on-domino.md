@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "MKDocs Sites on Domino"
-date: 2022-08-17
+date: 2022-10-30
 category: Domino
 tags: [domino,markdown,documentation]
 comments: true
