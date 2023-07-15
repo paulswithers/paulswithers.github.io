@@ -10,6 +10,8 @@
   name: Documentation
 - slug: domino
   name: Domino
+- slug: domino-rest-api
+  name: Domino REST API
 - slug: editorial
   name: Editorial
 - slug: errors
