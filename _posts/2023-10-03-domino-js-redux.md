@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Domino and JavaScript Developnent MasterClass Redux"
+title: "Domino and JavaScript Development MasterClass Redux"
 date: 2023-10-03
 category: domino
 tags: [domino,domino-rest-api,volt_mx_go]
