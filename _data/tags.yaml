@@ -4,8 +4,10 @@
   name: Community
 - slug: conferences
   name: Conferences
-- slug: Containers
-  name: containers
+- slug: containers
+  name: Containers
+- slug: css
+  name: CSS
 - slug: documentation
   name: Documentation
 - slug: domino
@@ -16,8 +18,12 @@
   name: Editorial
 - slug: errors
   name: Errors
+- slug: html
+  name: HTML
 - slug: java
   name: Java
+- slug: javascript
+  name: JavaScript
 - slug: lotusscript
   name: LotusScript
 - slug: nomad
@@ -54,3 +60,7 @@
   name: VoltScript
 - slug: xpages
   name: XPages
+- slug: web
+  name: Web
+- slug: web_components
+  name: Web Components
