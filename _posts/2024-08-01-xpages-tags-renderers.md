@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Understanding Tags and Renderers"
-date: 2024-08-02
+date: 2024-08-01
 category: xpages
 tags: [domino,xpages,web_components,vaadin]
 comments: true
