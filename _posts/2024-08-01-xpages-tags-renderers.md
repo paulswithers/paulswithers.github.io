@@ -77,7 +77,7 @@ A **tag** has its own renderer and automatically handles converting the tag, its
 
 A **custom renderer** (which you'll *have* to write for a Web Component) allows you to *choose* what HTML gets written and in what order.
 
-And in XPages, the highest level tag is `xp:view` with its renderer "com.ibm.xsp.renderkit.html_basic.ViewRootRendererEx2".
+And in XPages, the highest level tag is `<xp:view>` with its renderer "com.ibm.xsp.renderkit.html_basic.ViewRootRendererEx2".
 
 But Domino developers have been writing custom renderers with web development for years.
 
