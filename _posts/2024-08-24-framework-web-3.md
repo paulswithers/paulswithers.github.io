@@ -11,6 +11,7 @@ comments: true
 1. [Introduction](./2024-08-15-xpages-web-1.md)
 1. [Dev Tools](./2024-08-20-xpages-web-2.md)
 1. Frameworks
+1. [DRAPI](./2024-08-26-framework-web-4.md)
 
 ## A Brief History of Web Development
 
