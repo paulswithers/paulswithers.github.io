@@ -12,6 +12,7 @@ comments: true
 1. [Dev Tools]({{ site.baseurl }}{% link _posts/2024-08-20-xpages-web-2.md %})
 1. Frameworks
 1. [DRAPI]({{ site.baseurl }}{% link _posts/2024-08-26-framework-web-4.md %})
+1. [Home Page]({{ site.baseurl }}{% link _posts/2024-08-26-framework-web-5.md %})
 
 ## A Brief History of Web Development
 

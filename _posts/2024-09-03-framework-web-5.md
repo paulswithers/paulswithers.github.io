@@ -62,7 +62,7 @@ Again, we use `section` tags for each of the "pages" of the single page applicat
     <p>
         <input type="password" id="password-input" placeholder="Password"
         aria-label="Password" />
-        <button id="login-btn" type="button">Login</button>
+        <button id="login-btn" aria-label="Login" type="button">Login</button>
     </p>
 </form>
 ```
@@ -77,6 +77,8 @@ Finally we have the login button. But it's just the HTML, there is no onclick ev
 
 Inline JavaScript on HTML elements is considered bad practice in web development, it's a security risk for cross-site scripting attacks and depending on the Content Security Policy it might get blocked, as might `<script>` tags without a nonce or hash. Even some years ago a security review of a web application required that inline JavaScript be removed from an application I had initially developed. You can investigate further or formulate arguments against it. I prefer to spend my time getting things done and learning how to handle the requirement in a modern web development approach, rather than debating or fighting political battles.
 
+## EventListeners
+
 For the solution, we need to step across to our JavaScript file, index.js. The modern approach is adding an **EventListener** to the relevant HTML element, in this case the button with id "login-btn". But we need to make sure the DOM is loaded, otherwise we will not be able to get a handle on the button. Certain JavaScript developers will immediately jump to using jQuery. But we don't need to, this isn't 2014, JavaScript and browsers have evolved. I'll use a function called `bootstrap()` to perform all my DOM manipulation. To ensure this triggers once the page has loaded, I'll use this JavaScript in index.js:
 
 ``` javascript
@@ -89,27 +91,35 @@ if (document.readyState != "loading") {
 
 This may be overkill, a belt-and-braces approach. But it ensure the `bootstrap()` function doesn't trigger too early. [`document.readyState`](https://developer.mozilla.org/en-US/docs/Web/API/Document/readyState) is either "loading" or the DOM is ready to interact with. [DOMContentLoaded](https://developer.mozilla.org/en-US/docs/Web/API/Document/DOMContentLoaded_event) is an event we can hook onto that will trigger after the DOM is accessible. At this point in the development, I also set `defer` when adding the JavaScript file to the page, so `<script defer src="index.js" charset="utf-8"></script>`. This means the script is loaded at the same time as the page and executed after the page has loaded. This may avoid the need for adding the eventListener to `DOMContentLoaded`.
 
-The bootstrap function then gets the "login-btn" element by ID and adds the formLogin eventHandler:
+The bootstrap function then gets the "login-btn" element by ID and adds the "click" EventListener to call `formLogin()`:
 
 ``` javascript
 const bootstrap = () => {
-    let login_button = document.getElementById('login-btn');
-    login_button.addEventListener('click', formLogin);
-    toggleSPA('credentials', 'block');
+    let login_button = document.getElementById("login-btn");
+    login_button.addEventListener("click", formLogin);
+    toggleSPA("credentials", "block");
 };
 ```
 
-`toggleSPA()` is a function that will be used to show/hide the relevant section. This is its content:
+There are [additional parameters](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener) that can be passed to `addEventListener()` but we won't be using them (yet!). And, not surprisingly, there is also a `removeEventListener()` function. toggleSPA()` is a function that will be used to show/hide the relevant section. This is its content:
 
 ``` javascript
 const toggleSPA = (showme, how) => {
     spaSections.forEach((s) => {
-      const display = showme === s ? how : 'none';
+      const display = showme === s ? how : "none";
       document.getElementById(s).style.display = display;
     });
   };
 ```
 
 `spaSections` is a JavaScript array of the IDs of the sections. So after adding the eventListener, we set the display of the `credentials` section to block and all others to none.
+
+### Troubleshooting EventListeners
+
+But how do you see this EventListener when you're inspecting the element on the web page? If you view the page source you only see the HTML that was coded in the index.html. And if you open up Developer Tools in Chrome (or your preferred alternative) and inspect the button, on the Elements tab you just see the button, no event.
+
+In Chrome Developer Tools, alongside the tabs for Styles, Computed, Layout and DOM Breakpoints, you will see another one - **Event Listeners**. This shows you all EventListeners registered for the current element and anything above it in the DOM tree, if "Ancestors" is checked. Uncheck that and you see just the EventListeners registered for this element.
+
+## Wrap-Up
 
 In the next section we'll come back to the `formLogin()` function, how we handle logging in, how we set that up to handle mocking and a setting we need to add to DRAPI to allow us to call JavaScript functions against it.
