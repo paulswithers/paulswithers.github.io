@@ -13,6 +13,7 @@ comments: true
 1. Frameworks
 1. [DRAPI]({{ site.baseurl }}{% link _posts/2024-08-26-framework-web-4.md %})
 1. [Home Page]({{ site.baseurl }}{% link _posts/2024-09-03-framework-web-5.md %})
+1. [Mocking, Fetch, DRAPI and CORS]({{ site.baseurl }}{% link _posts/2024-09-16-framework-web-6.md %})
 
 ## A Brief History of Web Development
 

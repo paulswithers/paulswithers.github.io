@@ -7,11 +7,13 @@ tags: [domino,domino-rest-api,web,html,css,javascript,web_components]
 comments: true
 ---
 ## Table of Contents
+
 1. [Introduction]({{ site.baseurl }}{% link _posts/2024-08-15-xpages-web-1.md %})
 1. [Dev Tools]({{ site.baseurl }}{% link _posts/2024-08-20-xpages-web-2.md %})
 1. [Frameworks]({{ site.baseurl }}{% link _posts/2024-08-24-framework-web-3.md %})
 1. DRAPI
 1. [Home Page]({{ site.baseurl }}{% link _posts/2024-09-03-framework-web-5.md %})
+1. [Mocking, Fetch, DRAPI and CORS]({{ site.baseurl }}{% link _posts/2024-09-16-framework-web-6.md %})
 
 Domino REST API is (in my admittedly somewhat biased opinion) the best easy method for creating a secure REST API into Domino. If you have very strong Java skills, an OSGi plugin using JAX-RS is the standard supported way. If you have good Java skills, Jesse Gallagher's JakartaEE project is the community approach. But even if you have those skills, Domino REST API may provide what you need. It certainly provides what I need for this project.
 
