@@ -6,7 +6,7 @@ category: VoltScript
 tags: [lotusscript,domino,voltscript,volt_mx_go]
 comments: true
 ---
-After my [blog post](/blog/2022/07/31/ls-classes-3) last week on LotusScript classes and using `Static Property Get` to create singletons, there was some discussion on [OpenNTF's Discord](https://openntf.org/discord) about the challenges of forcing use of the singleton. "Singleton" is a misnomer really, because it's not scoped to the JVM asaJava singleton would be. But I can't think of a better name yet, so I'll stick with that terminology, but be aware of the specific scope for static instances in LotusScript / VoltScript.
+After my [blog post](/blog/2022/08/02/ls-classes-3) last week on LotusScript classes and using `Static Property Get` to create singletons, there was some discussion on [OpenNTF's Discord](https://openntf.org/discord) about the challenges of forcing use of the singleton. "Singleton" is a misnomer really, because it's not scoped to the JVM asaJava singleton would be. But I can't think of a better name yet, so I'll stick with that terminology, but be aware of the specific scope for static instances in LotusScript / VoltScript.
 
 Firstly, it's not possible to create a public static property of a private class. So you cannot hide the class in the script file. And the `New` method is a Sub, so I couldn't find a way to define what the current instance is during the New sub, and so always return the same instance. That of course is possible in an LSX, as shown with the NotesSession class. No matter how many times you use `Dim session as New NotesSession` or `Dim s as New NotesSession`, every time you are returning the same instance of the NotesSession class - it is truly a LotusScript singleton.
 
