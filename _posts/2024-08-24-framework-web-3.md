@@ -15,6 +15,7 @@ comments: true
 1. [Home Page]({{ site.baseurl }}{% link _posts/2024-09-03-framework-web-5.md %})
 1. [Mocking, Fetch, DRAPI and CORS]({{ site.baseurl }}{% link _posts/2024-09-16-framework-web-6.md %})
 1. [CSS]({{ site.baseurl }}{% link _posts/2024-10-07-framework-web-7.md %})
+1. [Landing Page Web Component]({{ site.baseurl }}{% link _posts/2024-10-21-framework-web-8.md %})
 
 ## A Brief History of Web Development
 

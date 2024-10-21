@@ -15,6 +15,7 @@ comments: true
 1. Home Page
 1. [Mocking, Fetch DRAPI and CORS]({{ site.baseurl }}{% link _posts/2024-09-16-framework-web-6.md %})
 1. [CSS]({{ site.baseurl }}{% link _posts/2024-10-07-framework-web-7.md %})
+1. [Landing Page Web Component]({{ site.baseurl }}{% link _posts/2024-10-21-framework-web-8.md %})
 
 So it's time to start with the application. Any development - team or individual - should use source control. My usual approach is to create the repository in GitHub (or your preferred repository), then clone it locally. A README is best practice of course. And I'll be creating two subfolders, "webapp" and "bruno" - because bruno allows me to store the REST service collection and environment in the github repo.
 
