@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "XPages App to Web App: Part Eight - Landing Page Web Component"
-date: 2024-10-20
+date: 2024-10-21
 category: web
 tags: [web_components,domino,web,html,css,javascript]
 comments: true
@@ -16,6 +16,7 @@ comments: true
 1. [Mocking, Fetch, DRAPI and CORS]({{ site.baseurl }}{% link _posts/2024-09-16-framework-web-6.md %})
 1. [CSS]({{ site.baseurl }}{% link _posts/2024-10-07-framework-web-7.md %})
 1. Landing Page Web Component
+1. [Services]({{ site.baseurl }}{% link _posts/2024-10-23-framework-web-9.md %})
 
 We've got a login page, we've got theming, we're handling light mode and dark mode. Now we're ready to start adding our landing page.
 

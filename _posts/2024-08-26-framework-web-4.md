@@ -16,6 +16,7 @@ comments: true
 1. [Mocking, Fetch, DRAPI and CORS]({{ site.baseurl }}{% link _posts/2024-09-16-framework-web-6.md %})
 1. [CSS]({{ site.baseurl }}{% link _posts/2024-10-07-framework-web-7.md %})
 1. [Landing Page Web Component]({{ site.baseurl }}{% link _posts/2024-10-21-framework-web-8.md %})
+1. [Services]({{ site.baseurl }}{% link _posts/2024-10-23-framework-web-9.md %})
 
 Domino REST API is (in my admittedly somewhat biased opinion) the best easy method for creating a secure REST API into Domino. If you have very strong Java skills, an OSGi plugin using JAX-RS is the standard supported way. If you have good Java skills, Jesse Gallagher's JakartaEE project is the community approach. But even if you have those skills, Domino REST API may provide what you need. It certainly provides what I need for this project.
 

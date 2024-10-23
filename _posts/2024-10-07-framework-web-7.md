@@ -16,6 +16,7 @@ comments: true
 1. [Mocking, Fetch, DRAPI and CORS]({{ site.baseurl }}{% link _posts/2024-09-16-framework-web-6.md %})
 1. CSS
 1. [Landing Page Web Component]({{ site.baseurl }}{% link _posts/2024-10-21-framework-web-8.md %})
+1. [Services]({{ site.baseurl }}{% link _posts/2024-10-23-framework-web-9.md %})
 
 In the last part we created the login form. In this part we're going to start adding some theming.
 

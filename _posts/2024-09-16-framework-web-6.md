@@ -16,6 +16,7 @@ comments: true
 1. Mocking, Fetch, DRAPI and CORS
 1. [CSS]({{ site.baseurl }}{% link _posts/2024-10-07-framework-web-7.md %})
 1. [Landing Page Web Component]({{ site.baseurl }}{% link _posts/2024-10-21-framework-web-8.md %})
+1. [Services]({{ site.baseurl }}{% link _posts/2024-10-23-framework-web-9.md %})
 
 In the last part, we created for login form and added an eventHandler to call `formLogin()` function. However, we didn't go into the code behind that function. That function is pretty basic, offloading the bulk of the processing:
 
