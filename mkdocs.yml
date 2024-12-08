@@ -1,0 +1,100 @@
+site_name: Paul Withers' Blog
+site_url: https://paulswithers.github.io/GitHubBlog_New
+site_author: Paul S. Withers
+site_description: >-
+  A blog about various HCL software, software development and related learning, from an Lifetime IBM Champion and former HCL Lifetime Ambassador
+copyright: >-
+  Copyright &copy; 2022-23, Paul S Withers -
+  <a href="#__consent">Change cookie settings</a>
+repo_name: paulswithers/paulswithers.github.io
+repo_url: https://github.com/paulswithers/GitHubBlog_New
+theme:
+  name: material
+  language: en
+  palette:
+    - scheme: default
+      primary: deep purple
+      accent: deep purple
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: blue grey
+      accent: blue grey
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.indexes
+    - navigation.top
+    - navigation.instant
+    - search.highlight
+    - search.share
+    - search.suggest
+    - content.code.annotate
+    - toc.integrate
+  icon:
+    repo: fontawesome/brands/github
+  font:
+    text: Roboto
+    code: Roboto Mono
+  # Static files
+  static_templates:
+    - 404.html
+# Markdown Extensions
+markdown_extensions:
+  - admonition
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - extra
+  - tables
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/paulswithers
+  consent:
+    title: Cookie consent
+    description: >-
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
+    actions:
+      - accept
+      - manage
+# Repository
+edit_uri: ""
+plugins:
+  - awesome-pages
+  - search
+  - blog:
+      blog_toc: true
+      post_date_format: full
+      archive_date_format: MMM yyyy
+      archive_url_date_format: yyyy/MM
+      pagination_per_page: 5
+      archive_toc: true
+      categories_toc: true
+      authors: false
+      pagination_format: "$link_first $link_previous ~2~ $link_next $link_last"
+      post_excerpt: required
+  - tags:
+      tags_file: blog/tags.md
+#  - rss:
+#      match_path: "blog/posts/.*"
+#      date_from_meta:
+#        as_creation: date.created
+#        as_update: date.updated
