@@ -10,18 +10,18 @@ I have strong experience as a technical evangelist. I have always worked closely
 
 Wherever life takes me, this blog is about sharing, learning and growing.
 
-### LinkedIn
+## LinkedIn
 
 My LinkedIn Profile has this [public page](https://www.linkedin.com/in/paulswithers).
 
-### Social
+## Social
 
 I can be found on Threads as [@paul.s.withers](https://www.threads.net/@paul.s.withers).
 
-### Slideshare
+## Slideshare
 
 Some of my presentations can be found on [Slideshare](https://www.slideshare.net/paulswithers1).
 
-### GitHub
+## GitHub
 
 Some of my open source projects can be found on [GitHub](https://github.com/paulswithers/). More recent ones for HCL can be found on the [HCL Software GitHub](https://github.com/HCL-TECH-SOFTWARE).

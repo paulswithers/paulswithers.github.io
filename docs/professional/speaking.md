@@ -35,7 +35,7 @@ Engage, Mar 2020, "Don't Think Outside The Box" - [slides](./presentations/Dont_
 
 ## 2019
 
-Intec Webinar, May 2019, "The Future of Collaboration Solutions Under HCL" - [recording](https://zoom.us/recording/play/6AfPtmtdvqOzqiSfMoEJxqfuc36rsqCfIaHk75PFVYaILCCoOUOrqQrIcbANyyU2?startTime=1558533396000) 
+Intec Webinar, May 2019, "The Future of Collaboration Solutions Under HCL" - [recording](https://zoom.us/recording/play/6AfPtmtdvqOzqiSfMoEJxqfuc36rsqCfIaHk75PFVYaILCCoOUOrqQrIcbANyyU2?startTime=1558533396000)
 Engage, May 2019, "Introduction to Node-RED" (with Fredrik Malmborg, PSK Syd) - [slides](https://www.slideshare.net/paulswithers1/engage-2019-introduction-to-nodered), [source code](https://github.com/paulswithers/ics-docker-node-red), [blog](https://www.intec.co.uk/engage-2019-my-sessions/)  
 Engage, May 2019, "Modernising Your Domino and XPages Applications" -  [slides](https://www.slideshare.net/paulswithers1/engage-2019-modernising-your-domino-and-xpages-applications), [source code](https://github.com/paulswithers/EngageModernisation), [blog](https://www.intec.co.uk/engage-2019-my-sessions/)  
 Engage, May 2019, "AI: What Is It Good Far?" - [slides](https://www.slideshare.net/paulswithers1/engage-2019-ai-what-is-it-good-for), [blog](https://www.intec.co.uk/engage-2019-my-sessions/)
@@ -68,7 +68,7 @@ IBM Connect, Feb 2016, "'Marty, You're Just Not Thinking Fourth Dimensionally': 
 
 ## 2015
 
-Social Connections, Nov 2015, "Crossworlds: Unleash the Power of Domino for Connections Development" - [slides](http://www.slideshare.net/paulswithers1/social-connections-2015-crossworlds-and-domino)   
+Social Connections, Nov 2015, "Crossworlds: Unleash the Power of Domino for Connections Development" - [slides](http://www.slideshare.net/paulswithers1/social-connections-2015-crossworlds-and-domino)
 ICON UK, Sept 2015, "To Infinity and Beyond: OpenNTF Domino API and CrossWorlds" - [slides](http://www.slideshare.net/paulswithers1/icon-uk-2015-oda-and-crossworlds)  
 Engage, Mar 2015, "Jedi and Sith: OpenNTF Domino API and CrossWorlds" (with Daniele Vistalli, Factor-y) - [slides](http://www.engage.ug/engage.nsf/Click?Open&e=20150330&s=Paul&f=2015_Slides_c/$file/Engage2015_JediAndSith.pdf)  
 IBM ConnectED, Jan 2015, "BP106 From XPages Hero To OSGi Guru: Taking The Scary Out Of Building Extension Libraries" (with Christian Guedemann, Webgate) - [slides](http://www.slideshare.net/paulswithers1/ibm-connected-2015-mas103-xpages-performance-and-scalability), [demo](https://github.com/paulswithers/BP106)  
@@ -112,7 +112,7 @@ The XCast (presenter), 2011
 UKLUG, May 2011, "XPages Developer + Coffee = Code: A Little Bit of Java" - [slides and demo database](http://hermes.intec.co.uk/Intec/Blog.nsf/dx/UKLUGJava.zip/$file/UKLUGJava.zip)  
 BLUG, Mar 2011, "XPages: Enter the Dojo" - [slides and demo database](http://hermes.intec.co.uk/Intec/Blog.nsf/dx/Enter%20The%20Dojo.zip/$file/Enter%20The%20Dojo.zip)  
 EntwicklerCamp, Feb 2011, "XPages from a Different 'View'-point"
-EnwicklerCamp, Feb 2011, "XPages Blast"  
+EntwicklerCamp, Feb 2011, "XPages Blast"  
 Lotusphere, Jan 2011, "XPages: Enter the Dojo" (with David Leedy, Czarnowski) - [slides](http://www.slideshare.net/paulswithers1/bp210-xpages-enter-the-dojo)
 
 ## 2010

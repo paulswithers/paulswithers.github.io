@@ -1,5 +1,5 @@
 site_name: Paul Withers' Blog
-site_url: https://paulswithers.github.io/GitHubBlog_New
+site_url: https://paulswithers.github.io/
 site_author: Paul S. Withers
 site_description: >-
   A blog about various HCL software, software development and related learning, from an Lifetime IBM Champion and former HCL Lifetime Ambassador
@@ -7,7 +7,7 @@ copyright: >-
   Copyright &copy; 2022-23, Paul S Withers -
   <a href="#__consent">Change cookie settings</a>
 repo_name: paulswithers/paulswithers.github.io
-repo_url: https://github.com/paulswithers/GitHubBlog_New
+repo_url: https://github.com/paulswithers/paulswithers.github.io
 theme:
   name: material
   language: en
