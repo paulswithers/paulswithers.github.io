@@ -39,6 +39,7 @@ theme:
   font:
     text: Roboto
     code: Roboto Mono
+  custom_dir: overrides
   # Static files
   static_templates:
     - 404.html
