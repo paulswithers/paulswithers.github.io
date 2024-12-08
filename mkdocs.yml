@@ -13,8 +13,8 @@ theme:
   language: en
   palette:
     - scheme: default
-      primary: deep purple
-      accent: deep purple
+      primary: blue
+      accent: blue
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
