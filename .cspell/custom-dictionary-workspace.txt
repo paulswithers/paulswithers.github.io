@@ -58,6 +58,7 @@ Fredrik
 frontmatter
 Garel
 getent
+Giscus
 gotchas
 GSON
 gubernator
