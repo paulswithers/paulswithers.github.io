@@ -4,7 +4,7 @@ site_author: Paul S. Withers
 site_description: >-
   A blog about various HCL software, software development and related learning, from an Lifetime IBM Champion and former HCL Lifetime Ambassador
 copyright: >-
-  Copyright &copy; 2022-23, Paul S Withers -
+  Copyright &copy; 2016-24, Paul S Withers -
   <a href="#__consent">Change cookie settings</a>
 repo_name: paulswithers/paulswithers.github.io
 repo_url: https://github.com/paulswithers/paulswithers.github.io
@@ -33,6 +33,7 @@ theme:
     - search.share
     - search.suggest
     - content.code.annotate
+    - content.code.copy
     - toc.integrate
   icon:
     repo: fontawesome/brands/github
@@ -46,11 +47,14 @@ theme:
 # Markdown Extensions
 markdown_extensions:
   - admonition
-  - footnotes
   - pymdownx.details
   - pymdownx.superfences
   - attr_list
+  - abbr
   - md_in_html
+  - footnotes
+  - pymdownx.snippets
+  - tables
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.emoji:
@@ -59,9 +63,11 @@ markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.inlinehilite
-  - pymdownx.snippets
-  - extra
-  - tables
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
 extra:
   social:
     - icon: fontawesome/brands/github
