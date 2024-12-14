@@ -18,6 +18,10 @@ links:
   - blog/2024-08-26-framework-web-4.md
   - blog/2024-09-03-framework-web-5.md
   - blog/2024-09-16-framework-web-6.md
+  - blog/2024-10-21-framework-web-8.md
+  - blog/2024-10-23-framework-web-9.md
+  - blog/2024-10-30-framework-web-10.md
+  - blog/2024-12-14-framework-web-11.md
 comments: true
 ---
 # XPages App to Web App: Part Seven - CSS
@@ -146,3 +150,4 @@ In 2024 CSS is extremely powerful. Frustratingly powerful, at times. But extreme
 1. [Landing Page Web Component](./2024-10-21-framework-web-8.md)
 1. [Services](./2024-10-23-framework-web-9.md)
 1. [Ship Form Actions](./2024-10-30-framework-web-10.md)
+1. [Ship Search and Save](./2024-12-14-framework-web-11.md)

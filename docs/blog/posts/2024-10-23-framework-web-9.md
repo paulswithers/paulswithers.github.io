@@ -19,6 +19,7 @@ links:
   - blog/2024-10-07-framework-web-7.md
   - blog/2024-10-21-framework-web-8.md
   - blog/2024-10-30-framework-web-10.md
+  - blog/2024-12-14-framework-web-11.md
 comments: true
 ---
 # XPages App to Web App: Part Nine - Services
@@ -202,3 +203,4 @@ We're ready now to start on the first edit form, for ships. This will perform mu
 1. [Landing Page Web Component](./2024-10-21-framework-web-8.md)
 1. **Services**
 1. [Ship Form Actions](./2024-10-30-framework-web-10.md)
+1. [Ship Search and Save](./2024-12-14-framework-web-11.md)

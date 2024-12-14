@@ -20,6 +20,7 @@ links:
   - blog/2024-10-07-framework-web-7.md
   - blog/2024-10-23-framework-web-9.md
   - blog/2024-10-30-framework-web-10.md
+  - blog/2024-12-14-framework-web-11.md
 comments: true
 ---
 # XPages App to Web App: Part Eight - Landing Page Web Component
@@ -278,3 +279,4 @@ So could you integrate web components into XPages? It's probably not straightfor
 1. **Landing Page Web Component**
 1. [Services](./2024-10-23-framework-web-9.md)
 1. [Ship Form Actions](./2024-10-30-framework-web-10.md)
+1. [Ship Search and Save](./2024-12-14-framework-web-11.md)
