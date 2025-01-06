@@ -2,7 +2,8 @@
 slug: framework-web-8
 date: 
   created: 2024-10-21
-category: Web
+categories:
+  - Web
 tags: 
   - Domino
   - Web

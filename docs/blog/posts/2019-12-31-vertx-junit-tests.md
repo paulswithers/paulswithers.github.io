@@ -2,7 +2,8 @@
 slug: vertx-junit-tests
 date: 
   created: 2019-12-31
-category: Vert.x
+categories:
+  - Vert.x
 tags: 
   - Vert.x
   - Java

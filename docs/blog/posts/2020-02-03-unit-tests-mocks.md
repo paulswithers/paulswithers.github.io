@@ -2,7 +2,8 @@
 slug: unit-tests-mocks
 date: 
   created: 2020-02-03
-category: Vert.x
+categories:
+  - Vert.x
 tags: 
   - Vert.x
   - Java

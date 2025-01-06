@@ -2,7 +2,8 @@
 slug: directories-challenge
 date: 
   created: 2022-12-13
-category: LotusScript
+categories:
+  - LotusScript
 tags: 
   - LotusScript
   - VoltScript

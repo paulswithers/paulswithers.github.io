@@ -2,7 +2,8 @@
 slug: voltscript-a-unique-opportunity
 date: 
   created: 2022-06-10
-category: VoltScript
+categories:
+  - VoltScript
 tags: 
   - VoltScript
   - Volt MX Go

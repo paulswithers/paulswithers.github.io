@@ -3,7 +3,8 @@ slug: my-dev-tools
 date:
   created: 2017-04-26
 comments: true
-category: Dev Tools
+categories:
+  - Dev Tools
 tags:
   - Dev Tools
   - Editorial

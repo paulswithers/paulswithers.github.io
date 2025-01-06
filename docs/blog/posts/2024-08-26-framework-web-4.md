@@ -2,7 +2,8 @@
 slug: framework-web-4
 date: 
   created: 2024-08-26
-category: Domino REST API
+categories:
+  - Domino REST API
 tags: 
   - Domino
   - Domino REST API

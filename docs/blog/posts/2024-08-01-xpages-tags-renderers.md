@@ -2,7 +2,8 @@
 slug: xpages-tags-renderers
 date: 
   created: 2024-08-01
-category: XPages
+categories:
+  - XPages
 tags: 
   - Domino
   - XPages

@@ -3,7 +3,8 @@ slug: my-dev-tools-2
 date: 
   created: 2017-05-26
 comments: true
-category: Dev Tools
+categories:
+  - Dev Tools
 tags:
   - Dev Tools
   - REST Clients

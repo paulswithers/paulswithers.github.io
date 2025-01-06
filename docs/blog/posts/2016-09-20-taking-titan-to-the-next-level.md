@@ -1,7 +1,8 @@
 ---
 slug: taking-titan-to-the-next-level
 date: 2016-09-20
-category: Databases
+categories:
+    - Databases
 tags:
     - Databases
     - Graph Databases

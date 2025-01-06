@@ -2,7 +2,8 @@
 slug: developing-for-performance
 date: 
   created: 2017-08-17
-category: Coding
+categories:
+  - Coding
 tags: 
   - Editorial
   - Performance

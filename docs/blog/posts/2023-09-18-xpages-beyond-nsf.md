@@ -2,7 +2,8 @@
 slug: xpages-beyond-nsf
 date: 
   created: 2023-09-18
-category: XPages
+categories:
+  - XPages
 tags: 
   - Domino
   - XPages

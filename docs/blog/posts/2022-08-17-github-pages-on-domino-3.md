@@ -2,7 +2,8 @@
 slug: github-pages-on-domino-3
 date: 
   created: 2022-08-17
-category: Domino
+categories:
+  - Domino
 tags: 
   - Domino
   - Markdown

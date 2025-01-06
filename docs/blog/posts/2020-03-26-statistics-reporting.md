@@ -2,7 +2,8 @@
 slug: statistics-reporting
 date: 
   created: 2020-03-26
-category: Domino
+categories:
+  - Domino
 tags: 
   - Domino
   - Vert.x

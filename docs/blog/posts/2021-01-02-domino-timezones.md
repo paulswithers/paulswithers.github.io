@@ -2,7 +2,8 @@
 slug: domino-timezones
 date: 
   created: 2021-01-02
-category: Domino
+categories:
+  - Domino
 tags: 
   - Domino
   - LotusScript

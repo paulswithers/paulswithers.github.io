@@ -2,7 +2,8 @@
 slug: framework-web-3
 date: 
   created: 2024-08-20
-category: Domino
+categories:
+  - Domino
 tags: 
   - Domino
   - Domino REST API

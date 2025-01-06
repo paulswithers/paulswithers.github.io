@@ -2,7 +2,8 @@
 slug: ls-profile
 date: 
   created: 2022-03-10
-category: LotusScript
+categories:
+  - LotusScript
 tags: 
   - LotusScript
   - Domino

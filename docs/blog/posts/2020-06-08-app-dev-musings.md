@@ -2,7 +2,8 @@
 slug: app-dev-musings
 date: 
   2020-06-08
-category: Vert.x
+categories:
+  - Vert.x
 tags: 
   - Domino
   - Vaadin

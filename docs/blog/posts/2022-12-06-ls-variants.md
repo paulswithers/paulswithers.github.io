@@ -2,7 +2,8 @@
 slug: ls-variants
 date: 
   created: 2022-12-06
-category: LotusScript
+categories:
+  - LotusScript
 tags: 
   - LotusScript
   - VoltScript

@@ -2,7 +2,8 @@
 slug: bali-unit-videos
 date: 
   created: 2023-03-01
-category: LotusScript
+categories:
+  - LotusScript
 tags: 
   - LotusScript
   - VoltScript

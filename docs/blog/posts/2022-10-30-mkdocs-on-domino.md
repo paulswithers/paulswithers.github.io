@@ -2,7 +2,8 @@
 slug: mkdocs-on-domino
 date: 
   created: 2022-10-30
-category: Domino
+categories:
+  - Domino
 tags: 
   - Domino
   - Markdown

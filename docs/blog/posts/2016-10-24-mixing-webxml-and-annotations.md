@@ -3,7 +3,8 @@ slug: mixing-webxml-and-annotations
 date:
   created: 2016-10-24
 comments: true
-category: Vaadin
+categories:
+  - Vaadin
 tags:
   - Vaadin
   - Java

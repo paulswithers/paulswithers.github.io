@@ -2,7 +2,8 @@
 slug: goodbye-nathan
 date: 
   created: 2021-04-12
-category: Domino
+categories:
+  - Domino
 tags: 
   - Domino
   - OpenNTF

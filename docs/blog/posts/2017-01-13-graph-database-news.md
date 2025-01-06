@@ -3,7 +3,8 @@ slug: graph-database-news
 date: 
   created: 2017-01-13
 comments: true
-category: Databases
+categories:
+  - Databases
 tags:
   - Databases
   - Graph Databases

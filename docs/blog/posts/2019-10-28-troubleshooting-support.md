@@ -2,7 +2,8 @@
 slug: troubleshooting-support
 date: 
   created: 2019-10-28
-category: Support
+categories:
+  - Support
 tags: 
   - Support
   - Editorial

@@ -2,7 +2,8 @@
 slug: danger-mid-code-pro-code
 date: 
   created: 2019-10-01
-category: Coding
+categories:
+  - Coding
 tags: 
   - Atom
   - Coding

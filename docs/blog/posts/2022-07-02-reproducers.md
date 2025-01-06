@@ -2,7 +2,8 @@
 slug: reproducers
 date: 
   created: 2022-07-02
-category: Support
+categories:
+  - Support
 tags: 
   - Support
   - Testing

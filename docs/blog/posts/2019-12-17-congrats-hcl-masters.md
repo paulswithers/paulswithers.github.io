@@ -2,7 +2,8 @@
 slug: congrats-hcl-masters
 date: 
   created: 2019-12-17
-category: Editorial
+categories:
+  - Editorial
 tags: 
   - Editorial
 comments: true

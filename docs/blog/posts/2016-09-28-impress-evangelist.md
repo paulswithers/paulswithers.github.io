@@ -2,7 +2,8 @@
 slug: impress-evangelist
 date: 
     created: 2016-09-28
-category: Editorial
+categories:
+    - Editorial
 ---
 # How To Impress A Technical Evangelist
 

@@ -2,7 +2,8 @@
 slug: postman-importance
 date: 
   created: 2023-07-15
-category: Domino
+categories:
+  - Domino
 tags: 
   - Domino
   - Domino REST API

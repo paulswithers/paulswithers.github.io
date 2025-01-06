@@ -2,7 +2,8 @@
 slug: json-in-xpages
 date: 
   created: 2020-02-27
-category: Domino
+categories:
+  - Domino
 tags: 
   - XPages
   - Domino

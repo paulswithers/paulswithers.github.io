@@ -2,7 +2,8 @@
 slug: benefits-standard
 date: 
   created: 2024-11-19
-category: VoltScript
+categories:
+  - VoltScript
 tags: 
   - LotusScript
   - VoltScript

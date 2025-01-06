@@ -2,7 +2,8 @@
 slug: ls-classes-delete
 date: 
   created: 2024-09-21
-category: LotusScript
+categories:
+  - LotusScript
 tags: 
   - LotusScript
   - VoltScript

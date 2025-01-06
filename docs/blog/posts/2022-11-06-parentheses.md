@@ -2,7 +2,8 @@
 slug: parentheses
 date: 
   created: 2022-11-06
-category: LotusScript
+categories:
+  - LotusScript
 tags: 
   - LotusScript
   - VoltScript

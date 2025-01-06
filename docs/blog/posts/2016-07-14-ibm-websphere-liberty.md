@@ -2,7 +2,8 @@
 slug: ibm-websphere-liberty
 date: 
     created: 2016-07-14
-category: Servers
+categories: 
+    - Servers
 tags:
     - Websphere Liberty
 comments: true

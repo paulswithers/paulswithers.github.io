@@ -2,7 +2,8 @@
 slug: micrometer-composite-registries
 date: 
   created: 2020-04-18
-category: Vert.x
+categories:
+  - Vert.x
 tags: 
   - Vert.x
   - Micrometer

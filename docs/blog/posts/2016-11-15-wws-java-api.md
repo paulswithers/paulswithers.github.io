@@ -3,7 +3,8 @@ slug: wws-java-api
 date: 
   created: 2016-11-15
 comments: true
-category: Java
+categories:
+  - Java
 tags:
   - Java
   - Watson Work Services

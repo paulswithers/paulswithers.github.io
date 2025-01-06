@@ -2,7 +2,8 @@
 slug: java-debugging
 date: 
   created: 2024-03-19
-category: Domino
+categories:
+  - Domino
 tags: 
   - Domino
   - Eclipse

@@ -2,7 +2,8 @@
 slug: java-outside-domino-eclipse
 date: 
   created: 2019-09-17
-category: Java
+categories:
+  - Java
 tags: 
   - Domino
   - Java

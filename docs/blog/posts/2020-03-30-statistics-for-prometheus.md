@@ -2,7 +2,8 @@
 slug: statistics-for-prometheus
 date: 
   created: 2020-03-30
-category: Vert.x
+categories:
+  - Vert.x
 tags: 
   - Vert.x
   - Micrometer

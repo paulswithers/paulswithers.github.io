@@ -2,7 +2,8 @@
 slug: domino-js-redux
 date: 
   created: 2023-10-03
-category: Domino
+categories:
+  - Domino
 tags: 
   - Domino
   - Domino REST API

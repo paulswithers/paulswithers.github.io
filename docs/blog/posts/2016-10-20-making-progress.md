@@ -3,7 +3,10 @@ slug: making-progress
 date: 
   created: 2016-10-20
 comments: true
-category: Editorial
+categories:
+  - Editorial
+tags:
+  - Editorial
 ---
 # Making Progress (Bars)
 

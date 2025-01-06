@@ -3,7 +3,8 @@ slug: dql-what-is-it-good-for
 date: 
   created: 2020-01-21
   updated: 2024-12-01
-category: Domino
+categories:
+  - Domino
 tags: 
   - Domino
   - XPages

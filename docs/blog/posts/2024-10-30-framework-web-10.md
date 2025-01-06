@@ -2,7 +2,8 @@
 slug: framework-web-10
 date: 
   created: 2024-10-30
-category: Web
+categories:
+  - Web
 tags: 
   - Web
   - Domino

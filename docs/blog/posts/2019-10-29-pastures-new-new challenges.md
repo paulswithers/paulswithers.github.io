@@ -2,7 +2,8 @@
 slug: pastures-new-new-challenges
 date: 
     created: 2019-10-29
-category: Editorial
+categories:
+  - Editorial
 tags: 
   - Editorial
   - Community

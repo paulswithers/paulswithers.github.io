@@ -2,7 +2,8 @@
 slug: dql-explorer-domino
 date: 
   created: 2020-02-04
-category: Domino
+categories:
+  - Domino
 tags: 
   - React
   - Domino

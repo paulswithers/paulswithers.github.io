@@ -2,7 +2,8 @@
 slug: project-jigd3w
 date: 
   created: 2019-11-22
-category: Tutorials
+categories:
+  - Tutorials
 tags: 
   - Tutorials
   - Domino

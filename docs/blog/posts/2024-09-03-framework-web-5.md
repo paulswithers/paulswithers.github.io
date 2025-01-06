@@ -2,7 +2,8 @@
 slug: framework-web-5
 date: 
   created: 2024-09-03
-category: Web
+categories:
+  - Web
 tags: 
   - Domino
   - Domino REST API

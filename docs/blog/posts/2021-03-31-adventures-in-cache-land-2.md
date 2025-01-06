@@ -2,7 +2,8 @@
 slug: adventures-in-cache-land-2
 date: 
   created: 2021-03-31
-category: Domino
+categories:
+  - Domino
 tags: 
   - Domino
   - LotusScript

@@ -2,7 +2,8 @@
 slug: framework-web-6
 date: 
   created: 2024-09-16
-category: Web
+categories:
+  - Web
 tags: 
   - Domino
   - Domino REST API

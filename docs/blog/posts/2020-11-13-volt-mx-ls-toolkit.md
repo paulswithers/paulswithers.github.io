@@ -2,7 +2,8 @@
 slug: volt-mx-ls-toolkit
 date: 
   created: 2020-11-13
-category: Domino
+categories:
+  - Domino
 tags: 
   - Domino
   - LotusScript

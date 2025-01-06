@@ -2,7 +2,8 @@
 slug: junit-caution
 date: 
   created: 2020-03-24
-category: Java
+categories:
+  - Java
 tags: 
   - Java
 links:

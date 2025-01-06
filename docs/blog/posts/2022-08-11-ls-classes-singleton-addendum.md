@@ -2,7 +2,8 @@
 slug: ls-classes-singleton-addendum
 date: 
   created: 2022-08-11
-category: VoltScript
+categories:
+  - VoltScript
 tags: 
   - VoltScript
   - LotusScript
