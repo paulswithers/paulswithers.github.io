@@ -22,6 +22,7 @@ links:
   - blog/2024-10-21-framework-web-8.md
   - blog/2024-10-23-framework-web-9.md
   - blog/2024-10-30-framework-web-10.md
+  - blog/2025-01-13-framework-web-12.md
 comments: true
 ---
 # XPages App to Web App: Part Eleven - Ship Search and Save
@@ -270,3 +271,4 @@ This completes the main part of the ship form, although you'll notice we've skip
 1. [Services](./2024-10-23-framework-web-9.md)
 1. [Ship Form Actions](./2024-10-30-framework-web-10.md)
 1. **Ship Search and Save**
+1. [Ship Spot Component](./2025-01-13-framework-web-12.md)

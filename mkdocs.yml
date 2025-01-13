@@ -98,6 +98,8 @@ plugins:
       authors: false
       pagination_format: "$link_first $link_previous ~2~ $link_next $link_last"
       post_excerpt: required
+      draft_if_future_date: true
+      draft_on_serve: true
   - tags:
       tags_file: blog/tags.md
   - rss:

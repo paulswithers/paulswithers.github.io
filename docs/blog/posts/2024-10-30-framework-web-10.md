@@ -22,6 +22,7 @@ links:
   - blog/2024-10-21-framework-web-8.md
   - blog/2024-10-23-framework-web-9.md
   - blog/2024-12-14-framework-web-11.md
+  - blog/2025-01-13-framework-web-12.md
 comments: true
 ---
 # XPages App to Web App: Part Ten - Ship Form Actions
@@ -48,7 +49,7 @@ For a start the HTML will be this:
         <h1>Find Ship</h1>
     </div>
     <form id="search-ship-form">
-        <ship-elem search="true" showspots="true" actionbutton="Search" actionid="#ship-search-action"
+        <ship-elem showspots="true" actionbutton="Search" actionid="#ship-search-action"
             class="grid-container"></ship-elem>
     </form>
 </section>
@@ -212,3 +213,4 @@ There's still more to do on the ship form, like the search and the save. But tha
 1. [Services](./2024-10-23-framework-web-9.md)
 1. **Ship Form Actions**
 1. [Ship Search and Save](./2024-12-14-framework-web-11.md)
+1. [Ship Spot Component](./2025-01-13-framework-web-12.md)
