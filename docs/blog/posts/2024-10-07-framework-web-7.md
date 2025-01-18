@@ -24,6 +24,7 @@ links:
   - blog/2024-10-30-framework-web-10.md
   - blog/2024-12-14-framework-web-11.md
   - blog/2025-01-13-framework-web-12.md
+  - blog/2025-01-18-framework-web-13.md
 comments: true
 ---
 # XPages App to Web App: Part Seven - CSS
@@ -154,3 +155,4 @@ In 2024 CSS is extremely powerful. Frustratingly powerful, at times. But extreme
 1. [Ship Form Actions](./2024-10-30-framework-web-10.md)
 1. [Ship Search and Save](./2024-12-14-framework-web-11.md)
 1. [Ship Spot Component](./2025-01-13-framework-web-12.md)
+1. [HTML Layouts](./2025-01-18-framework-web-13.md)

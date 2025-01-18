@@ -23,6 +23,7 @@ links:
   - blog/2024-10-23-framework-web-9.md
   - blog/2024-10-30-framework-web-10.md
   - blog/2025-01-13-framework-web-12.md
+  - blog/2025-01-18-framework-web-13.md
 comments: true
 ---
 # Framework App to Web App: Part Four - DRAPI
@@ -184,3 +185,4 @@ Once the schema and scope are set up, its easy to make Postman requests to test 
 1. [Services](./2024-10-23-framework-web-9.md)
 1. [Ship Form Actions](./2024-10-30-framework-web-10.md)
 1. [Ship Spot Component](./2025-01-13-framework-web-12.md)
+1. [HTML Layouts](./2025-01-18-framework-web-13.md)

@@ -23,6 +23,7 @@ links:
   - blog/2024-10-23-framework-web-9.md
   - blog/2024-10-30-framework-web-10.md
   - blog/2024-12-14-framework-web-11.md
+  - blog/2025-01-18-framework-web-13.md
 comments: true
 ---
 # XPages App to Web App: Part Twelve - Ship Spot Component
@@ -170,3 +171,4 @@ In the next part we'll cover the HTML for the Ship and Spot, as well as validati
 1. [Ship Form Actions](./2024-10-30-framework-web-10.md)
 1. [Ship Search and Save](./2024-12-14-framework-web-11.md)
 1. **Ship Spot Form**
+1. [HTML Layouts](./2025-01-18-framework-web-13.md)

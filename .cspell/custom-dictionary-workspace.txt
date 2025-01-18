@@ -54,6 +54,7 @@ eventlistener
 extlib
 fixup
 Flavor
+Flexbox
 fontawesome
 Fredrik
 frontmatter
@@ -143,6 +144,7 @@ sourcers
 squidfunk
 SSJS
 straightaway
+Subgrid
 superfences
 Taal
 Tasklet
