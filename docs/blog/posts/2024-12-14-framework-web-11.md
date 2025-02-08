@@ -24,6 +24,7 @@ links:
   - blog/2024-10-30-framework-web-10.md
   - blog/2025-01-13-framework-web-12.md
   - blog/2025-01-18-framework-web-13.md
+  - blog/2025-02-07-framework-web-14.md
 comments: true
 ---
 # XPages App to Web App: Part Eleven - Ship Search and Save
