@@ -25,7 +25,7 @@
         <link rel="alternate" type="application/rss+xml" title="RSS feed of updated content" href="../../../feed_rss_updated.xml">
       
       <link rel="icon" href="../../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.49">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.46">
     
     
       
@@ -844,6 +844,8 @@
       
         
       
+        
+      
     
     
       
@@ -874,6 +876,29 @@
             Archive
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../archive/2025/02/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Feb 2025
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
             
               
                 
@@ -2604,6 +2629,45 @@
     <div class="md-post__meta md-meta">
       <ul class="md-meta__list">
         <li class="md-meta__item">
+          <time datetime="2022-12-13 00:00:00+00:00">Tuesday, December 13, 2022</time></li>
+        
+          <li class="md-meta__item">
+            in
+            
+              <a href="../../category/lotusscript/" class="md-meta__link">LotusScript</a></li>
+        
+        
+          
+          <li class="md-meta__item">
+            
+              6 min read
+            
+          </li>
+        
+      </ul>
+      
+    </div>
+  </header>
+  <div class="md-post__content md-typeset">
+    <h2 id="andres-directories-challenge"><a class="toclink" href="../../2022/12/13/directories-challenge/">Andre's Directories Challenge</a></h2>
+<p>I am sure that anyone who uses LotusScript has been following the excellent blog posts of <a href="https://lotusscript.torknado.com/blog">Andre Guirard</a>. Recent blog posts on large arrays and queues have been particularly interesting for those of us working on VoltScript. His <a href="https://lotusscript.torknado.com/blog/queue-data-structure/">blog post on a Queue data structure</a> ended with a challenge. The root of the problem is that the LotusScript <code>Dir()</code> function is not recursive. Without a parameter it gives the next file or directory relative to its last call. So you can't have one loop using <code>Dir()</code> and an inner loop that also uses <code>Dir()</code>. Andre uses a Queue class to perform FIFO (First In First Out), which achieves what's needed, but not as required:</p>
+
+    
+      <nav class="md-post__action">
+        <a href="../../2022/12/13/directories-challenge/">
+          Continue reading
+        </a>
+      </nav>
+    
+  </div>
+</article>
+      
+        <article class="md-post md-post--excerpt">
+  <header class="md-post__header">
+    
+    <div class="md-post__meta md-meta">
+      <ul class="md-meta__list">
+        <li class="md-meta__item">
           <time datetime="2022-12-06 00:00:00+00:00">Tuesday, December 6, 2022</time></li>
         
           <li class="md-meta__item">
@@ -2755,45 +2819,6 @@
   </div>
 </article>
       
-        <article class="md-post md-post--excerpt">
-  <header class="md-post__header">
-    
-    <div class="md-post__meta md-meta">
-      <ul class="md-meta__list">
-        <li class="md-meta__item">
-          <time datetime="2022-08-17 00:00:00+00:00">Wednesday, August 17, 2022</time></li>
-        
-          <li class="md-meta__item">
-            in
-            
-              <a href="../../category/domino/" class="md-meta__link">Domino</a></li>
-        
-        
-          
-          <li class="md-meta__item">
-            
-              4 min read
-            
-          </li>
-        
-      </ul>
-      
-    </div>
-  </header>
-  <div class="md-post__content md-typeset">
-    <h2 id="github-pages-sites-on-domino-3-how"><a class="toclink" href="../../2022/08/17/github-pages-on-domino-3/">GitHub Pages Sites on Domino 3: How</a></h2>
-<p>There are many ways to host static websites on Domino, and <a href="https://opensource.hcltechsw.com/domino-keep-docs">Project KEEP</a> provides another option. In my scenario, for reasons I won't go into, hosting within the NSF made most sense.</p>
-
-    
-      <nav class="md-post__action">
-        <a href="../../2022/08/17/github-pages-on-domino-3/">
-          Continue reading
-        </a>
-      </nav>
-    
-  </div>
-</article>
-      
       
         
           
@@ -2921,7 +2946,7 @@
     <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.tabs", "navigation.indexes", "navigation.top", "navigation.instant", "search.highlight", "search.share", "search.suggest", "content.code.annotate", "content.code.copy", "toc.integrate"], "search": "../../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../../../assets/javascripts/bundle.88dd0f4e.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.83f73b43.min.js"></script>
       
     
   </body>
