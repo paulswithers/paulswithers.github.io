@@ -25,6 +25,7 @@ links:
   - blog/2025-01-13-framework-web-12.md
   - blog/2025-01-18-framework-web-13.md
   - blog/2025-02-07-framework-web-14.md
+  - blog/2025-02-08-framework-web-15.md
 comments: true
 ---
 # XPages App to Web App: Part Eight - Landing Page Web Component
@@ -287,3 +288,4 @@ So could you integrate web components into XPages? It's probably not straightfor
 1. [Ship Spot Component](./2025-01-13-framework-web-12.md)
 1. [HTML Layouts](./2025-01-18-framework-web-13.md)
 1. [Fields and Save](./2025-02-07-framework-web-14.md)
+1. [Dialogs](./2025-02-08-framework-web-15.md)

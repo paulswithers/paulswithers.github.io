@@ -16,6 +16,7 @@
 - [Ship Spot Component](./posts/2025-01-13-framework-web-12.md)
 - [HTML Layouts](./posts/2025-01-18-framework-web-13.md)
 - [Fields and Save](./posts/2025-02-07-framework-web-14.md)
+- [Dialogs](./posts/2025-02-08-framework-web-15.md)
 
 ## Documentation on Domino
 
