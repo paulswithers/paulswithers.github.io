@@ -8,6 +8,11 @@ copyright: >-
   <a href="#__consent">Change cookie settings</a>
 repo_name: paulswithers/paulswithers.github.io
 repo_url: https://github.com/paulswithers/paulswithers.github.io
+validation:
+  links:
+    absolute_links: relative_to_docs
+    anchors: warn
+    unrecognized_links: warn
 theme:
   name: material
   language: en
