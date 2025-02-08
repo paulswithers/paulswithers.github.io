@@ -13,8 +13,9 @@
 - [Services](./posts/2024-10-23-framework-web-9.md)
 - [Ship Form Actions](./posts/2024-10-30-framework-web-10.md)
 - [Ship Search and Save](./posts/2024-12-14-framework-web-11.md)
--. [Ship Spot Component](./2025-01-13-framework-web-12.md)
--. [HTML Layouts](./2025-01-18-framework-web-13.md)
+- [Ship Spot Component](./posts/2025-01-13-framework-web-12.md)
+- [HTML Layouts](./posts/2025-01-18-framework-web-13.md)
+- [Fields and Save](./posts/2025-02-07-framework-web-14.md)
 
 ## Documentation on Domino
 

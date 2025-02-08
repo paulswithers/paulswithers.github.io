@@ -25,6 +25,7 @@ links:
   - blog/2024-12-14-framework-web-11.md
   - blog/2025-01-13-framework-web-12.md
   - blog/2025-01-18-framework-web-13.md
+  - blog/2025-02-07-framework-web-14.md
 comments: true
 ---
 # Framework App to Web App: Part Five - Home Page
@@ -156,3 +157,4 @@ In the next section we'll come back to the `formLogin()` function, how we handle
 1. [Ship Search and Save](./2024-12-14-framework-web-11.md)
 1. [Ship Spot Component](./2025-01-13-framework-web-12.md)
 1. [HTML Layouts](./2025-01-18-framework-web-13.md)
+1. [Fields and Save](./2025-02-07-framework-web-14.md)

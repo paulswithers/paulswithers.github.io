@@ -217,8 +217,8 @@ The save flow is where the code may seem more complex than other frameworks. But
 
 ``` mermaid
 classDiagram
-    index.js <|-- ship
-    index.js <|-- dominoService
+    index.js <-- ship
+    index.js <-- dominoService
     class index.js{
         +saveShip
         +saveSpotShipObj
@@ -274,3 +274,4 @@ This completes the main part of the ship form, although you'll notice we've skip
 1. **Ship Search and Save**
 1. [Ship Spot Component](./2025-01-13-framework-web-12.md)
 1. [HTML Layouts](./2025-01-18-framework-web-13.md)
+1. [Fields and Save](./2025-02-07-framework-web-14.md)

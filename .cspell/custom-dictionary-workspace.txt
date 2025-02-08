@@ -23,6 +23,7 @@ Brunner's
 Busse
 callsign
 CEDT
+centered
 Cleanup
 Cloudant
 Cmder
@@ -94,6 +95,7 @@ lsxui
 Maculot
 Malmborg
 markdownextradata
+minmax
 mkdocs
 mkey
 myfile
