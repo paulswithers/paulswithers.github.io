@@ -9,6 +9,8 @@ copyright: >-
 repo_name: paulswithers/paulswithers.github.io
 repo_url: https://github.com/paulswithers/paulswithers.github.io
 validation:
+  nav:
+    absolute_links: warn
   links:
     absolute_links: relative_to_docs
     anchors: warn
