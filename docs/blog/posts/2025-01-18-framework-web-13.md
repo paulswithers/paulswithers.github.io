@@ -26,6 +26,7 @@ links:
   - blog/2025-01-13-framework-web-12.md
   - blog/2025-02-07-framework-web-14.md
   - blog/2025-02-08-framework-web-15.md
+  - blog/2025-02-11-framework-web-16.md
 comments: true
 ---
 # XPages App to Web App: Part Thirteen - HTML Layouts
@@ -167,3 +168,4 @@ For those who have been using tables for the last 20+ years, you may start to se
 1. **HTML Layouts**
 1. [Fields and Save](./2025-02-07-framework-web-14.md)
 1. [Dialogs](./2025-02-08-framework-web-15.md)
+1. [Spots](./2025-02-11-framework-web-16.md)

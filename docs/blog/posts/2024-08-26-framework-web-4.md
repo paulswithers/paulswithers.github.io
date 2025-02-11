@@ -26,6 +26,7 @@ links:
   - blog/2025-01-18-framework-web-13.md
   - blog/2025-02-07-framework-web-14.md
   - blog/2025-02-08-framework-web-15.md
+  - blog/2025-02-11-framework-web-16.md
 comments: true
 ---
 # Framework App to Web App: Part Four - DRAPI
@@ -190,3 +191,4 @@ Once the schema and scope are set up, its easy to make Postman requests to test 
 1. [HTML Layouts](./2025-01-18-framework-web-13.md)
 1. [Fields and Save](./2025-02-07-framework-web-14.md)
 1. [Dialogs](./2025-02-08-framework-web-15.md)
+1. [Spots](./2025-02-11-framework-web-16.md)

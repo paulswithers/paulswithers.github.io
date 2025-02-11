@@ -17,6 +17,7 @@
 - [HTML Layouts](./posts/2025-01-18-framework-web-13.md)
 - [Fields and Save](./posts/2025-02-07-framework-web-14.md)
 - [Dialogs](./posts/2025-02-08-framework-web-15.md)
+- [Spots](./posts/2025-02-11-framework-web-16.md)
 
 ## Documentation on Domino
 

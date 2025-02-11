@@ -26,6 +26,7 @@ links:
   - blog/2025-01-13-framework-web-12.md
   - blog/2025-01-18-framework-web-13.md
   - blog/2025-02-08-framework-web-15.md
+  - blog/2025-02-11-framework-web-16.md
 comments: true
 ---
 # XPages App to Web App: Part Fourteen - Fields and Save
@@ -198,3 +199,4 @@ sequenceDiagram
 1. [Ship Spot Component](./2025-01-13-framework-web-12.md)
 1. [HTML Layouts](./2025-01-18-framework-web-13.md)
 1. [Dialogs](./2025-02-08-framework-web-15.md)
+1. [Spots](./2025-02-11-framework-web-16.md)
