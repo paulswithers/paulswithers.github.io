@@ -2584,6 +2584,15 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#xpages-app-to-web-app-part-eleven-ship-search-and-save" class="md-nav__link">
+    <span class="md-ellipsis">
+      XPages App to Web App: Part Eleven - Ship Search and Save
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#xpages-app-to-web-app-part-ten-ship-form-actions" class="md-nav__link">
     <span class="md-ellipsis">
       XPages App to Web App: Part Ten - Ship Form Actions
@@ -2614,15 +2623,6 @@
   <a href="#xpages-app-to-web-app-part-seven-css" class="md-nav__link">
     <span class="md-ellipsis">
       XPages App to Web App: Part Seven - CSS
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#framework-app-to-web-app-part-six-mocking-drapi-and-cors" class="md-nav__link">
-    <span class="md-ellipsis">
-      Framework App to Web App: Part Six - Mocking, DRAPI and CORS
     </span>
   </a>
   
@@ -2709,6 +2709,45 @@
       <header class="md-typeset">
         <h1 id="web">Web</h1>
       </header>
+      
+        <article class="md-post md-post--excerpt">
+  <header class="md-post__header">
+    
+    <div class="md-post__meta md-meta">
+      <ul class="md-meta__list">
+        <li class="md-meta__item">
+          <time datetime="2024-12-14 00:00:00+00:00">Saturday, December 14, 2024</time></li>
+        
+          <li class="md-meta__item">
+            in
+            
+              <a href="../../" class="md-meta__link">Web</a></li>
+        
+        
+          
+          <li class="md-meta__item">
+            
+              8 min read
+            
+          </li>
+        
+      </ul>
+      
+    </div>
+  </header>
+  <div class="md-post__content md-typeset">
+    <h2 id="xpages-app-to-web-app-part-eleven-ship-search-and-save"><a class="toclink" href="../../../../2024/12/14/framework-web-11/">XPages App to Web App: Part Eleven - Ship Search and Save</a></h2>
+<p>The last part focused on using <code>observedAttributes()</code> to switch what the main action button did, depending on the current document state. In this part we'll cover the functionality behind the search button and the save.</p>
+
+    
+      <nav class="md-post__action">
+        <a href="../../../../2024/12/14/framework-web-11/">
+          Continue reading
+        </a>
+      </nav>
+    
+  </div>
+</article>
       
         <article class="md-post md-post--excerpt">
   <header class="md-post__header">
@@ -2859,51 +2898,6 @@
     
       <nav class="md-post__action">
         <a href="../../../../2024/10/07/framework-web-7/">
-          Continue reading
-        </a>
-      </nav>
-    
-  </div>
-</article>
-      
-        <article class="md-post md-post--excerpt">
-  <header class="md-post__header">
-    
-    <div class="md-post__meta md-meta">
-      <ul class="md-meta__list">
-        <li class="md-meta__item">
-          <time datetime="2024-09-16 00:00:00+00:00">Monday, September 16, 2024</time></li>
-        
-          <li class="md-meta__item">
-            in
-            
-              <a href="../../" class="md-meta__link">Web</a></li>
-        
-        
-          
-          <li class="md-meta__item">
-            
-              4 min read
-            
-          </li>
-        
-      </ul>
-      
-    </div>
-  </header>
-  <div class="md-post__content md-typeset">
-    <h2 id="framework-app-to-web-app-part-six-mocking-drapi-and-cors"><a class="toclink" href="../../../../2024/09/16/framework-web-6/">Framework App to Web App: Part Six - Mocking, DRAPI and CORS</a></h2>
-<p>In the last part, we created for login form and added an eventHandler to call <code>formLogin()</code> function. However, we didn't go into the code behind that function. That function is pretty basic, offloading the bulk of the processing:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="kd">const</span><span class="w"> </span><span class="nx">formLogin</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">()</span><span class="w"> </span><span class="p">=&gt;</span><span class="w"> </span><span class="p">{</span>
-<a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="w">  </span><span class="kd">let</span><span class="w"> </span><span class="nx">username</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="s2">&quot;username-input&quot;</span><span class="p">).</span><span class="nx">value</span><span class="p">;</span>
-<a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="w">  </span><span class="kd">let</span><span class="w"> </span><span class="nx">password</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="s2">&quot;password-input&quot;</span><span class="p">).</span><span class="nx">value</span><span class="p">;</span>
-<a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a><span class="w">  </span><span class="nx">login</span><span class="p">(</span><span class="nx">username</span><span class="p">,</span><span class="w"> </span><span class="nx">password</span><span class="p">);</span>
-<a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a><span class="p">};</span>
-</code></pre></div>
-
-    
-      <nav class="md-post__action">
-        <a href="../../../../2024/09/16/framework-web-6/">
           Continue reading
         </a>
       </nav>

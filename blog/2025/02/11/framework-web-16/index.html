@@ -12,13 +12,11 @@
         <meta name="author" content="Paul S. Withers">
       
       
-        <link rel="canonical" href="https://paulswithers.github.io/blog/2024/08/15/xpages-web-1/">
+        <link rel="canonical" href="https://paulswithers.github.io/blog/2025/02/11/framework-web-16/">
       
       
-        <link rel="prev" href="../../01/xpages-tags-renderers/">
+        <link rel="prev" href="../../08/framework-web-15/">
       
-      
-        <link rel="next" href="../../20/framework-web-3/">
       
       
         <link rel="alternate" type="application/rss+xml" title="RSS feed" href="../../../../../feed_rss_created.xml">
@@ -29,7 +27,7 @@
     
     
       
-        <title>XPages to Web App Revisited: Part One - Introduction - Paul Withers' Blog</title>
+        <title>XPages App to Web App: Part Sixteen: Spots - Paul Withers' Blog</title>
       
     
     
@@ -81,7 +79,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#xpages-to-web-app-revisited-part-one-introduction" class="md-skip">
+        <a href="#xpages-app-to-web-app-part-sixteen-spots" class="md-skip">
           Skip to content
         </a>
       
@@ -115,7 +113,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              XPages to Web App Revisited: Part One - Introduction
+              XPages App to Web App: Part Sixteen: Spots
             
           </span>
         </div>
@@ -2647,7 +2645,7 @@
                     <li class="md-nav__item">
                       <div class="md-nav__link">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 19H5V8h14m-3-7v2H8V1H6v2H5c-1.11 0-2 .89-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2h-1V1m-1 11h-5v5h5z"/></svg>
-                        <time datetime="2024-08-15 00:00:00+00:00" class="md-ellipsis">Thursday, August 15, 2024</time>
+                        <time datetime="2025-02-11 00:00:00+00:00" class="md-ellipsis">Tuesday, February 11, 2025</time>
                       </div>
                     </li>
                     
@@ -2658,7 +2656,7 @@
                           <span class="md-ellipsis">
                             in
                             
-                              <a href="../../../../category/domino/">Domino</a></span>
+                              <a href="../../../../category/web/">Web</a></span>
                         </div>
                       </li>
                     
@@ -2669,7 +2667,7 @@
                           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 20a8 8 0 0 0 8-8 8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8m0-18a10 10 0 0 1 10 10 10 10 0 0 1-10 10C6.47 22 2 17.5 2 12A10 10 0 0 1 12 2m.5 5v5.25l4.5 2.67-.75 1.23L11 13V7z"/></svg>
                           <span class="md-ellipsis">
                             
-                              8 min read
+                              6 min read
                             
                           </span>
                         </div>
@@ -2697,65 +2695,62 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#technology" class="md-nav__link">
+  <a href="#ship-form-amendments" class="md-nav__link">
     <span class="md-ellipsis">
-      Technology
+      Ship Form Amendments
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#requirements" class="md-nav__link">
+  <a href="#loading-spots" class="md-nav__link">
     <span class="md-ellipsis">
-      Requirements
+      Loading Spots
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#navigation" class="md-nav__link">
+  <a href="#spots-web-component" class="md-nav__link">
     <span class="md-ellipsis">
-      Navigation
+      Spots Web Component
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#analysis-of-requirements" class="md-nav__link">
+  <a href="#populating-spots" class="md-nav__link">
     <span class="md-ellipsis">
-      Analysis of Requirements
+      Populating Spots
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Populating Spots">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#date-handling" class="md-nav__link">
+    <span class="md-ellipsis">
+      Date Handling
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#challenging-instinctive-choices" class="md-nav__link">
+        
+          <li class="md-nav__item">
+  <a href="#loading-the-spot-html" class="md-nav__link">
     <span class="md-ellipsis">
-      Challenging Instinctive Choices
+      Loading the Spot HTML
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#user-experience" class="md-nav__link">
-    <span class="md-ellipsis">
-      User Experience
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#technologies-involved" class="md-nav__link">
-    <span class="md-ellipsis">
-      Technologies Involved
-    </span>
-  </a>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -2786,19 +2781,13 @@
     
     
     
-      <span class="md-tag">Domino</span>
-    
-  
-    
-    
-    
-      <span class="md-tag">Domino REST API</span>
-    
-  
-    
-    
-    
       <span class="md-tag">Web</span>
+    
+  
+    
+    
+    
+      <span class="md-tag">Domino</span>
     
   
     
@@ -2819,100 +2808,217 @@
       <span class="md-tag">JavaScript</span>
     
   
-    
-    
-    
-      <span class="md-tag">Web Components</span>
-    
-  
 </nav>
 
 
 
-<h1 id="xpages-to-web-app-revisited-part-one-introduction">XPages to Web App Revisited: Part One - Introduction</h1>
-<p>Many years ago I wrote a series of blog posts on the topic of <a href="https://www.intec.co.uk/from-xpages-to-web-app-part-one-the-application/">XPages to web app</a>. At the time my target technology was Vaadin running in an OSGi plugin on Domino HTTP server (initially) and then CrossWorlds - Daniele Vistalli’s innovative approach to use Domino data via OpenNTF Domino API on a Websphere Liberty server running as a sidecar to Domino. My experience of developing with Vaadin lagged behind the technology, because it quickly evolved not only to Java 8 (and undoubtedly beyond) but used annotations which required Servlet 3.0.</p>
+<h1 id="xpages-app-to-web-app-part-sixteen-spots">XPages App to Web App: Part Sixteen: Spots</h1>
+<p>Now that we've set up the CRUD pages for ships and spots, it's time to put them together. When we search a ship, we'll want to be able to see the spots created for that ship. Now let's set that up.</p>
 <!-- more -->
 
-<h2 id="technology">Technology</h2>
-<p>Today there are a variety of options for web application. Adjacent to Domino is Jesse Gallagher’s JakartaEE approach. Domino REST API can host applications as well. Frameworks like Angular and React have gained prominence. JSP is still seen in some places, but seems to have slipped from prominence. But after my session at Engage with Stephan Wissel, and particularly the rapid evolution of browser support over the last few years, my target is traditional web, hosted in Domino REST API’s server.</p>
-<p>Let’s address the elephant in the room. Why not Volt MX Go? This is a small app, one user and I don’t have a hosted environment or want to set one up for something this small. I know Volt MX, and this is about growing my learning. I want to see what I can do with a vanilla web development approach.</p>
-<p>But it is still very relevant for Domino developers looking to use Volt MX Go - or indeed any other technology. Domino REST API will be the mode of access, as it is for Volt MX Go. And the primary focus of this series will be about <em>developing a web application</em>, not taking a Notes or XPages user interface and reproducing it on another framework. Whether you’re using a JavaScript framework like <code>fetch</code> or Foundry operations is barely relevant, both could be used for any web development framework. The CSS techniques are relevant if developing for modern browsers. Even the web components can be used within Iris.</p>
-<h2 id="requirements">Requirements</h2>
-<p>As I said, the app is a small app - a handful of forms and views. There is no workflow for the data, it’s just data entry, retrieval for lookups and basic analysis. The original app is still expected to work in parallel. I could manually verify the data, or I could write integration tests - in LotusScript, using the <a href="https://github.com/OpenNTF/bali-unit">unit testing framework developed for VoltScript</a> - to target data provided by XPages and from the new app. The same tests should provide the same results. If they do - and if the tests have been written well - the new app will be proven to be working correctly with the database and providing valid data.</p>
-<h2 id="navigation">Navigation</h2>
-<p>When the original application was developed, a traditional XPages approach was taken - bootstrap theme for responsiveness, navigator component in custom controls for main navigation and administration views, linking to Data View components.</p>
-<p>The new app will not be doing <strong>any</strong> of this!</p>
-<p>Why?</p>
-<p>First up, this app has been in use for a few years now. If you’re modernising an app that’s been around any length of time, the first step should be working with the users to see how they use it, their most common actions, their pain points, the logical steps they take to do their job with the app. I’m not talking about technical steps (go to this view, click this button, fill in the fields etc). I’m talking about use case tasks.</p>
-<p>In this case it’s:</p>
+<p>We laid the groundwork for this back in <a href="../../../../2024/10/30/framework-web-10/">part ten</a> when we added a <code>showspots</code> attribute on the Ship component. This allowed us to determine whether to show spots (when looking at just a ship) or not (when looking at or editing a ship spot).</p>
+<h2 id="ship-form-amendments">Ship Form Amendments</h2>
+<p>In the constructor, we add this code:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">showspots</span><span class="w"> </span><span class="o">===</span><span class="w"> </span><span class="s2">&quot;true&quot;</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="w">    </span><span class="kd">const</span><span class="w"> </span><span class="nx">spotsElem</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">document</span><span class="p">.</span><span class="nx">createElement</span><span class="p">(</span><span class="s2">&quot;spots-elem&quot;</span><span class="p">);</span>
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="w">    </span><span class="nx">spotsElem</span><span class="p">.</span><span class="nx">style</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">&quot;grid-column: 1 / -1;&quot;</span>
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="w">    </span><span class="k">this</span><span class="p">.</span><span class="nx">appendChild</span><span class="p">(</span><span class="nx">spotsElem</span><span class="p">);</span>
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="p">}</span>
+</code></pre></div>
+<p>This adds a <code>spots-elem</code> HTML element (no prizes for guessing this will be a web component we'll create), and set it to show full width in the table by making it span from the first grid-column to the last (-1).</p>
+<p>This handles the display. But when loading the spots we need to consider the lifecycle of the ship form.</p>
+<pre class="mermaid"><code>flowchart RL
+A([Find Ship]) --&gt; B([Search])
+B --&gt; C([Select Ship])
+C --&gt; D([Load Ship])
+D --&gt; E([Load Spots])
+E --&gt; F{Search Again?}
+F -- Yes --&gt; B
+F -- No --&gt; G([Reset])
+G --&gt; H([Clear Spots])</code></pre>
+<p>Both search and reset call the <code>populateShip</code> function to load the ship details. So we can extend this function to clear them. The <code>populateShip</code> function takes a JSON object that is the selected ship, or null.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="nx">populateShip</span><span class="p">(</span><span class="nx">shipObj</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="nx">shipObj</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="w">        </span><span class="p">...</span>
+<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">showspots</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="w">            </span><span class="k">this</span><span class="p">.</span><span class="nx">dispatchEvent</span><span class="p">(</span><span class="ow">new</span><span class="w"> </span><span class="nx">CustomEvent</span><span class="p">(</span><span class="s2">&quot;loadSpots&quot;</span><span class="p">,</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nx">bubbles</span><span class="o">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w"> </span><span class="nx">detail</span><span class="o">:</span><span class="w"> </span><span class="p">{</span><span class="nx">shipElem</span><span class="o">:</span><span class="w"> </span><span class="k">this</span><span class="p">,</span><span class="w"> </span><span class="nx">shipunid</span><span class="o">:</span><span class="w"> </span><span class="nx">shipObj</span><span class="p">[</span><span class="s2">&quot;@meta&quot;</span><span class="p">].</span><span class="nx">unid</span><span class="p">}}));</span>
+<a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="w">        </span><span class="p">}</span>
+<a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a><span class="w">    </span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a><span class="w">        </span><span class="p">...</span>
+<a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a><span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">showspots</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a><span class="w">            </span><span class="k">this</span><span class="p">.</span><span class="nx">dispatchEvent</span><span class="p">(</span><span class="ow">new</span><span class="w"> </span><span class="nx">CustomEvent</span><span class="p">(</span><span class="s2">&quot;clearSpots&quot;</span><span class="p">,</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nx">bubbles</span><span class="o">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w"> </span><span class="nx">detail</span><span class="o">:</span><span class="w"> </span><span class="p">{</span><span class="nx">shipElem</span><span class="o">:</span><span class="w"> </span><span class="k">this</span><span class="p">}}));</span>
+<a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a><span class="w">        </span><span class="p">}</span>
+<a id="__codelineno-1-12" name="__codelineno-1-12" href="#__codelineno-1-12"></a><span class="w">    </span><span class="p">}</span>
+<a id="__codelineno-1-13" name="__codelineno-1-13" href="#__codelineno-1-13"></a><span class="p">}</span>
+</code></pre></div>
+<h2 id="loading-spots">Loading Spots</h2>
+<p>The two functions corresponding to the custom events are pretty similar, so I'll show the code for both:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="kd">const</span><span class="w"> </span><span class="nx">loadSpots</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">async</span><span class="w"> </span><span class="p">(</span><span class="nx">event</span><span class="p">)</span><span class="w"> </span><span class="p">=&gt;</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="w">    </span><span class="kd">const</span><span class="w"> </span><span class="nx">shipElem</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">event</span><span class="p">.</span><span class="nx">detail</span><span class="p">.</span><span class="nx">shipElem</span><span class="p">;</span>
+<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="w">    </span><span class="kd">const</span><span class="w"> </span><span class="nx">spotsObjs</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">shipElem</span><span class="p">.</span><span class="nx">getElementsByTagName</span><span class="p">(</span><span class="s2">&quot;spots-elem&quot;</span><span class="p">);</span>
+<a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="nx">spotsObjs</span><span class="p">.</span><span class="nx">length</span><span class="w"> </span><span class="o">===</span><span class="w"> </span><span class="mf">1</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a><span class="w">        </span><span class="kd">const</span><span class="w"> </span><span class="nx">spotsObj</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">spotsObjs</span><span class="p">[</span><span class="mf">0</span><span class="p">];</span>
+<a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a><span class="w">        </span><span class="kd">const</span><span class="w"> </span><span class="nx">json</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">await</span><span class="w"> </span><span class="nb">window</span><span class="p">.</span><span class="nx">dataService</span><span class="p">.</span><span class="nx">getSpotsForShip</span><span class="p">(</span><span class="nx">event</span><span class="p">.</span><span class="nx">detail</span><span class="p">.</span><span class="nx">shipunid</span><span class="p">);</span>
+<a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a><span class="w">        </span><span class="nx">spotsObj</span><span class="p">.</span><span class="nx">populateSpots</span><span class="p">(</span><span class="nx">json</span><span class="p">);</span>
+<a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a><span class="w">    </span><span class="p">}</span>
+<a id="__codelineno-2-9" name="__codelineno-2-9" href="#__codelineno-2-9"></a><span class="p">}</span>
+<a id="__codelineno-2-10" name="__codelineno-2-10" href="#__codelineno-2-10"></a>
+<a id="__codelineno-2-11" name="__codelineno-2-11" href="#__codelineno-2-11"></a><span class="kd">const</span><span class="w"> </span><span class="nx">clearSpots</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="nx">event</span><span class="p">)</span><span class="w"> </span><span class="p">=&gt;</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-2-12" name="__codelineno-2-12" href="#__codelineno-2-12"></a><span class="w">    </span><span class="kd">const</span><span class="w"> </span><span class="nx">shipElem</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">event</span><span class="p">.</span><span class="nx">detail</span><span class="p">.</span><span class="nx">shipElem</span><span class="p">;</span>
+<a id="__codelineno-2-13" name="__codelineno-2-13" href="#__codelineno-2-13"></a><span class="w">    </span><span class="kd">const</span><span class="w"> </span><span class="nx">spotsObjs</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">shipElem</span><span class="p">.</span><span class="nx">getElementsByTagName</span><span class="p">(</span><span class="s2">&quot;spots-elem&quot;</span><span class="p">);</span>
+<a id="__codelineno-2-14" name="__codelineno-2-14" href="#__codelineno-2-14"></a><span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="nx">spotsObjs</span><span class="p">.</span><span class="nx">length</span><span class="w"> </span><span class="o">===</span><span class="w"> </span><span class="mf">1</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-2-15" name="__codelineno-2-15" href="#__codelineno-2-15"></a><span class="w">        </span><span class="kd">const</span><span class="w"> </span><span class="nx">spotsObj</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">spotsObjs</span><span class="p">[</span><span class="mf">0</span><span class="p">];</span>
+<a id="__codelineno-2-16" name="__codelineno-2-16" href="#__codelineno-2-16"></a><span class="w">        </span><span class="nx">spotsObj</span><span class="p">.</span><span class="nx">populateSpots</span><span class="p">(</span><span class="s2">&quot;&quot;</span><span class="p">);</span>
+<a id="__codelineno-2-17" name="__codelineno-2-17" href="#__codelineno-2-17"></a><span class="w">    </span><span class="p">}</span>
+<a id="__codelineno-2-18" name="__codelineno-2-18" href="#__codelineno-2-18"></a><span class="p">}</span>
+</code></pre></div>
+<p>In both cases the web component for the ship was passed, which allows us to query its inner HTML to find the corresponding <code>spots-elem</code> HTML element added in the constructor. It should exist and there should only ever be one, but we do the check anyway. If we're loading spots, we do an async call for spots for the ship, which was also passed into the event, which will return an array containing 0..n elements. For clearing spots, we pass an empty string.</p>
+<h2 id="spots-web-component">Spots Web Component</h2>
+<p>Let's just quickly cover the Spots web component, which is in a script file called <a href="https://github.com/paulswithers/shipspotter/blob/main/webapp/scripts/spotsObj.js" target="_blank">spotsObj.js</a>. The basics for the element are quite basic:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="k">export</span><span class="w"> </span><span class="k">default</span><span class="w"> </span><span class="kd">class</span><span class="w"> </span><span class="nx">Spots</span><span class="w"> </span><span class="k">extends</span><span class="w"> </span><span class="nx">HTMLElement</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="w">    </span><span class="cm">/**</span>
+<a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="cm">     * Construct and render</span>
+<a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="cm">     */</span>
+<a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a>
+<a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a><span class="w">    </span><span class="nx">dateOptions</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a><span class="w">        </span><span class="nx">dateStyle</span><span class="o">:</span><span class="w"> </span><span class="s1">&#39;full&#39;</span><span class="p">,</span>
+<a id="__codelineno-3-8" name="__codelineno-3-8" href="#__codelineno-3-8"></a><span class="w">        </span><span class="nx">timeStyle</span><span class="o">:</span><span class="w"> </span><span class="s1">&#39;long&#39;</span><span class="p">,</span>
+<a id="__codelineno-3-9" name="__codelineno-3-9" href="#__codelineno-3-9"></a><span class="w">    </span><span class="p">};</span>
+<a id="__codelineno-3-10" name="__codelineno-3-10" href="#__codelineno-3-10"></a>
+<a id="__codelineno-3-11" name="__codelineno-3-11" href="#__codelineno-3-11"></a><span class="w">    </span><span class="kr">constructor</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-3-12" name="__codelineno-3-12" href="#__codelineno-3-12"></a><span class="w">        </span><span class="k">super</span><span class="p">();</span>
+<a id="__codelineno-3-13" name="__codelineno-3-13" href="#__codelineno-3-13"></a><span class="w">        </span><span class="k">this</span><span class="p">.</span><span class="nx">root</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">this</span><span class="p">.</span><span class="nx">attachShadow</span><span class="p">({</span><span class="w"> </span><span class="nx">mode</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;closed&quot;</span><span class="w"> </span><span class="p">});</span>
+<a id="__codelineno-3-14" name="__codelineno-3-14" href="#__codelineno-3-14"></a><span class="w">        </span><span class="k">this</span><span class="p">.</span><span class="nx">connected</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">false</span><span class="p">;</span>
+<a id="__codelineno-3-15" name="__codelineno-3-15" href="#__codelineno-3-15"></a><span class="w">    </span><span class="p">}</span>
+<a id="__codelineno-3-16" name="__codelineno-3-16" href="#__codelineno-3-16"></a>
+<a id="__codelineno-3-17" name="__codelineno-3-17" href="#__codelineno-3-17"></a><span class="w">    </span><span class="nx">connectedCallback</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-3-18" name="__codelineno-3-18" href="#__codelineno-3-18"></a><span class="w">        </span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&quot;landing connected&quot;</span><span class="p">);</span>
+<a id="__codelineno-3-19" name="__codelineno-3-19" href="#__codelineno-3-19"></a><span class="w">        </span><span class="k">this</span><span class="p">.</span><span class="nx">render</span><span class="p">();</span>
+<a id="__codelineno-3-20" name="__codelineno-3-20" href="#__codelineno-3-20"></a><span class="w">        </span><span class="k">this</span><span class="p">.</span><span class="nx">connected</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">true</span><span class="p">;</span>
+<a id="__codelineno-3-21" name="__codelineno-3-21" href="#__codelineno-3-21"></a><span class="w">    </span><span class="p">}</span>
+<a id="__codelineno-3-22" name="__codelineno-3-22" href="#__codelineno-3-22"></a>
+<a id="__codelineno-3-23" name="__codelineno-3-23" href="#__codelineno-3-23"></a><span class="w">    </span><span class="nx">render</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-3-24" name="__codelineno-3-24" href="#__codelineno-3-24"></a><span class="w">        </span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&quot;Loading spots&quot;</span><span class="p">);</span>
+<a id="__codelineno-3-25" name="__codelineno-3-25" href="#__codelineno-3-25"></a><span class="w">        </span><span class="kd">const</span><span class="w"> </span><span class="nx">clone</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">template</span><span class="p">.</span><span class="nx">content</span><span class="p">.</span><span class="nx">cloneNode</span><span class="p">(</span><span class="kc">true</span><span class="p">);</span>
+<a id="__codelineno-3-26" name="__codelineno-3-26" href="#__codelineno-3-26"></a><span class="w">        </span><span class="k">this</span><span class="p">.</span><span class="nx">root</span><span class="p">.</span><span class="nx">append</span><span class="p">(</span><span class="nx">clone</span><span class="p">);</span>
+<a id="__codelineno-3-27" name="__codelineno-3-27" href="#__codelineno-3-27"></a><span class="w">    </span><span class="p">}</span>
+<a id="__codelineno-3-28" name="__codelineno-3-28" href="#__codelineno-3-28"></a>
+<a id="__codelineno-3-29" name="__codelineno-3-29" href="#__codelineno-3-29"></a><span class="p">}</span>
+</code></pre></div>
+<p>You should be familiar with this by now and there are just two things to comment upon. The first is we use a shadow DOM set to closed. This prevents JavaScript outside the web component from accessing the HTML nodes within the shadow root: we don't need to, we'll be manipulating the HTML with functions of the component itself. The second point of note is a JSON object <code>dateOptions</code>, which we'll come back to.</p>
+<p>The HTML template for the component is:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>const template = document.createElement(&quot;template&quot;);
+<a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>template.innerHTML = `
+<a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a>    <span class="p">&lt;</span><span class="nt">style</span><span class="p">&gt;</span>
+<a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a><span class="w">        </span><span class="p">.</span><span class="nc">spots-container</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a><span class="w">            </span><span class="k">margin-top</span><span class="p">:</span><span class="w"> </span><span class="mi">5</span><span class="kt">px</span><span class="p">;</span>
+<a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a><span class="w">            </span><span class="k">display</span><span class="p">:</span><span class="w"> </span><span class="k">grid</span><span class="p">;</span>
+<a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a><span class="w">            </span><span class="k">grid-template-columns</span><span class="p">:</span><span class="w"> </span><span class="nf">repeat</span><span class="p">(</span><span class="kc">auto</span><span class="nv">-fill</span><span class="p">,</span><span class="w"> </span><span class="nf">minmax</span><span class="p">(</span><span class="mi">200</span><span class="kt">px</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="n">fr</span><span class="p">));</span>
+<a id="__codelineno-4-8" name="__codelineno-4-8" href="#__codelineno-4-8"></a><span class="w">            </span><span class="k">column-gap</span><span class="p">:</span><span class="w"> </span><span class="mi">5</span><span class="kt">px</span><span class="p">;</span>
+<a id="__codelineno-4-9" name="__codelineno-4-9" href="#__codelineno-4-9"></a><span class="w">            </span><span class="k">row-gap</span><span class="p">:</span><span class="w"> </span><span class="mi">5</span><span class="kt">px</span><span class="p">;</span>
+<a id="__codelineno-4-10" name="__codelineno-4-10" href="#__codelineno-4-10"></a><span class="w">        </span><span class="p">}</span>
+<a id="__codelineno-4-11" name="__codelineno-4-11" href="#__codelineno-4-11"></a><span class="w">        </span><span class="p">.</span><span class="nc">spotsCell</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-4-12" name="__codelineno-4-12" href="#__codelineno-4-12"></a><span class="w">            </span><span class="k">font-size</span><span class="p">:</span><span class="w"> </span><span class="mi">16</span><span class="kt">px</span><span class="p">;</span>
+<a id="__codelineno-4-13" name="__codelineno-4-13" href="#__codelineno-4-13"></a><span class="w">            </span><span class="k">padding</span><span class="p">:</span><span class="w"> </span><span class="mi">5</span><span class="kt">px</span><span class="p">;</span>
+<a id="__codelineno-4-14" name="__codelineno-4-14" href="#__codelineno-4-14"></a><span class="w">            </span><span class="k">flex-grow</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span>
+<a id="__codelineno-4-15" name="__codelineno-4-15" href="#__codelineno-4-15"></a><span class="w">            </span><span class="k">border</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="kt">px</span><span class="w"> </span><span class="kc">solid</span><span class="w"> </span><span class="nf">var</span><span class="p">(</span><span class="nv">--border-color-primary</span><span class="p">);</span>
+<a id="__codelineno-4-16" name="__codelineno-4-16" href="#__codelineno-4-16"></a><span class="w">            </span><span class="k">border-radius</span><span class="p">:</span><span class="w"> </span><span class="mi">5</span><span class="kt">px</span><span class="p">;</span>
+<a id="__codelineno-4-17" name="__codelineno-4-17" href="#__codelineno-4-17"></a><span class="w">            </span><span class="k">box-shadow</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="kt">px</span><span class="w"> </span><span class="mi">2</span><span class="kt">px</span><span class="w"> </span><span class="nf">var</span><span class="p">(</span><span class="nv">--border-color-primary</span><span class="p">);</span>
+<a id="__codelineno-4-18" name="__codelineno-4-18" href="#__codelineno-4-18"></a><span class="w">        </span><span class="p">}</span>
+<a id="__codelineno-4-19" name="__codelineno-4-19" href="#__codelineno-4-19"></a><span class="w">    </span><span class="p">&lt;/</span><span class="nt">style</span><span class="p">&gt;</span>
+<a id="__codelineno-4-20" name="__codelineno-4-20" href="#__codelineno-4-20"></a>    <span class="p">&lt;</span><span class="nt">div</span> <span class="na">id</span><span class="o">=</span><span class="s">&quot;spots-container&quot;</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;spots-container&quot;</span><span class="p">&gt;</span>
+<a id="__codelineno-4-21" name="__codelineno-4-21" href="#__codelineno-4-21"></a>    <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+<a id="__codelineno-4-22" name="__codelineno-4-22" href="#__codelineno-4-22"></a>`;
+</code></pre></div>
+<p>This is some styling and a container div, which will display with CSS Grid, 5 pixels gap between the cells and auto-filling the space with a minimum of 200px width. Each "cell" in the grid will be the same size (<code>flex-grow: 1</code>) with some colours loaded from the external CSS. We don't have a template for the contents of a cell, they will be created programmatically.</p>
+<h2 id="populating-spots">Populating Spots</h2>
+<p>The web component also needs a <code>populateSpots()</code> function that is called from the index.js functions:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="nx">populateSpots</span><span class="p">(</span><span class="nx">value</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a><span class="w">    </span><span class="kd">const</span><span class="w"> </span><span class="nx">spots_container</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">this</span><span class="p">.</span><span class="nx">root</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="s2">&quot;spots-container&quot;</span><span class="p">);</span>
+<a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a><span class="w">    </span><span class="nx">spots_container</span><span class="p">.</span><span class="nx">innerHTML</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">&quot;&quot;</span><span class="p">;</span>
+<a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a><span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="o">!</span><span class="nx">value</span><span class="w"> </span><span class="o">||</span><span class="w"> </span><span class="nx">value</span><span class="p">.</span><span class="nx">length</span><span class="w"> </span><span class="o">===</span><span class="w"> </span><span class="mf">0</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-5-5" name="__codelineno-5-5" href="#__codelineno-5-5"></a><span class="w">        </span><span class="kd">const</span><span class="w"> </span><span class="nx">p</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">document</span><span class="p">.</span><span class="nx">createElement</span><span class="p">(</span><span class="s2">&quot;p&quot;</span><span class="p">);</span>
+<a id="__codelineno-5-6" name="__codelineno-5-6" href="#__codelineno-5-6"></a><span class="w">        </span><span class="nx">p</span><span class="p">.</span><span class="nx">innerHTML</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">&quot;No spots found&quot;</span><span class="p">;</span>
+<a id="__codelineno-5-7" name="__codelineno-5-7" href="#__codelineno-5-7"></a><span class="w">        </span><span class="nx">spots_container</span><span class="p">.</span><span class="nx">appendChild</span><span class="p">(</span><span class="nx">p</span><span class="p">)</span>
+<a id="__codelineno-5-8" name="__codelineno-5-8" href="#__codelineno-5-8"></a><span class="w">    </span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-5-9" name="__codelineno-5-9" href="#__codelineno-5-9"></a><span class="w">        </span><span class="p">...</span>
+<a id="__codelineno-5-10" name="__codelineno-5-10" href="#__codelineno-5-10"></a><span class="w">    </span><span class="p">}</span>
+<a id="__codelineno-5-11" name="__codelineno-5-11" href="#__codelineno-5-11"></a><span class="p">}</span>
+</code></pre></div>
+<p>We'll come back to the contents of the else block shortly. We start by clearing any HTML previously in the <code>spots-container</code> div. Then, if a blank string or empty array was passed, we add a message saying "No spots found". Otherwise it will be an array of JSON objects like:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="p">{</span>
+<a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a><span class="w">    </span><span class="nt">&quot;ShipUNID&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;BAD429566D90A8AB86258751007006F4&quot;</span><span class="p">,</span>
+<a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a><span class="w">    </span><span class="nt">&quot;Created&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;2024-08-10T06:20:36-06:00&quot;</span><span class="p">,</span>
+<a id="__codelineno-6-4" name="__codelineno-6-4" href="#__codelineno-6-4"></a><span class="w">    </span><span class="nt">&quot;Location&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Southampton&quot;</span><span class="p">,</span>
+<a id="__codelineno-6-5" name="__codelineno-6-5" href="#__codelineno-6-5"></a><span class="w">    </span><span class="nt">&quot;PortFrom&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Southampton&quot;</span><span class="p">,</span>
+<a id="__codelineno-6-6" name="__codelineno-6-6" href="#__codelineno-6-6"></a><span class="w">    </span><span class="nt">&quot;PortTo&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Cowes&quot;</span>
+<a id="__codelineno-6-7" name="__codelineno-6-7" href="#__codelineno-6-7"></a><span class="p">}</span>
+</code></pre></div>
+<h3 id="date-handling">Date Handling</h3>
+<p>When it comes to dates, <a href="https://momentjs.com/">Moment.js</a> has become a go-to library to load and manipulate dates. However, for many applications it may be overkill and Moment.js themselves <a href="https://momentjs.com/docs/#/-project-status/">highlight this</a>, stating "Moment.js was built for the previous era of the JavaScript ecosystem", noting that Chrome Dev Tools shows recommendations for replacing Moment.js and themselves pointing to a number of posts about alternatives. In our case, we just want to format an ISO date, and JavaScript has a spec for this, <a href="https://ecma-international.org/publications-and-standards/standards/ecma-402/">ECMA 402</a>. For dates, the part we need is <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat"><strong>Intl.DateTimeFormat</strong></a>, which has been baseline since 2017.</p>
+<p>The code we'll use is simple:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="kd">const</span><span class="w"> </span><span class="nx">localDate</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">Intl</span><span class="p">.</span><span class="nx">DateTimeFormat</span><span class="p">(</span><span class="s2">&quot;en-GB&quot;</span><span class="p">,</span><span class="w"> </span><span class="k">this</span><span class="p">.</span><span class="nx">dateOptions</span><span class="p">).</span><span class="nx">format</span><span class="p">(</span><span class="nx">spot</span><span class="p">.</span><span class="nx">Created</span><span class="p">);</span>
+</code></pre></div>
+<p>The constructor for <code>Intl.DateTimeFormat()</code> can take up to two arguments, a locale and options. As I've said on numerous occasions, I'm the only user of this application which means "en-GB" locale is the only one I'm interested in. The other argument is the web component's <code>dateOptions</code> property we added when we created the web component, a JSON object containing two properties: <code>dateStyle="full"</code> and <code>timeStyle="long"</code>. This returns a value like "Wednesday 27 November 2024 at 15:41:08 GMT". There are a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat/DateTimeFormat#locale_options">wide variety of options available</a>.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If you need a variety of locales, you'll need to do research on how to get the "right" locale. To give you an idea of the complexity involved in a "default" locale, I recommend looking at a few GitHub issues from the discussions about the specification:</p>
 <ul>
-<li>create a ship spot. If the ship is not picked from previous entries, a ship is created as well as the spot.</li>
-<li>look for a ship by name to edit it or see when it was spotted. There are a lot, typical approach is jump to page x, then page y until the relevant ship is found. This is not efficient, but it's the typical view-driven approach.</li>
-<li>names change occasionally, but there is a unique ID. There’s no easy way to find by that currently.</li>
-<li>look for ships by line, which is a combo box. There are not many options.</li>
-<li>
-<p>create a port and/or country. These were originally under an "admin" area, but the role is not relevant. Currently the flow is:</p>
-<ul>
-<li>create a ship spot, realise the port doesn't exist.</li>
-<li>ship spot needs saving.</li>
-<li>switch view.</li>
-<li>create port.</li>
-<li>if country doesn’t exist, create country.</li>
-<li>then go back to create port</li>
-<li>then edit spot and add port.</li>
+<li>https://github.com/tc39/proposal-intl-locale/issues/15</li>
+<li>https://github.com/tc39/proposal-intl-locale/issues/84</li>
+<li>https://github.com/tc39/ecma402/issues/68</li>
+<li>https://github.com/tc39/ecma402/issues/883</li>
 </ul>
-</li>
-</ul>
-<p>This should raise red flags to any developer. Modernisation of the app should improve this and there is significant scope to do so. How? That’s not sure yet, but improving this should be a must.
-- each trip, create a trip with start and end date. Previous trip needs changing to inactive.
-- retrospectively, look at what what created during the trip. Currently this is a table of data. Again, there’s an opportunity to improve this.
-- trips may no longer be required, so I'll leave that functionality for now.
-- spots are not regularly reviewed directly, occasionally for spots a day or two previously.
-- countries, ports and ships are used for pickers in ship spots.</p>
-<h2 id="analysis-of-requirements">Analysis of Requirements</h2>
-<p>A few things should be apparent here:</p>
-<ul>
-<li>scrolling through views is not done. So why make that the entry point to documents?</li>
-<li>access to documents is targeted on a few use cases.</li>
-<li>there are a few “create” actions that are key.</li>
-<li>creating a port, ship or a country is only done when adding to a ship spot.</li>
-<li>the original navigation and editing paradigms were based on the framework. This takes a great deal of self-awareness and an ability to challenge instinctive choices. But it's key to modernisation and an optimal user experience.</li>
-<li>when the original XPages application was developed, creating and viewing multiple related docs in a single UI was a shift from Notes Client. Data View gives innovative layouts. But the rest of the user experience was typical for a Notes or XPages app. And most significant of all, it doesn’t fit how the app is used.</li>
-<li>the app is used on mobile and network connection can be patchy.</li>
-</ul>
-<h2 id="challenging-instinctive-choices">Challenging Instinctive Choices</h2>
-<p>Every developer should fully understand the decisions they instinctively make because of the platform and framework they are using. As stated, views are the standard entry point for Notes Client. And having lots of documents in a view is normal, especially when business owners fail to prioritise archiving of data.</p>
-<p>But think of the most commonly-used web application: Google. Do you scroll through a view of documents categorised on a type or sorted? Of course not. You search. How often do you page through 100 matches? You don’t. If it’s not in the first couple of pages, you typically try a different search. Think of another web application: Wikipedia. The same is true. Web applications have a paradigm that has become standard - and become standard since many Domino developers built their first Notes database. But it’s become standard for a good reason: the approach of users for some years now is "find something quickly, do what you need to do with it, move on". Modernising a Domino application should take into account how user expectations have changed - even if some of the users are more resistant to change. Similarly modernising a spreadsheet into a web application will not satisfy if it just reproduces the spreadsheet experience in a browser.</p>
-<p>But that’s not the only aspect to bear in mind for Domino and Notes. The data is programmatically accessed locally. Move to a web application hosted elsewhere and you will typically need to pull data over the HTTP protocol. If you don’t appreciate the difference there, your application will probably fail and you must bear at least part of the blame. “But the customer said…” is no excuse - you are the expert, it is your job to educate.</p>
-<h2 id="user-experience">User Experience</h2>
-<p>So the “navigation” will not link to views of documents of a specific type sorted in a particular way. It will focus on specific actions. The primary action is not to look at a specific view, so the home page will be tiles. There are only a small number, so it will work nicely on a home page. The home page will display the current active trip, clicking it will open the trip, with actions to “switch trip” or create a new one. It’s not likely to be a huge list, so a massively scrolling view makes no sense.</p>
-<p>Comparison is not done, so again no point in using a view.</p>
-<p>“Find ship” will allow searching by name (with wildcards) or unique reference. We’ll not commit to a specific layout of results yet. Let’s see what options we have. Results should be limited, so re-sorting makes no sense. The key purposes are checking it exists, editing the ship or viewing it.</p>
-<p>If we can cache some data - trip, ports, countries, maybe even ship names - across the whole (front-end) app, we will get better performance. Only ships will be a reasonably significant data set, so we will not commit yet. None of the data has any sensitivity, so we don’t need to worry about that. Because there is only a single user, we don’t need to worry about webhooks to update the list or background web workers to check for updates. We won’t provide a way to clear the cache, we’ll keep it clean and add it if required. We’ll fetch the data after login (async), providing a get-out. And the XPages app is not going anywhere (yet), so worst case scenario the old app can be used instead. This gives us zero downtime.</p>
-<h2 id="technologies-involved">Technologies Involved</h2>
-<p>Let’s talk technologies here. We’ll use FlexBox (just html and css) for layout. We’ll use web components for many of the piece-parts of the application (login form, “view entry”, “doc”). We’ll use event subscribers to interact with JavaScript function. We may use some other external web components, maybe not.</p>
-<p>We’ll use CSS. But CSS has evolved massively since the 2000s, helped by the fact that most end users have modern browsers. No longer do we have to develop for Internet Explorer 6 - indeed developers are probably not developing for Internet Explorer at all. Businesses and all consumers should be on Edge, if they’re not on another browser.</p>
-<p>And we’ll use fetch to talk to Domino REST API to perform CRUD operations. An early step will be create DRAPI modes and get the swagger spec. We will also use mock data at times for local coding and testing.</p>
-<p>This is about learning, and quite a few aspects will be new to many Domino developers, maybe some web developers, and certainly to me. It will certainly not answer all the questions you will have as you develop web applications. For example, I don't have to worry about 100% up-time or supporting massive numbers of users.</p>
-<p>But I hope others in the Domino community will pick up that baton and share their expertise. A community is smarter because many share. When people stop sharing, the smart look for new challenges, the rest stagnate and the community will never recover.</p>
+</div>
+<h3 id="loading-the-spot-html">Loading the Spot HTML</h3>
+<p>The else block is:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a><span class="nx">value</span><span class="p">.</span><span class="nx">forEach</span><span class="p">((</span><span class="nx">spot</span><span class="p">,</span><span class="w"> </span><span class="nx">index</span><span class="p">)</span><span class="w"> </span><span class="p">=&gt;</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-8-2" name="__codelineno-8-2" href="#__codelineno-8-2"></a><span class="w">    </span><span class="kd">const</span><span class="w"> </span><span class="nx">div</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">document</span><span class="p">.</span><span class="nx">createElement</span><span class="p">(</span><span class="s2">&quot;div&quot;</span><span class="p">);</span>
+<a id="__codelineno-8-3" name="__codelineno-8-3" href="#__codelineno-8-3"></a><span class="w">    </span><span class="nx">div</span><span class="p">.</span><span class="nx">id</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="sb">`spot-div-</span><span class="si">${</span><span class="nx">index</span><span class="si">}</span><span class="sb">`</span><span class="p">;</span>
+<a id="__codelineno-8-4" name="__codelineno-8-4" href="#__codelineno-8-4"></a><span class="w">    </span><span class="nx">div</span><span class="p">.</span><span class="nx">classList</span><span class="p">.</span><span class="nx">add</span><span class="p">(</span><span class="s2">&quot;spotsCell&quot;</span><span class="p">);</span>
+<a id="__codelineno-8-5" name="__codelineno-8-5" href="#__codelineno-8-5"></a><span class="w">    </span><span class="nx">spots_container</span><span class="p">.</span><span class="nx">appendChild</span><span class="p">(</span><span class="nx">div</span><span class="p">);</span>
+<a id="__codelineno-8-6" name="__codelineno-8-6" href="#__codelineno-8-6"></a><span class="w">    </span><span class="kd">const</span><span class="w"> </span><span class="nx">createdDate</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nb">Date</span><span class="p">(</span><span class="nx">spot</span><span class="p">.</span><span class="nx">Created</span><span class="p">);</span>
+<a id="__codelineno-8-7" name="__codelineno-8-7" href="#__codelineno-8-7"></a><span class="w">    </span><span class="kd">const</span><span class="w"> </span><span class="nx">localDate</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">Intl</span><span class="p">.</span><span class="nx">DateTimeFormat</span><span class="p">(</span><span class="s2">&quot;en-GB&quot;</span><span class="p">,</span><span class="w"> </span><span class="k">this</span><span class="p">.</span><span class="nx">dateOptions</span><span class="p">).</span><span class="nx">format</span><span class="p">(</span><span class="nx">createdDate</span><span class="p">);</span>
+<a id="__codelineno-8-8" name="__codelineno-8-8" href="#__codelineno-8-8"></a><span class="w">    </span><span class="kd">const</span><span class="w"> </span><span class="nx">created</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">document</span><span class="p">.</span><span class="nx">createElement</span><span class="p">(</span><span class="s2">&quot;p&quot;</span><span class="p">);</span>
+<a id="__codelineno-8-9" name="__codelineno-8-9" href="#__codelineno-8-9"></a><span class="w">    </span><span class="nx">created</span><span class="p">.</span><span class="nx">id</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="sb">`spots-created-</span><span class="si">${</span><span class="nx">index</span><span class="si">}</span><span class="sb">`</span><span class="p">;</span>
+<a id="__codelineno-8-10" name="__codelineno-8-10" href="#__codelineno-8-10"></a><span class="w">    </span><span class="nx">created</span><span class="p">.</span><span class="nx">innerHTML</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="sb">`Created: </span><span class="si">${</span><span class="nx">localDate</span><span class="si">}</span><span class="sb">`</span><span class="p">;</span>
+<a id="__codelineno-8-11" name="__codelineno-8-11" href="#__codelineno-8-11"></a><span class="w">    </span><span class="nx">div</span><span class="p">.</span><span class="nx">appendChild</span><span class="p">(</span><span class="nx">created</span><span class="p">);</span>
+<a id="__codelineno-8-12" name="__codelineno-8-12" href="#__codelineno-8-12"></a><span class="w">    </span><span class="kd">const</span><span class="w"> </span><span class="nx">details</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">document</span><span class="p">.</span><span class="nx">createElement</span><span class="p">(</span><span class="s2">&quot;p&quot;</span><span class="p">);</span>
+<a id="__codelineno-8-13" name="__codelineno-8-13" href="#__codelineno-8-13"></a><span class="w">    </span><span class="k">this</span><span class="p">.</span><span class="nx">createDetails</span><span class="p">(</span><span class="nx">details</span><span class="p">,</span><span class="w"> </span><span class="nx">index</span><span class="p">,</span><span class="w"> </span><span class="nx">spot</span><span class="p">)</span>
+<a id="__codelineno-8-14" name="__codelineno-8-14" href="#__codelineno-8-14"></a><span class="w">    </span><span class="nx">div</span><span class="p">.</span><span class="nx">appendChild</span><span class="p">(</span><span class="nx">details</span><span class="p">);</span>
+<a id="__codelineno-8-15" name="__codelineno-8-15" href="#__codelineno-8-15"></a><span class="p">});</span>
+</code></pre></div>
+<p>We loop through the spots and, for each, create a div with a unique ID. In that div, we add a paragraph for the created date/time and the details. The details varies depending if port details are known, so for simplicity I moved it into its own function:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a><span class="nx">createDetails</span><span class="p">(</span><span class="nx">details</span><span class="p">,</span><span class="w"> </span><span class="nx">index</span><span class="p">,</span><span class="w"> </span><span class="nx">spot</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-9-2" name="__codelineno-9-2" href="#__codelineno-9-2"></a><span class="w">    </span><span class="nx">details</span><span class="p">.</span><span class="nx">id</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="sb">`spots-details-</span><span class="si">${</span><span class="nx">index</span><span class="si">}</span><span class="sb">`</span><span class="p">;</span>
+<a id="__codelineno-9-3" name="__codelineno-9-3" href="#__codelineno-9-3"></a><span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="nx">spot</span><span class="p">.</span><span class="nx">PortFrom</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="s2">&quot;&quot;</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="nx">spot</span><span class="p">.</span><span class="nx">PortTo</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="s2">&quot;&quot;</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-9-4" name="__codelineno-9-4" href="#__codelineno-9-4"></a><span class="w">        </span><span class="nx">details</span><span class="p">.</span><span class="nx">innerHTML</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="sb">`From </span><span class="si">${</span><span class="nx">spot</span><span class="p">.</span><span class="nx">PortFrom</span><span class="si">}</span><span class="sb"> to </span><span class="si">${</span><span class="nx">spot</span><span class="p">.</span><span class="nx">PortTo</span><span class="si">}</span><span class="sb">`</span><span class="p">;</span>
+<a id="__codelineno-9-5" name="__codelineno-9-5" href="#__codelineno-9-5"></a><span class="w">    </span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="nx">spot</span><span class="p">.</span><span class="nx">PortFrom</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="s2">&quot;&quot;</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-9-6" name="__codelineno-9-6" href="#__codelineno-9-6"></a><span class="w">        </span><span class="nx">details</span><span class="p">.</span><span class="nx">innerHTML</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="sb">`From </span><span class="si">${</span><span class="nx">spot</span><span class="p">.</span><span class="nx">PortFrom</span><span class="si">}</span><span class="sb">, destination port not known`</span><span class="p">;</span>
+<a id="__codelineno-9-7" name="__codelineno-9-7" href="#__codelineno-9-7"></a><span class="w">    </span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="nx">spot</span><span class="p">.</span><span class="nx">PortTo</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="s2">&quot;&quot;</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-9-8" name="__codelineno-9-8" href="#__codelineno-9-8"></a><span class="w">        </span><span class="nx">details</span><span class="p">.</span><span class="nx">innerHTML</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="sb">`Going to </span><span class="si">${</span><span class="nx">spot</span><span class="p">.</span><span class="nx">PortTo</span><span class="si">}</span><span class="sb">, origin port not known`</span><span class="p">;</span>
+<a id="__codelineno-9-9" name="__codelineno-9-9" href="#__codelineno-9-9"></a><span class="w">    </span><span class="p">}</span>
+<a id="__codelineno-9-10" name="__codelineno-9-10" href="#__codelineno-9-10"></a><span class="p">}</span>
+</code></pre></div>
+<p>If we have both from and to ports, we list them. If we are missing from or to port, we give an appropriate message.</p>
 <h2 id="table-of-contents">Table of Contents</h2>
 <ol>
-<li><strong>Introduction</strong></li>
-<li><a href="../../20/xpages-web-2/">Dev Tools</a></li>
-<li><a href="../../20/framework-web-3/">Frameworks</a></li>
-<li><a href="../../26/framework-web-4/">DRAPI</a></li>
-<li><a href="../../../09/03/framework-web-5/">Home Page</a></li>
-<li><a href="../../../09/16/framework-web-6/">Mocking, Fetch, DRAPI and CORS</a></li>
-<li><a href="../../../10/07/framework-web-7/">CSS</a></li>
-<li><a href="../../../10/21/framework-web-8/">Landing Page Web Component</a></li>
-<li><a href="../../../10/23/framework-web-9/">Services</a></li>
-<li><a href="../../../10/30/framework-web-10/">Ship Form Actions</a></li>
-<li><a href="../../../12/14/framework-web-11/">Ship Search and Save</a></li>
-<li><a href="../../../../2025/01/13/framework-web-12/">Ship Spot Component</a></li>
-<li><a href="../../../../2025/01/18/framework-web-13/">HTML Layouts</a></li>
-<li><a href="../../../../2025/02/07/framework-web-14/">Fields and Save</a></li>
-<li><a href="../../../../2025/02/08/framework-web-15/">Dialogs</a></li>
-<li><a href="../../../../2025/02/11/framework-web-16/">Spots</a></li>
+<li><a href="../../../../2024/08/15/xpages-web-1/">Introduction</a></li>
+<li><a href="../../../../2024/08/20/xpages-web-2/">Dev Tools</a></li>
+<li><a href="../../../../2024/08/20/framework-web-3/">Frameworks</a></li>
+<li><a href="../../../../2024/08/26/framework-web-4/">DRAPI</a></li>
+<li><a href="../../../../2024/09/03/framework-web-5/">Home Page</a></li>
+<li><a href="../../../../2024/09/16/framework-web-6/">Mocking, Fetch, DRAPI and CORS</a></li>
+<li><a href="../../../../2024/10/07/framework-web-7/">CSS</a></li>
+<li><a href="../../../../2024/10/21/framework-web-8/">Landing Page Web Component</a></li>
+<li><a href="../../../../2024/10/23/framework-web-9/">Services</a></li>
+<li><a href="../../../../2024/10/30/framework-web-10/">Ship Form Actions</a></li>
+<li><a href="../../../../2024/12/14/framework-web-11/">Ship Search and Save</a></li>
+<li><a href="../../../01/13/framework-web-12/">Ship Spot Component</a></li>
+<li><a href="../../../01/18/framework-web-13/">HTML Layouts</a></li>
+<li><a href="../../07/framework-web-14/">Fields and Save</a></li>
+<li><a href="../../08/framework-web-15/">Dialogs</a></li>
+<li><strong>Spots</strong></li>
 </ol>
 
 
