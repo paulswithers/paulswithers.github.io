@@ -15,7 +15,7 @@ One of the key skills when working in IT research is the ability to work out how
 
 <!-- more -->
 
-Over the past few months I've been doing some work on-and-off on the [HCL DIgital Solutions Community](https://developer.ds.hcl-software.com/). But obviously this has included some development, with associated learning. As part of that, I had to dynamically add repeated chunks of HTML to part of a page. It's a good use case for Web Components, as I've talked about in [my recent tutorial series](./2024-10-30-framework-web-8.md). For XPages developers, this use case is like a chunk of XML markup inside a Repeat Control's tag. Think of moving that markup to a Custom Control that's so self-contained you can copy it into any database, and you get an idea of their power.
+Over the past few months I've been doing some work on-and-off on the [HCL DIgital Solutions Community](https://developer.ds.hcl-software.com/). But obviously this has included some development, with associated learning. As part of that, I had to dynamically add repeated chunks of HTML to part of a page. It's a good use case for Web Components, as I've talked about in [my recent tutorial series](./2024-10-21-framework-web-8.md). For XPages developers, this use case is like a chunk of XML markup inside a Repeat Control's tag. Think of moving that markup to a Custom Control that's so self-contained you can copy it into any database, and you get an idea of their power.
 
 But the framework I was integrating into was Ember.js. A quick search led me to this [discussion on using Web Components in Ember.js](https://discuss.emberjs.com/t/web-component-support/14880). But this was research, and I'm able to quickly create a web component, I went that route.
 
