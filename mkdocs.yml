@@ -8,11 +8,6 @@ copyright: >-
   <a href="#__consent">Change cookie settings</a>
 repo_name: paulswithers/paulswithers.github.io
 repo_url: https://github.com/paulswithers/paulswithers.github.io
-validation:
-  omitted_files: warn
-  absolute_links: relative_to_docs  # Or 'relative_to_docs' - new in MkDocs 1.6
-  unrecognized_links: warn
-  anchors: warn  # New in MkDocs 1.6
 theme:
   name: material
   language: en
