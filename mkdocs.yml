@@ -13,14 +13,6 @@ validation:
   absolute_links: relative_to_docs  # Or 'relative_to_docs' - new in MkDocs 1.6
   unrecognized_links: warn
   anchors: warn  # New in MkDocs 1.6
-  nav:
-    omitted_files: info
-    not_found: warn
-    absolute_links: warn
-  links:
-    absolute_links: relative_to_docs
-    anchors: warn
-    unrecognized_links: warn
 theme:
   name: material
   language: en
@@ -111,7 +103,8 @@ plugins:
       authors: false
       pagination_format: "$link_first $link_previous ~2~ $link_next $link_last"
       post_excerpt: required
-  - tags
+  - tags:
+      tags_file: blog/tags.md
   - rss:
       match_path: "blog/posts/.*"
       date_from_meta:
