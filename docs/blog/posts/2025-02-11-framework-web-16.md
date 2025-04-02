@@ -26,6 +26,7 @@ links:
   - blog/2025-01-18-framework-web-13.md
   - blog/2025-02-07-framework-web-14.md
   - blog/2025-02-08-framework-web-15.md
+  - blog/2025-04-02-framework-web-17.md
 comments: true
 ---
 # XPages App to Web App: Part Sixteen: Spots
@@ -283,3 +284,4 @@ If we have both from and to ports, we list them. If we are missing from or to po
 1. [Fields and Save](./2025-02-07-framework-web-14.md)
 1. [Dialogs](./2025-02-08-framework-web-15.md)
 1. **Spots**
+1. [Lessons Learned](./2025-04-02-framework-web-17.md)
