@@ -12,31 +12,29 @@
         <meta name="author" content="Paul S. Withers">
       
       
-        <link rel="canonical" href="https://paulswithers.github.io/blog/page/12/">
+        <link rel="canonical" href="https://paulswithers.github.io/blog/2025/04/07/css-export/">
       
       
-        <link rel="prev" href="../../../professional/documentation/">
+        <link rel="prev" href="../../02/framework-web-17/">
       
       
-        <link rel="next" href="../../tags/">
       
+        <link rel="alternate" type="application/rss+xml" title="RSS feed" href="../../../../../feed_rss_created.xml">
+        <link rel="alternate" type="application/rss+xml" title="RSS feed of updated content" href="../../../../../feed_rss_updated.xml">
       
-        <link rel="alternate" type="application/rss+xml" title="RSS feed" href="../../../feed_rss_created.xml">
-        <link rel="alternate" type="application/rss+xml" title="RSS feed of updated content" href="../../../feed_rss_updated.xml">
-      
-      <link rel="icon" href="../../../assets/images/favicon.png">
+      <link rel="icon" href="../../../../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.46">
     
     
       
-        <title>Index - Paul Withers' Blog</title>
+        <title>Avoiding Inline Styles in XPages - Paul Withers' Blog</title>
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.6f8fc17f.min.css">
+      <link rel="stylesheet" href="../../../../../assets/stylesheets/main.6f8fc17f.min.css">
       
         
-        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../../../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -55,7 +53,7 @@
       
     
     
-    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -81,7 +79,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#index" class="md-skip">
+        <a href="#avoiding-inline-styles-in-xpages" class="md-skip">
           Skip to content
         </a>
       
@@ -95,7 +93,7 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../../.." title="Paul Withers&#39; Blog" class="md-header__button md-logo" aria-label="Paul Withers' Blog" data-md-component="logo">
+    <a href="../../../../.." title="Paul Withers&#39; Blog" class="md-header__button md-logo" aria-label="Paul Withers' Blog" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -115,7 +113,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Index
+              Avoiding Inline Styles in XPages
             
           </span>
         </div>
@@ -229,7 +227,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../.." class="md-tabs__link">
+      <a href="../../../../.." class="md-tabs__link">
         
   
     
@@ -246,7 +244,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../../about/" class="md-tabs__link">
+      <a href="../../../../../about/" class="md-tabs__link">
         
   
     
@@ -265,7 +263,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../../professional/" class="md-tabs__link">
+        <a href="../../../../../professional/" class="md-tabs__link">
           
   
     
@@ -287,7 +285,7 @@
     
     
       <li class="md-tabs__item md-tabs__item--active">
-        <a href="../../" class="md-tabs__link">
+        <a href="../../../../" class="md-tabs__link">
           
   
     
@@ -305,7 +303,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../../rss/" class="md-tabs__link">
+      <a href="../../../../../rss/" class="md-tabs__link">
         
   
     
@@ -328,7 +326,9 @@
           
             
               
-              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" hidden>
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
                     
@@ -341,7 +341,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../../.." title="Paul Withers&#39; Blog" class="md-nav__button md-logo" aria-label="Paul Withers' Blog" data-md-component="logo">
+    <a href="../../../../.." title="Paul Withers&#39; Blog" class="md-nav__button md-logo" aria-label="Paul Withers' Blog" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -371,7 +371,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../.." class="md-nav__link">
+      <a href="../../../../.." class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -391,7 +391,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../about/" class="md-nav__link">
+      <a href="../../../../../about/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -446,7 +446,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../professional/" class="md-nav__link ">
+            <a href="../../../../../professional/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -479,7 +479,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../professional/general/" class="md-nav__link">
+      <a href="../../../../../professional/general/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -500,7 +500,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../professional/awards/" class="md-nav__link">
+      <a href="../../../../../professional/awards/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -521,7 +521,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../professional/books/" class="md-nav__link">
+      <a href="../../../../../professional/books/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -542,7 +542,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../professional/speaking/" class="md-nav__link">
+      <a href="../../../../../professional/speaking/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -563,7 +563,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../professional/whitepapers/" class="md-nav__link">
+      <a href="../../../../../professional/whitepapers/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -584,7 +584,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../professional/blogs/" class="md-nav__link">
+      <a href="../../../../../professional/blogs/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -605,7 +605,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../professional/documentation/" class="md-nav__link">
+      <a href="../../../../../professional/documentation/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -667,7 +667,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../" class="md-nav__link ">
+            <a href="../../../../" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -700,7 +700,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../tags/" class="md-nav__link">
+      <a href="../../../../tags/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -721,7 +721,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../series/" class="md-nav__link">
+      <a href="../../../../series/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -890,7 +890,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../archive/2025/04/" class="md-nav__link">
+      <a href="../../../../archive/2025/04/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -913,7 +913,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../archive/2025/03/" class="md-nav__link">
+      <a href="../../../../archive/2025/03/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -936,7 +936,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../archive/2025/02/" class="md-nav__link">
+      <a href="../../../../archive/2025/02/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -959,7 +959,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../archive/2025/01/" class="md-nav__link">
+      <a href="../../../../archive/2025/01/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -982,7 +982,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../archive/2024/12/" class="md-nav__link">
+      <a href="../../../../archive/2024/12/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1005,7 +1005,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../archive/2024/11/" class="md-nav__link">
+      <a href="../../../../archive/2024/11/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1028,7 +1028,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../archive/2024/10/" class="md-nav__link">
+      <a href="../../../../archive/2024/10/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1051,7 +1051,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../archive/2024/09/" class="md-nav__link">
+      <a href="../../../../archive/2024/09/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1074,7 +1074,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../archive/2024/08/" class="md-nav__link">
+      <a href="../../../../archive/2024/08/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1097,7 +1097,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../archive/2024/07/" class="md-nav__link">
+      <a href="../../../../archive/2024/07/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1120,7 +1120,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../archive/2024/05/" class="md-nav__link">
+      <a href="../../../../archive/2024/05/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1143,7 +1143,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../archive/2024/04/" class="md-nav__link">
+      <a href="../../../../archive/2024/04/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1166,7 +1166,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../archive/2024/03/" class="md-nav__link">
+      <a href="../../../../archive/2024/03/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1189,7 +1189,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../archive/2023/10/" class="md-nav__link">
+      <a href="../../../../archive/2023/10/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1212,7 +1212,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../archive/2023/09/" class="md-nav__link">
+      <a href="../../../../archive/2023/09/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1235,7 +1235,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../archive/2023/07/" class="md-nav__link">
+      <a href="../../../../archive/2023/07/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1258,7 +1258,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../archive/2023/03/" class="md-nav__link">
+      <a href="../../../../archive/2023/03/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1281,7 +1281,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../archive/2023/02/" class="md-nav__link">
+      <a href="../../../../archive/2023/02/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1304,7 +1304,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../archive/2022/12/" class="md-nav__link">
+      <a href="../../../../archive/2022/12/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1327,7 +1327,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../archive/2022/11/" class="md-nav__link">
+      <a href="../../../../archive/2022/11/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1350,7 +1350,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../archive/2022/10/" class="md-nav__link">
+      <a href="../../../../archive/2022/10/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1373,7 +1373,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../archive/2022/09/" class="md-nav__link">
+      <a href="../../../../archive/2022/09/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1396,7 +1396,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../archive/2022/08/" class="md-nav__link">
+      <a href="../../../../archive/2022/08/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1419,7 +1419,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../archive/2022/07/" class="md-nav__link">
+      <a href="../../../../archive/2022/07/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1442,7 +1442,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../archive/2022/06/" class="md-nav__link">
+      <a href="../../../../archive/2022/06/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1465,7 +1465,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../archive/2022/03/" class="md-nav__link">
+      <a href="../../../../archive/2022/03/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1488,7 +1488,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../archive/2022/02/" class="md-nav__link">
+      <a href="../../../../archive/2022/02/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1511,7 +1511,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../archive/2021/12/" class="md-nav__link">
+      <a href="../../../../archive/2021/12/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1534,7 +1534,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../archive/2021/06/" class="md-nav__link">
+      <a href="../../../../archive/2021/06/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1557,7 +1557,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../archive/2021/04/" class="md-nav__link">
+      <a href="../../../../archive/2021/04/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1580,7 +1580,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../archive/2021/03/" class="md-nav__link">
+      <a href="../../../../archive/2021/03/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1603,7 +1603,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../archive/2021/01/" class="md-nav__link">
+      <a href="../../../../archive/2021/01/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1626,7 +1626,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../archive/2020/11/" class="md-nav__link">
+      <a href="../../../../archive/2020/11/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1649,7 +1649,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../archive/2020/07/" class="md-nav__link">
+      <a href="../../../../archive/2020/07/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1672,7 +1672,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../archive/2020/06/" class="md-nav__link">
+      <a href="../../../../archive/2020/06/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1695,7 +1695,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../archive/2020/04/" class="md-nav__link">
+      <a href="../../../../archive/2020/04/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1718,7 +1718,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../archive/2020/03/" class="md-nav__link">
+      <a href="../../../../archive/2020/03/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1741,7 +1741,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../archive/2020/02/" class="md-nav__link">
+      <a href="../../../../archive/2020/02/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1764,7 +1764,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../archive/2020/01/" class="md-nav__link">
+      <a href="../../../../archive/2020/01/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1787,7 +1787,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../archive/2019/12/" class="md-nav__link">
+      <a href="../../../../archive/2019/12/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1810,7 +1810,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../archive/2019/11/" class="md-nav__link">
+      <a href="../../../../archive/2019/11/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1833,7 +1833,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../archive/2019/10/" class="md-nav__link">
+      <a href="../../../../archive/2019/10/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1856,7 +1856,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../archive/2019/09/" class="md-nav__link">
+      <a href="../../../../archive/2019/09/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1879,7 +1879,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../archive/2017/08/" class="md-nav__link">
+      <a href="../../../../archive/2017/08/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1902,7 +1902,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../archive/2017/05/" class="md-nav__link">
+      <a href="../../../../archive/2017/05/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1925,7 +1925,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../archive/2017/04/" class="md-nav__link">
+      <a href="../../../../archive/2017/04/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1948,7 +1948,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../archive/2017/02/" class="md-nav__link">
+      <a href="../../../../archive/2017/02/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1971,7 +1971,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../archive/2017/01/" class="md-nav__link">
+      <a href="../../../../archive/2017/01/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1994,7 +1994,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../archive/2016/11/" class="md-nav__link">
+      <a href="../../../../archive/2016/11/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2017,7 +2017,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../archive/2016/10/" class="md-nav__link">
+      <a href="../../../../archive/2016/10/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2040,7 +2040,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../archive/2016/09/" class="md-nav__link">
+      <a href="../../../../archive/2016/09/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2063,7 +2063,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../archive/2016/08/" class="md-nav__link">
+      <a href="../../../../archive/2016/08/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2086,7 +2086,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../archive/2016/07/" class="md-nav__link">
+      <a href="../../../../archive/2016/07/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2197,7 +2197,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../category/coding/" class="md-nav__link">
+      <a href="../../../../category/coding/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2220,7 +2220,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../category/conferences/" class="md-nav__link">
+      <a href="../../../../category/conferences/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2243,7 +2243,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../category/databases/" class="md-nav__link">
+      <a href="../../../../category/databases/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2266,7 +2266,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../category/dev-tools/" class="md-nav__link">
+      <a href="../../../../category/dev-tools/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2289,7 +2289,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../category/docker/" class="md-nav__link">
+      <a href="../../../../category/docker/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2312,7 +2312,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../category/domino/" class="md-nav__link">
+      <a href="../../../../category/domino/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2335,7 +2335,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../category/domino-rest-api/" class="md-nav__link">
+      <a href="../../../../category/domino-rest-api/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2358,7 +2358,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../category/editorial/" class="md-nav__link">
+      <a href="../../../../category/editorial/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2381,7 +2381,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../category/java/" class="md-nav__link">
+      <a href="../../../../category/java/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2404,7 +2404,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../category/lotusscript/" class="md-nav__link">
+      <a href="../../../../category/lotusscript/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2427,7 +2427,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../category/servers/" class="md-nav__link">
+      <a href="../../../../category/servers/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2450,7 +2450,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../category/support/" class="md-nav__link">
+      <a href="../../../../category/support/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2473,7 +2473,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../category/testing/" class="md-nav__link">
+      <a href="../../../../category/testing/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2496,7 +2496,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../category/tutorials/" class="md-nav__link">
+      <a href="../../../../category/tutorials/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2519,7 +2519,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../category/vaadin/" class="md-nav__link">
+      <a href="../../../../category/vaadin/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2542,7 +2542,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../category/vertx/" class="md-nav__link">
+      <a href="../../../../category/vertx/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2565,7 +2565,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../category/voltscript/" class="md-nav__link">
+      <a href="../../../../category/voltscript/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2588,7 +2588,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../category/web/" class="md-nav__link">
+      <a href="../../../../category/web/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2611,7 +2611,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../category/web-components/" class="md-nav__link">
+      <a href="../../../../category/web-components/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2634,7 +2634,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../category/xpages/" class="md-nav__link">
+      <a href="../../../../category/xpages/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2670,7 +2670,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../rss/" class="md-nav__link">
+      <a href="../../../../../rss/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2692,221 +2692,189 @@
             
           
           
-  <div class="md-content" data-md-component="content">
-    <div class="md-content__inner">
-      <header class="md-typeset">
-        <h1 id="index">Index</h1>
-      </header>
-      
-        <article class="md-post md-post--excerpt">
-  <header class="md-post__header">
-    
-    <div class="md-post__meta md-meta">
-      <ul class="md-meta__list">
-        <li class="md-meta__item">
-          <time datetime="2021-04-13 00:00:00+00:00">Tuesday, April 13, 2021</time></li>
-        
-          <li class="md-meta__item">
-            in
+  <div class="md-content md-content--post" data-md-component="content">
+    <div class="md-sidebar md-sidebar--post" data-md-component="sidebar" data-md-type="navigation">
+      <div class="md-sidebar__scrollwrap">
+        <div class="md-sidebar__inner md-post">
+          <nav class="md-nav md-nav--primary">
+            <div class="md-post__back">
+              <div class="md-nav__title md-nav__container">
+                <a href="../../../../" class="md-nav__link">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+                  <span class="md-ellipsis">
+                    Back to index
+                  </span>
+                </a>
+              </div>
+            </div>
             
-              <a href="../../category/domino/" class="md-meta__link">Domino</a></li>
-        
-        
+            <ul class="md-post__meta md-nav__list">
+              <li class="md-nav__item md-nav__item--section">
+                <div class="md-post__title">
+                  <span class="md-ellipsis">
+                    Metadata
+                  </span>
+                </div>
+                <nav class="md-nav">
+                  <ul class="md-nav__list">
+                    <li class="md-nav__item">
+                      <div class="md-nav__link">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 19H5V8h14m-3-7v2H8V1H6v2H5c-1.11 0-2 .89-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2h-1V1m-1 11h-5v5h5z"/></svg>
+                        <time datetime="2025-04-07 00:00:00+00:00" class="md-ellipsis">Monday, April 7, 2025</time>
+                      </div>
+                    </li>
+                    
+                    
+                      <li class="md-nav__item">
+                        <div class="md-nav__link">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 3v15h3V3zm3 2 4 13 3-1-4-13zM5 5v13h3V5zM3 19v2h18v-2z"/></svg>
+                          <span class="md-ellipsis">
+                            in
+                            
+                              <a href="../../../../category/xpages/">XPages</a></span>
+                        </div>
+                      </li>
+                    
+                    
+                      
+                      <li class="md-nav__item">
+                        <div class="md-nav__link">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 20a8 8 0 0 0 8-8 8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8m0-18a10 10 0 0 1 10 10 10 10 0 0 1-10 10C6.47 22 2 17.5 2 12A10 10 0 0 1 12 2m.5 5v5.25l4.5 2.67-.75 1.23L11 13V7z"/></svg>
+                          <span class="md-ellipsis">
+                            
+                              3 min read
+                            
+                          </span>
+                        </div>
+                      </li>
+                    
+                  </ul>
+                </nav>
+              </li>
+            </ul>
+          </nav>
           
-          <li class="md-meta__item">
             
-              2 min read
-            
-          </li>
-        
-      </ul>
-      
-    </div>
-  </header>
-  <div class="md-post__content md-typeset">
-    <h2 id="lotusscript-declarations"><a class="toclink" href="../../2021/04/13/lotusscript-declarations/">LotusScript Declarations</a></h2>
-<p><strong>How can you get a "Type Mismatch" error in a Forall loop in LotusScript?</strong></p>
-<p>This was the question a few of us hit with a recent bit of coding. You can't declare the forall variable, and if you're iterating over a variant containing only strings, surely this shouldn't happen. The loop was quite basic:</p>
 
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
     
-      <nav class="md-post__action">
-        <a href="../../2021/04/13/lotusscript-declarations/">
-          Continue reading
-        </a>
-      </nav>
-    
-  </div>
-</article>
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
-        <article class="md-post md-post--excerpt">
-  <header class="md-post__header">
-    
-    <div class="md-post__meta md-meta">
-      <ul class="md-meta__list">
-        <li class="md-meta__item">
-          <time datetime="2021-04-12 00:00:00+00:00">Monday, April 12, 2021</time></li>
-        
-          <li class="md-meta__item">
-            in
-            
-              <a href="../../category/domino/" class="md-meta__link">Domino</a></li>
-        
-        
-          
-          <li class="md-meta__item">
-            
-              2 min read
-            
-          </li>
-        
-      </ul>
+        <li class="md-nav__item">
+  <a href="#to-inline-or-not-inline" class="md-nav__link">
+    <span class="md-ellipsis">
+      To Inline or Not Inline
+    </span>
+  </a>
+  
+</li>
       
-    </div>
-  </header>
-  <div class="md-post__content md-typeset">
-    <h2 id="goodbye-nathan"><a class="toclink" href="../../2021/04/12/goodbye-nathan/">Goodbye Nathan</a></h2>
-<p>Over the weekend we lost another long-standing member of the Domino community, Nathan T Freeman. Nathan was outgoing, often controversial, but passionate about open source and helping others. Everyone who met him will have stories about him. But I know he is one of the individuals I have to thank for being where I am today.</p>
-
-    
-      <nav class="md-post__action">
-        <a href="../../2021/04/12/goodbye-nathan/">
-          Continue reading
-        </a>
-      </nav>
-    
-  </div>
-</article>
+        <li class="md-nav__item">
+  <a href="#xpages-and-css" class="md-nav__link">
+    <span class="md-ellipsis">
+      XPages and CSS
+    </span>
+  </a>
+  
+</li>
       
-        <article class="md-post md-post--excerpt">
-  <header class="md-post__header">
-    
-    <div class="md-post__meta md-meta">
-      <ul class="md-meta__list">
-        <li class="md-meta__item">
-          <time datetime="2021-03-31 00:00:00+00:00">Wednesday, March 31, 2021</time></li>
-        
-          <li class="md-meta__item">
-            in
-            
-              <a href="../../category/domino/" class="md-meta__link">Domino</a></li>
-        
-        
-          
-          <li class="md-meta__item">
-            
-              2 min read
-            
-          </li>
-        
-      </ul>
+        <li class="md-nav__item">
+  <a href="#inline-styles-in-recent-blog-posts" class="md-nav__link">
+    <span class="md-ellipsis">
+      Inline Styles in Recent Blog Posts
+    </span>
+  </a>
+  
+</li>
       
-    </div>
-  </header>
-  <div class="md-post__content md-typeset">
-    <h2 id="adventures-in-cacheland-2"><a class="toclink" href="../../2021/03/31/adventures-in-cache-land-2/">Adventures in CacheLand 2</a></h2>
-<p>In my <a href="../../2021/03/24/adventures-in-cache-land-1/">last blog post</a> I talked about challenges we had to overcome as a team with regard to caching of constants. But a bigger challenge we hit was caching of design elements.</p>
-<p>Part of the solution we built required copying design elements from one database to another. Part of the beauty of Domino is that everything is a Note - including design elements. Design elements are just Notes with a special flag. So just as you can copy a document from one database to another by getting a handle on the note, you can also copy a design element from one database to another by getting a handle on the design note. The API is exactly the same - <code>Call NotesDocument.copyToDatabase(targetDb)</code>.</p>
-
-    
-      <nav class="md-post__action">
-        <a href="../../2021/03/31/adventures-in-cache-land-2/">
-          Continue reading
-        </a>
-      </nav>
-    
-  </div>
-</article>
-      
-        <article class="md-post md-post--excerpt">
-  <header class="md-post__header">
-    
-    <div class="md-post__meta md-meta">
-      <ul class="md-meta__list">
-        <li class="md-meta__item">
-          <time datetime="2021-03-24 00:00:00+00:00">Wednesday, March 24, 2021</time></li>
-        
-          <li class="md-meta__item">
-            in
-            
-              <a href="../../category/domino/" class="md-meta__link">Domino</a></li>
-        
-        
-          
-          <li class="md-meta__item">
-            
-              2 min read
-            
-          </li>
-        
-      </ul>
-      
-    </div>
-  </header>
-  <div class="md-post__content md-typeset">
-    <h2 id="adventures-in-cacheland-1"><a class="toclink" href="../../2021/03/24/adventures-in-cache-land-1/">Adventures in CacheLand 1</a></h2>
-<p>Recently I've been involved in a project with a lot of LotusScript. As a team our approach has been to structure the code according to best practices and leveraging what we've learned from other languages. Standards are always good, but there are always peculiarities that impact what you do. The crucial skill is to be able to work out what is happening when the standard ways don't produce expected results. And most importantly, work out how to work around them.</p>
-
-    
-      <nav class="md-post__action">
-        <a href="../../2021/03/24/adventures-in-cache-land-1/">
-          Continue reading
-        </a>
-      </nav>
-    
-  </div>
-</article>
-      
-        <article class="md-post md-post--excerpt">
-  <header class="md-post__header">
-    
-    <div class="md-post__meta md-meta">
-      <ul class="md-meta__list">
-        <li class="md-meta__item">
-          <time datetime="2021-01-02 00:00:00+00:00">Saturday, January 2, 2021</time></li>
-        
-          <li class="md-meta__item">
-            in
-            
-              <a href="../../category/domino/" class="md-meta__link">Domino</a></li>
-        
-        
-          
-          <li class="md-meta__item">
-            
-              5 min read
-            
-          </li>
-        
-      </ul>
-      
-    </div>
-  </header>
-  <div class="md-post__content md-typeset">
-    <h2 id="domino-timezones"><a class="toclink" href="../../2021/01/02/domino-timezones/">Domino Timezones</a></h2>
-<p>There are a number of challenges when it comes to two-way REST and Domino. But one of the biggest challenges for manipulation between NotesDateTime objects and JSON is timezone handling. There is an <a href="https://domino-ideas.hcltechsw.com/ideas/DDXP-I-354">Product Ideas request</a> to provide serialization / deserialization between Domino objects and JSON strings, which surprisingly only has 31 votes, but it's not there yet. So for Volt MX LotusScript Toolkit, this needs handling within the toolkit itself.</p>
-
-    
-      <nav class="md-post__action">
-        <a href="../../2021/01/02/domino-timezones/">
-          Continue reading
-        </a>
-      </nav>
-    
-  </div>
-</article>
-      
-      
-        
-          
-
-
-
-<nav class="md-pagination">
-  <a class="md-pagination__link" href="../../"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18.41 7.41 17 6l-6 6 6 6 1.41-1.41L13.83 12zm-6 0L11 6l-6 6 6 6 1.41-1.41L7.83 12z"/></svg></a> <a class="md-pagination__link" href="../11/"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15.41 16.58 10.83 12l4.58-4.59L14 6l-6 6 6 6z"/></svg></a> <a class="md-pagination__link" href="../../">1</a> <span class="md-pagination__dots">..</span> <a class="md-pagination__link" href="../10/">10</a> <a class="md-pagination__link" href="../11/">11</a> <span class="md-pagination__current">12</span> <a class="md-pagination__link" href="../13/">13</a> <a class="md-pagination__link" href="../14/">14</a> <span class="md-pagination__dots">..</span> <a class="md-pagination__link" href="../20/">20</a> <a class="md-pagination__link" href="../13/"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58 13.17 12 8.59 7.41 10 6l6 6-6 6z"/></svg></a> <a class="md-pagination__link" href="../20/"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5.59 7.41 7 6l6 6-6 6-1.41-1.41L10.17 12zm6 0L13 6l6 6-6 6-1.41-1.41L16.17 12z"/></svg></a>
+    </ul>
+  
 </nav>
-        
-      
+          
+        </div>
+      </div>
     </div>
+    <article class="md-content__inner md-typeset">
+      
+        
+  
+  
+
+<nav class="md-tags" >
+  
+    
+    
+    
+      <a href="../../../../tags/#xpages" class="md-tag">XPages</a>
+    
+  
+</nav>
+
+
+
+<h1 id="avoiding-inline-styles-in-xpages">Avoiding Inline Styles in XPages</h1>
+<p>Recently there have been discussions about inline CSS in XPages. The absence of anyone mentioning a feature in XPages prompted me to eventually ask about a piece of functionality relevant to this.</p>
+<!-- more -->
+
+<h2 id="to-inline-or-not-inline">To Inline or Not Inline</h2>
+<p>The trigger for the discussions was a change in how XPages handles inline CSS, because CSP (Content Security Policy) <a href="https://content-security-policy.com/examples/allow-inline-style/">blocks inline styles</a> as well as inline JavaScript. This can be circumvented by setting <code>unsafe-inline</code>, but <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy#unsafe-inline">this is not recommended</a>.</p>
+<p>I'm not interested in the rights or wrongs of inline content (and there are plenty of opinions on the internet about it) or how the problem was addressed in XPages. I also know there are XPages applications I built which still have inline styles, because XPages allowed me to do it. But there's a way to avoid it and solve it, at just a click of a button. And it appears many XPages developers are not aware of it, even though I was teaching about it in XPages courses over a decade ago.</p>
+<h2 id="xpages-and-css">XPages and CSS</h2>
+<p>Domino has had StyleSheet design elements since Domino 6, over twenty years ago. But when XPages was introduced, many developers were still unfamiliar with CSS. So XPages provided a no-code option for adding CSS, with Font, Background, and Margins tabs with various pickers on "pretty panels", as Maureen Leland called them.</p>
+<p><img alt="Pretty panels" src="../../../../../images/post-images/2025/css-1.png" width="500px" /></p>
+<p>There were two ways to use these. The first was to primarily use the no-code option. The second was to use it to minimise the amount that was new, but once comfortable with the new IDE, learn CSS and progress to code over GUI. This is similar to SSJS: one approach was to only ever use SSJS; the other was to use it while learning the IDE and then move to Java.</p>
+<p>The difference that CSS pretty panels provided was that it provided a quick and easy way to move the CSS to a stylesheet. It's probably not noticed because it's on the parent <code>Style</code> tab, and only appears when inline styles have been added. It is the <strong>Export</strong> button, as in this screenshot.</p>
+<p><img alt="Export styles" src="../../../../../images/post-images/2025/css-2.png" width="600px" /></p>
+<p>When you click this, you can export all styles to a stylesheet of your choice or cherry pick which styles to add. It also allows you to replace the inline styles.</p>
+<p><img alt="Export dialog" src="../../../../../images/post-images/2025/css-3.png" width="500px" /></p>
+<p>What this means is that manually moving inline styles to comply with CSP settings is very easy - in fact probably easier than in standard web development, if developers wish. The inbuilt Eclipse Search menu functionality in Domino Designer will allow you to search for <code>style=</code> on just XPages and Custom Controls, to easily find where you need to change. Because they're textual design elements, the Eclipse search is well-suited to the task.</p>
+<p>This really falls into the aspect of "app modernisation" - updating dependencies, leveraging new functionality and coding options, removing previously deprecated code, minimising technical debt, leveraging standards to maximise frugal engineering. Investing your time this way means modernising your skills, giving you learning to share with the community and encourage others to get the most out of Domino development.</p>
+<h2 id="inline-styles-in-recent-blog-posts">Inline Styles in Recent Blog Posts</h2>
+<p>I'm also fully aware that in my recent "XPages to Web App" series, I was using inline <code>style</code> tags in web components. Firstly, the application is built by me and only used by me, so there's no need for this application to comply with Content Security Policy 2.0 and 3.0. But I've also investigated since how web components solve this problem, and I found a variety of solutions several weeks ago. In due time I'm sure I'll modify the app to remove the inline style - mainly to learn more than just the theory of implementing it, so I <em>know</em> how to do it when I need to.</p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+  
+
+
+
+<script src="https://giscus.app/client.js"
+        data-repo="paulswithers/paulswithers.github.io"
+        data-repo-id="R_kgDONawIBA"
+        data-category="Announcements"
+        data-category-id="DIC_kwDONawIBM4ClCxk"
+        data-mapping="title"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="1"
+        data-input-position="top"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>
+
+      
+    </article>
   </div>
 
           
@@ -3019,10 +2987,10 @@
       </div>
       <script>var consent=__md_get("__consent");if(consent)for(var input of document.forms.consent.elements)input.name&&(input.checked=consent[input.name]||!1);else"file:"!==location.protocol&&setTimeout((function(){document.querySelector("[data-md-component=consent]").hidden=!1}),250);var form=document.forms.consent;for(var action of["submit","reset"])form.addEventListener(action,(function(e){if(e.preventDefault(),"reset"===e.type)for(var n of document.forms.consent.elements)n.name&&(n.checked=!1);__md_set("__consent",Object.fromEntries(Array.from(new FormData(form).keys()).map((function(e){return[e,!0]})))),location.hash="",location.reload()}))</script>
     
-    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.tabs", "navigation.indexes", "navigation.top", "navigation.instant", "search.highlight", "search.share", "search.suggest", "content.code.annotate", "content.code.copy", "toc.integrate"], "search": "../../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../../../../..", "features": ["navigation.tabs", "navigation.indexes", "navigation.top", "navigation.instant", "search.highlight", "search.share", "search.suggest", "content.code.annotate", "content.code.copy", "toc.integrate"], "search": "../../../../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../../../assets/javascripts/bundle.83f73b43.min.js"></script>
+      <script src="../../../../../assets/javascripts/bundle.83f73b43.min.js"></script>
       
     
   </body>
