@@ -18,7 +18,7 @@
         <link rel="prev" href="../../../03/14/web-components-ember/">
       
       
-        <link rel="next" href="../../07/css-export/">
+        <link rel="next" href="./">
       
       
         <link rel="alternate" type="application/rss+xml" title="RSS feed" href="../../../../../feed_rss_created.xml">
@@ -29,7 +29,7 @@
     
     
       
-        <title>XPages App to Web App: Part Seventeen - Lessons Learned - Paul Withers' Blog</title>
+        <title>XPages App to Web App: Part Eighteen: CSP Enhancement - Paul Withers' Blog</title>
       
     
     
@@ -81,7 +81,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#xpages-app-to-web-app-part-seventeen-lessons-learned" class="md-skip">
+        <a href="#xpages-app-to-web-app-part-eighteen-csp-enhancement" class="md-skip">
           Skip to content
         </a>
       
@@ -115,7 +115,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              XPages App to Web App: Part Seventeen - Lessons Learned
+              XPages App to Web App: Part Eighteen: CSP Enhancement
             
           </span>
         </div>
@@ -2744,7 +2744,7 @@
                           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 20a8 8 0 0 0 8-8 8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8m0-18a10 10 0 0 1 10 10 10 10 0 0 1-10 10C6.47 22 2 17.5 2 12A10 10 0 0 1 12 2m.5 5v5.25l4.5 2.67-.75 1.23L11 13V7z"/></svg>
                           <span class="md-ellipsis">
                             
-                              9 min read
+                              6 min read
                             
                           </span>
                         </div>
@@ -2772,162 +2772,36 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#domino-rest-api" class="md-nav__link">
+  <a href="#inline-csp-issues" class="md-nav__link">
     <span class="md-ellipsis">
-      Domino REST API
+      Inline CSP Issues
     </span>
   </a>
-  
-    <nav class="md-nav" aria-label="Domino REST API">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#mock-data" class="md-nav__link">
-    <span class="md-ellipsis">
-      Mock Data
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#validation-and-data-quality-management" class="md-nav__link">
-    <span class="md-ellipsis">
-      Validation and Data Quality Management
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#drapi-dates-and-times" class="md-nav__link">
-    <span class="md-ellipsis">
-      DRAPI, dates and times
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#coding" class="md-nav__link">
+  <a href="#styledisplaynone" class="md-nav__link">
     <span class="md-ellipsis">
-      Coding
+      style=display:none
     </span>
   </a>
-  
-    <nav class="md-nav" aria-label="Coding">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#imperative-vs-reactive" class="md-nav__link">
-    <span class="md-ellipsis">
-      Imperative vs Reactive
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#learning-curve" class="md-nav__link">
-    <span class="md-ellipsis">
-      Learning Curve
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#framework-vs-no-frameworks" class="md-nav__link">
-    <span class="md-ellipsis">
-      Framework vs No Frameworks
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#coding-performance" class="md-nav__link">
-    <span class="md-ellipsis">
-      Coding Performance
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#testability" class="md-nav__link">
-    <span class="md-ellipsis">
-      Testability
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#deployment" class="md-nav__link">
-    <span class="md-ellipsis">
-      Deployment
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#user-experience" class="md-nav__link">
+  <a href="#removing-inline-style-from-web-components" class="md-nav__link">
     <span class="md-ellipsis">
-      User Experience
+      Removing Inline Style from Web Components
     </span>
   </a>
-  
-    <nav class="md-nav" aria-label="User Experience">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#framework-vs-no-framework" class="md-nav__link">
-    <span class="md-ellipsis">
-      Framework vs No Framework
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#view-and-document-driven-design" class="md-nav__link">
-    <span class="md-ellipsis">
-      View and Document-Driven Design
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#performance" class="md-nav__link">
-    <span class="md-ellipsis">
-      Performance
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#summary" class="md-nav__link">
+  <a href="#all-solved" class="md-nav__link">
     <span class="md-ellipsis">
-      Summary
+      All Solved?
     </span>
   </a>
   
@@ -2991,74 +2865,127 @@
 
 
 
-<h1 id="xpages-app-to-web-app-part-seventeen-lessons-learned">XPages App to Web App: Part Seventeen - Lessons Learned</h1>
-<p>Now the application is built and has been in use for many months. It's time to review experiences and lessons learned.</p>
+<h1 id="xpages-app-to-web-app-part-eighteen-csp-enhancement">XPages App to Web App: Part Eighteen: CSP Enhancement</h1>
+<p>In my <a href="../../07/css-export/">last blog post</a> I talked about CSP and inline CSS. I mentioned that I had not addressed these issues with this Ship Spotter app. In this blog post we'll start to fix that.</p>
 <!-- more -->
 
-<h2 id="domino-rest-api">Domino REST API</h2>
-<h3 id="mock-data">Mock Data</h3>
-<p>Right from the start the application was designed to work with mock data and real data. There may be questions over the benefits of this. After all, in this scenario the REST API was being configured by the same developer who was coding the web application. But it provided several benefits:</p>
-<ol>
-<li>Bruno requests could be included in the repo. This allowed JavaScript code to be cross-checked from a REST client. Whenever things do not work as expected, the ability to cross-check a process by changing one aspect helps quickly troubleshoot and avoid mistaken assumptions.</li>
-<li>It allowed the UI to be tested without polluting the database with bad data. This not only avoids false errors, it also speeds up development because I didn't need to keep switching to Notes Client to delete data.</li>
-<li>Domino REST API calls provided starting data as JSON in a matter of seconds. JSON data is easy to store in a file and load from JavaScript. And the JSON data was the same format as the initial calls. There was no need to business logic or intermediary classes to hold collections of objects, which was done in the original XPages application. If you prefer to just use <code>dominoView</code> and <code>dominoDocument</code> datasources, this is still not much slower.</li>
-</ol>
-<p>Yes, there are places where bugs are in non-mock branches of code. But if mock testing doesn't reproduce the error, this means small chunks of code to look at, and problems have been easy to diagnose.</p>
-<h3 id="validation-and-data-quality-management">Validation and Data Quality Management</h3>
-<p>From the very start of Domino REST API, enforcing data quality by configuration was a core principal. That's because there is no lingua franca for coding REST services on Domino, which means configuration - a no-code approach - was the only option.</p>
-<p>This means adding the validation is quick to implement, and can be tested before even opening up an IDE to code the web application. It also improves security, because even if a malicious party finds a way around the web application, the validation and data quality is ensured on the server, not in the client.</p>
-<h3 id="drapi-dates-and-times">DRAPI, dates and times</h3>
-<p>For the first few months of use, the application tracked Trips, which had a start and end date. This functionality had also been available in the XPages application. But this highlighted a problem with the redevelopment of the UI. Because even though trips just had a start date and end date, the XPages interface stored them as a start <em>date-time</em> and end <em>date-time</em>.</p>
-<p>It's not easy in XPages to store only as a date, you need to handle it with code, create a <code>DateTime</code> object and call <code>.setAnyTime()</code>. But DRAPI makes it easy to ensure something that only needs to be a date <em>is</em> only a date. Early on, the contrast between existing data being a date-time and new data being date only bit me. It's worth being aware of.</p>
-<h2 id="coding">Coding</h2>
-<h3 id="imperative-vs-reactive">Imperative vs Reactive</h3>
-<p>There is a major difference between XPages and framework-less web development or even Volt MX: the new application's coding is imperative, whereas XPages is reactive. Consider the scenario where you want to hide a div when a user clicks a button.</p>
-<p>In XPages, the visibility of the div (<code>xp:div</code> or <code>xp:panel</code>) will be computed on the component itself. It may be tied to a Java bean property, but it will still be managed on the component, and a partial refresh will allow the component to <em>react</em> to the change when the user clicks the button. Getting a component programmatically in XPages is rarely done.</p>
-<p>There may be web development frameworks that work similarly. EmberJS  tracks properties to know when the UI should be updated - should <em>react</em> to a change. AngularJS uses things like <code>ng-if</code> or <code>ng-unless</code> to <em>react</em> to property changes in a controller.</p>
-<p>But this framework-less web development is imperative and action-driven, same as Volt MX is. JavaScript code on a button gets HTML elements via <code>getElementById()</code> or queries, and changes attributes of it. This requires a change of mindset. It still requires an ability to think fourth-dimensionally, being aware of what current states are and what you need to change. But it <em>can</em> mean it's easier to work out what happens when you click a button. It's may make coding more verbose if you have a large web pages, but large web pages will create other challenges.</p>
-<p>But as we've also seen Custom Events can be triggered, so there is some concept of reactive programming. This is different to getting a button and calling its <code>click</code> eventHandler. In this case, you're publishing an event and letting the event listener capture it. Still, the IDE can help track through the code and work out where to add breakpoints.</p>
-<h3 id="learning-curve">Learning Curve</h3>
-<p>There is definitely a learning curve. XPages encourages creating a UI by dragging and dropping components and filling in property boxes.  As with any framework, developers are likely to stay within the box of what's provided by the framework. But this required a lot of learning - some was done before I started coding, when developing last year's Engage session; some was done "on-the-job" and will feed into this year's Engage session. I'm convinced it's increased my skill-set significantly, I've progressed more in one year than more cautious developers would in five or even ten. But it requires a certain mindset to embrace stepping outside of your comfort zone.</p>
-<h3 id="framework-vs-no-frameworks">Framework vs No Frameworks</h3>
-<p>Timing is key, and the timing is right to code a framework-less vanilla JavaScript application. Modern CSS means there is little need for CSS preprocessors like SCSS, SASS and LESS. CSS variables and <code>light-dark()</code> remove the need for proprietary approaches from frameworks. FlexBox and CSS Grid and their sophisticated layout options remove the need to add Bootstrap as your first dependency. Web components are becoming widespread and are not hard to create. But if you want something off-the-shelf, there are plenty and even the UI components of the Java framework Vaadin have been available as web components for a while. But the are also advances in standard HTML elements that will improve applications.</p>
-<p>A framework can give that comfort blanket, but still requires you to <em>understand</em> the framework to bend it to your will. Otherwise, simple development is easy, but anything else becomes exponentially trickier. I've witnessed that when I see developers try to combine non-Dojo code into an XPages application. The same occurs when trying to integrate React components into an AngularJS application, or web components into an EmberJS application.</p>
-<p>But there are similar challenges trying to integrate web components from npm into a vanilla JavaScript application. It's possible, but typically not as well documented. Yet. It will be interesting to see if that changes over the next five years.</p>
-<p>However, what is certain is that there is much less technical debt in an application that doesn't use a CSS preprocessor, doesn't rely on BootStrap and doesn't use jQuery. The approach is consistent with frugal engineering. It's not about "not invented here", it's about choosing standards-based approaches over frameworks.</p>
-<h3 id="coding-performance">Coding Performance</h3>
-<p>So often when developers talk about performance, they focus only on how the application performs when used. That's never the only measure of performance. If it takes 2 months to make it half a second quicker, is it worth it? Coding performance is equally important.</p>
-<p>I can't comment on speed to develop. I wasn't comparing. I also can't easily compare number of lines of code written, but the new app is probably about 2400 lines in total (including whitespace). Java provides menu options for generating getters and setters for example, but I would not be surprised if I wrote more custom code for the XPages application. Including pre-written code, it's definitely more.</p>
-<h3 id="testability">Testability</h3>
-<p>I never included testing in the application. Why? It's one user, who is also the developer, and who is happy to fix bugs when I find them. And it's not had significant development since it "went live", so regressions are low risk, low impact.</p>
-<p>The previous application never had any unit or UI testing. But I think it would be easier to implement for the JavaScript application, and certainly easier to find reference materials on how to implement it.</p>
-<h3 id="deployment">Deployment</h3>
-<p>This isn't deployed in an NSF. It's deployed to keepweb.d, which for me means I access the Domino server filesystem directly. That may be something some Domino administrators, developers and/or customers are nervous about. But is that a requirement? Certainly not, as you may see before long.</p>
-<p>An alternate approach would be push it to the filesystem following a successful pull request and unit test running on a build system like Jenkins. That may be unfamiliar to many Domino people, but it's one an approach software houses and IT departments are used to.</p>
-<h2 id="user-experience">User Experience</h2>
-<h3 id="framework-vs-no-framework">Framework vs No Framework</h3>
-<p>Framework-less development also ties into user experience. A framework with a predefined set of components encourages you to build something that conforms to those components. But it also means applications often look very similar, and have a similar user journey. When you consider the components provided by XPages Extension Library, you'll see many of them fit the premise of providing a "Notes Client field for XPages". The Data View significantly steps beyond the Notes View design element layout, but the other view components in the Extension Library reproduce Notes Client or iNotes view elements. The result is a user experience that prioritises familiar and quick over innovative.</p>
-<p>In the case of my XPages application, it began from a starter application, which again prioritised familiar to try to fulfil the "rapid application development" promise. It was "development by numbers" to a large degree, the bulk of coding was Java classes for beans and utility methods.</p>
-<p>Is it impossible to provide an innovative user experience in XPages? Definitely not. Could I have reproduced an XPages / Notes user experience in this application. Very probably. But a blank page makes it easier to think differently.</p>
-<h3 id="view-and-document-driven-design">View and Document-Driven Design</h3>
-<p>The XPages application combined two document types on a single "form" - ship and spot. It also included details from two different views in a single "view" - ship details were dynamically retrieved by performing a lookup on the ship UNID. But the approach was navigation --&gt; view --&gt; document.</p>
-<p>Keyword-style documents were viewed or edited in their own form. Dialogs were used mainly for pickers, never for creating or editing one of those keyword-style documents. Is that because it's not possible in XPages? No, it's certainly possible. But because of how Dojo handles dialogs, it's an area that generates a lot of questions in the XPages world, especially around data sources in dialogs and refreshing other areas of the XPage after processing the dialog. These are problems that don't exist in vanilla JavaScript and HTML dialogs.</p>
-<h3 id="performance">Performance</h3>
-<p>Let's talk about performance when using the application. This is the area I'm happiest with.</p>
-<p>"Time to live" is significantly quicker, even though there are things I could do to improve that.</p>
-<p>Performance for adding a ship spot is significantly quicker:</p>
+<h2 id="inline-csp-issues">Inline CSP Issues</h2>
+<p>Firstly, there are two inline violations for CSP that are common: inline JavaScript and inline CSS. Because the application always uses Event Listeners (e.g. <code>element.addEventListener("click", function () {...}</code>), we have no inline JavaScript. So there's no remedial work to do. All we have to deal with - and it's no small task - is inline CSS.</p>
+<p>Secondly, bad practice happens and needs enhancement work to fix it. "App modernization" will constitute its own blog post. As a developer, you should expect it and should manage your customers' expectations accordingly.</p>
+<h2 id="styledisplaynone"><code>style=display:none</code></h2>
+<p>Probably the most common inline CSS is <code>display:none</code>. One of the biggest places this was used in my application was in the <code>toggleSPA()</code> method, used to show / hide sections.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="kd">const</span><span class="w"> </span><span class="nx">toggleSPA</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="nx">showme</span><span class="p">,</span><span class="w"> </span><span class="nx">how</span><span class="p">)</span><span class="w"> </span><span class="p">=&gt;</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="nx">spaSections</span><span class="p">.</span><span class="nx">forEach</span><span class="p">((</span><span class="nx">s</span><span class="p">)</span><span class="w"> </span><span class="p">=&gt;</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="w">    </span><span class="kd">const</span><span class="w"> </span><span class="nx">display</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">showme</span><span class="w"> </span><span class="o">===</span><span class="w"> </span><span class="nx">s</span><span class="w"> </span><span class="o">?</span><span class="w"> </span><span class="nx">how</span><span class="w"> </span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;none&quot;</span><span class="p">;</span>
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="w">    </span><span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="nx">s</span><span class="p">).</span><span class="nx">style</span><span class="p">.</span><span class="nx">display</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">display</span><span class="p">;</span>
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="p">});</span>
+</code></pre></div>
+<p>Thankfully, this didn't take too long to solve, because I have seen a simple solution in other frameworks and because I used a single function for changing visibility of functions. The approach is to use a class (e.g. <code>.hidden</code>) and add / remove the class as required.</p>
+<p>Then it's a case of modifying the code. The code here iterates all sections and sets style to <code>display:none</code> or the required style, which is the application was always "block", the default display style. We could do something similar here - apply the class <code>hidden</code> to all sections, then remove it from the one we want to show. But I took the opportunity to improve the application.</p>
+<p>Currently, I call <code>toggleSPA()</code> when the application loads to only show the login section. But this means there's a flash of the other sections when the application first loads, before they are then hidden. So I've changed the index.html to set <code>.hidden</code> class on all sections except the login one by default. So I no longer need to call <code>toggleSPA()</code> on load.</p>
+<p>In the <code>toggleSPA()</code> function itself, I decided to just add the <code>hidden</code> class to the currently-displayed section and remove <code>hidden</code> class from the section to display. But this means I need to track which section to display. That's done by adding this to the index.js:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="kd">let</span><span class="w"> </span><span class="nx">currentDisplayedSection</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">&quot;credentials&quot;</span><span class="p">;</span>
+</code></pre></div>
+<p>The <code>toggleSPA()</code> function can then be streamlined to:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="kd">const</span><span class="w"> </span><span class="nx">toggleSPA</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="nx">showme</span><span class="p">)</span><span class="w"> </span><span class="p">=&gt;</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="w">    </span><span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="nx">currentDisplayedSection</span><span class="p">).</span><span class="nx">classList</span><span class="p">.</span><span class="nx">add</span><span class="p">(</span><span class="s2">&quot;hidden&quot;</span><span class="p">);</span>
+<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="w">    </span><span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="nx">showme</span><span class="p">).</span><span class="nx">classList</span><span class="p">.</span><span class="nx">remove</span><span class="p">(</span><span class="s2">&quot;hidden&quot;</span><span class="p">);</span>
+<a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="w">    </span><span class="nx">currentDisplayedSection</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">showme</span><span class="p">;</span>
+<a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a><span class="p">};</span>
+</code></pre></div>
+<h2 id="removing-inline-style-from-web-components">Removing Inline Style from Web Components</h2>
+<p>That leaves all the web components as the next place to remove inline style from. As a reminder, this is the landing.js web component:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="kd">const</span><span class="w"> </span><span class="nx">template</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">document</span><span class="p">.</span><span class="nx">createElement</span><span class="p">(</span><span class="s2">&quot;template&quot;</span><span class="p">);</span>
+<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="nx">template</span><span class="p">.</span><span class="nx">innerHTML</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="sb">`</span>
+<a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="sb">    &lt;style&gt;</span>
+<a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="sb">        .landing-container {</span>
+<a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a><span class="sb">            display: flex;</span>
+<a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a><span class="sb">            flex-wrap: wrap;</span>
+<a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a><span class="sb">            align-items: stretch;</span>
+<a id="__codelineno-3-8" name="__codelineno-3-8" href="#__codelineno-3-8"></a><span class="sb">            justify-content: center;</span>
+<a id="__codelineno-3-9" name="__codelineno-3-9" href="#__codelineno-3-9"></a><span class="sb">        }</span>
+<a id="__codelineno-3-10" name="__codelineno-3-10" href="#__codelineno-3-10"></a><span class="sb">        .landing-tile {</span>
+<a id="__codelineno-3-11" name="__codelineno-3-11" href="#__codelineno-3-11"></a><span class="sb">            margin: 5px;</span>
+<a id="__codelineno-3-12" name="__codelineno-3-12" href="#__codelineno-3-12"></a><span class="sb">            font-weight: bold;</span>
+<a id="__codelineno-3-13" name="__codelineno-3-13" href="#__codelineno-3-13"></a><span class="sb">            font-size: 30px;</span>
+<a id="__codelineno-3-14" name="__codelineno-3-14" href="#__codelineno-3-14"></a><span class="sb">            color: light-dark(var(--primary-color-dark), var(--primary-color));</span>
+<a id="__codelineno-3-15" name="__codelineno-3-15" href="#__codelineno-3-15"></a><span class="sb">            background-image: radial-gradient(circle at center, light-dark(var(--landing-tile-start),var(--landing-tile-start-dark)) 15%, light-dark(var(--landing-tile-end),var(--landing-tile-end-dark)) 100%);</span>
+<a id="__codelineno-3-16" name="__codelineno-3-16" href="#__codelineno-3-16"></a><span class="sb">            height: 200px;</span>
+<a id="__codelineno-3-17" name="__codelineno-3-17" href="#__codelineno-3-17"></a><span class="sb">            width: 200px;</span>
+<a id="__codelineno-3-18" name="__codelineno-3-18" href="#__codelineno-3-18"></a><span class="sb">            box-shadow: inset 0 0 2px 2px light-dark(var(--border-color-primary),var(--border-color-primary-dark));</span>
+<a id="__codelineno-3-19" name="__codelineno-3-19" href="#__codelineno-3-19"></a><span class="sb">            border-radius: 10px;</span>
+<a id="__codelineno-3-20" name="__codelineno-3-20" href="#__codelineno-3-20"></a><span class="sb">            flex-grow: 1;</span>
+<a id="__codelineno-3-21" name="__codelineno-3-21" href="#__codelineno-3-21"></a><span class="sb">            text-align: center;</span>
+<a id="__codelineno-3-22" name="__codelineno-3-22" href="#__codelineno-3-22"></a><span class="sb">            align-content: center;</span>
+<a id="__codelineno-3-23" name="__codelineno-3-23" href="#__codelineno-3-23"></a><span class="sb">            cursor: pointer;</span>
+<a id="__codelineno-3-24" name="__codelineno-3-24" href="#__codelineno-3-24"></a><span class="sb">        }</span>
+<a id="__codelineno-3-25" name="__codelineno-3-25" href="#__codelineno-3-25"></a><span class="sb">    &lt;/style&gt;</span>
+<a id="__codelineno-3-26" name="__codelineno-3-26" href="#__codelineno-3-26"></a><span class="sb">    &lt;div id=&quot;landing-container&quot; class=&quot;landing-container&quot;&gt;</span>
+<a id="__codelineno-3-27" name="__codelineno-3-27" href="#__codelineno-3-27"></a><span class="sb">    &lt;/div&gt;</span>
+<a id="__codelineno-3-28" name="__codelineno-3-28" href="#__codelineno-3-28"></a><span class="sb">`</span><span class="p">;</span>
+</code></pre></div>
+<p>That style tag needs removing, because it adds inline style to the HTML. Fortunately, there's a great website that covers web components, webcomponents.guide, and it has a page and section covering <a href="https://webcomponents.guide/learn/components/styling/#how-to-include-default-styles-for-a-web-component">styling</a>. There are four options:</p>
 <ul>
-<li>Checking whether a ship exists doesn't require a round-trip request to the server.</li>
-<li>It doesn't require scrolling through or searching ships by name. It searches based on part of the name or the call sign.</li>
-<li>If the ship hasn't been logged before, I've already typed the name.</li>
-<li>Adding a country and/or flag can be done from the same screen, with at most two calls to the server. Compare that to multiple requests to the server to navigate through and load multiple views and forms.</li>
-<li>Selecting ports doesn't require round-trip requests to the server. These were two mandatory fields that each required loading a picker and its options from the server. Even though the list of options was the same for them both, because it was a picker, it required two round-trip server calls. The new application requires none.</li>
-<li>The pickers for ships and ports often timed out loading, because of network performance. This was a frustration, and one that no longer exists.</li>
+<li><code>&lt;style&gt;</code> tag, which I'm trying to avoid.</li>
+<li><code>&lt;link rel-"styleheet" /&gt;</code> using an external stylesheet.</li>
+<li>Constructable stylesheets.</li>
+<li>CSS Module scripts to load external stylesheets.</li>
 </ul>
-<p>This all means usability of the new application is much higher than the previous application. Could improvements have been made to the XPages application? Certainly. Could all the problems have been removed. <strong>No.</strong> That's because XPages requires more communication between device and server.</p>
-<h2 id="summary">Summary</h2>
-<p>Let me be totally blunt: this application is no less Domino than it was before.</p>
-<p>Yes, the development was done without launching Domino Designer, because the design already existed.</p>
-<p>Yes, it's not deployed in an NSF and it's not accessed from Domino's HTTP server. But "Domino's HTTP server" is actually "Domino's HTTP server task", like DRAPI is "Domino REST API task". So is it really that different that it's accessed from DRAPI's HTTP server?</p>
-<p>It's still Domino. But it's probably more future-proofed than before and has no reliance on third-party enhancements or fixes for a framework. There are definitely modernisations that can be done. And of course there are always improvements that can be made, whether in look and feel or functionality.</p>
+<p>For this application, I'd prefer to avoid external stylesheets. External stylesheets have the benefit of better IDE support, which is well worth considering. But a single file makes it easy to copy and paste around. Many web components are packaged as npm modules, which lets dependency management avoid the problem. Some others use CDNs, which again hides the complexity of loading related files. But I'm not using Node.js or a CDN, so keeping everything self-contained seems a benefit. And the styles are not extensive in these web components and we're already coded as embedded in JavaScript, so <strong>constructable stylesheets</strong> are my preferred option here.</p>
+<p>This is similar to the approach used for the HTML templates for the web components: we create a JavaScript object and insert the content. The syntax is different, but not hugely complex:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="kd">const</span><span class="w"> </span><span class="nx">stylesheet</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">CSSStyleSheet</span><span class="p">();</span>
+<a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="nx">stylesheet</span><span class="p">.</span><span class="nx">replaceSync</span><span class="p">(</span><span class="sb">`</span>
+<a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="sb">    .landing-container {</span>
+<a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a><span class="sb">        display: flex;</span>
+<a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a><span class="sb">        flex-wrap: wrap;</span>
+<a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a><span class="sb">        align-items: stretch;</span>
+<a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a><span class="sb">        justify-content: center;</span>
+<a id="__codelineno-4-8" name="__codelineno-4-8" href="#__codelineno-4-8"></a><span class="sb">    }</span>
+<a id="__codelineno-4-9" name="__codelineno-4-9" href="#__codelineno-4-9"></a><span class="sb">    .landing-tile {</span>
+<a id="__codelineno-4-10" name="__codelineno-4-10" href="#__codelineno-4-10"></a><span class="sb">        margin: 5px;</span>
+<a id="__codelineno-4-11" name="__codelineno-4-11" href="#__codelineno-4-11"></a><span class="sb">        font-weight: bold;</span>
+<a id="__codelineno-4-12" name="__codelineno-4-12" href="#__codelineno-4-12"></a><span class="sb">        font-size: 30px;</span>
+<a id="__codelineno-4-13" name="__codelineno-4-13" href="#__codelineno-4-13"></a><span class="sb">        color: light-dark(var(--primary-color-dark), var(--primary-color));</span>
+<a id="__codelineno-4-14" name="__codelineno-4-14" href="#__codelineno-4-14"></a><span class="sb">        background-image: radial-gradient(circle at center, light-dark(var(--landing-tile-start),var(--landing-tile-start-dark)) 15%, light-dark(var(--landing-tile-end),var(--landing-tile-end-dark)) 100%);</span>
+<a id="__codelineno-4-15" name="__codelineno-4-15" href="#__codelineno-4-15"></a><span class="sb">        height: 200px;</span>
+<a id="__codelineno-4-16" name="__codelineno-4-16" href="#__codelineno-4-16"></a><span class="sb">        width: 200px;</span>
+<a id="__codelineno-4-17" name="__codelineno-4-17" href="#__codelineno-4-17"></a><span class="sb">        box-shadow: inset 0 0 2px 2px light-dark(var(--border-color-primary),var(--border-color-primary-dark));</span>
+<a id="__codelineno-4-18" name="__codelineno-4-18" href="#__codelineno-4-18"></a><span class="sb">        border-radius: 10px;</span>
+<a id="__codelineno-4-19" name="__codelineno-4-19" href="#__codelineno-4-19"></a><span class="sb">        flex-grow: 1;</span>
+<a id="__codelineno-4-20" name="__codelineno-4-20" href="#__codelineno-4-20"></a><span class="sb">        text-align: center;</span>
+<a id="__codelineno-4-21" name="__codelineno-4-21" href="#__codelineno-4-21"></a><span class="sb">        align-content: center;</span>
+<a id="__codelineno-4-22" name="__codelineno-4-22" href="#__codelineno-4-22"></a><span class="sb">        cursor: pointer;</span>
+<a id="__codelineno-4-23" name="__codelineno-4-23" href="#__codelineno-4-23"></a><span class="sb">    }</span>
+<a id="__codelineno-4-24" name="__codelineno-4-24" href="#__codelineno-4-24"></a><span class="sb">`</span><span class="p">);</span>
+</code></pre></div>
+<p>We create a new <code>CSSStyleSheet</code> and call its <code>replaceSync()</code> method applies the CSS. <code>replace()</code> is the async option, but we're only passing a few rules in. There are methods for adding rules dynamically, but I think this is more readable.</p>
+<p>Finally, we need to apply the stylesheet to the web component. This is done in the constructor:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="k">this</span><span class="p">.</span><span class="nx">root</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">this</span><span class="p">.</span><span class="nx">attachShadow</span><span class="p">({</span><span class="w"> </span><span class="nx">mode</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;closed&quot;</span><span class="w"> </span><span class="p">});</span>
+<a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a><span class="k">this</span><span class="p">.</span><span class="nx">root</span><span class="p">.</span><span class="nx">adoptedStyleSheets</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">[</span><span class="nx">stylesheet</span><span class="p">];</span>
+</code></pre></div>
+<p>We pass <code>stylesheet</code> JavaScript CSSStyleSheet object to the array of adopted stylesheets.</p>
+<p>There are still more inline styles to remove, but that will be the usual way: converting them to classes.</p>
+<h2 id="all-solved">All Solved?</h2>
+<p>Ummm, no. This works for most of the components. But the Ship and Spot components didn't use a shadow DOM. And <code>.adoptedStyleSheets</code> can only be used on a Document or Shadow DOM; it can't be added to just an HTML element. So it won't work for the Ship and Spot components.</p>
+<p>There are two options:</p>
+<ol>
+<li>Move the inline styles to the main stylesheet.</li>
+<li>Add a shadow DOM.</li>
+</ol>
+<p>Option 1 feels wrong, because the inline styles are specific to this web component. But option 2 complicates things for two reasons. Firstly, the styles on the main stylesheets will no longer be available inside the web component. Secondly, we'll be inserting a shadow DOM, which means <code>this.querySelector()</code> and similar APIs will fail, because they now need to be applied to the component's shadow DOM, not the component itself.</p>
+<p>But we can't just indiscriminately change everything that is <code>this.</code> because the shadow DOM only applies to DOM manipulation methods, not to calls to properties or methods of the web component itself. This is where understanding the code you're writing is critical. It would also have been simplified by setting <code>this.root = this;</code> when originally developing the application, for two reasons. Firstly, the syntax for DOM manipulation would have been identical across all web components. Secondly, we would only have had to change one line of code to insert a shadow DOM.</p>
+<p>So there are three steps:</p>
+<ul>
+<li>Add a shadow DOM with <code>this.root = this.attachShadow({ mode: "open" });</code>.</li>
+<li>Add a stylesheet and add it to the shadow DOM, the same way we did for other components.</li>
+<li>Update every DOM manipulation call in Ship and Spot. So <code>this.querySelector</code> becomes <code>this.root.querySelector</code> and <code>this.appendChild</code> becomes <code>this.root.appendChild</code>. <code>.getElementById()</code> would be another example of an API we would need to change, if it had been used.</li>
+</ul>
+<p>But now we need to get the styles from the main stylesheet in. We could include all stylesheet, but that gets messy. The only styles are for forms, so we'll create a separate stylesheet. Unfortunately the styles are also used on the login form, which was not a web component. So the stylesheet also needs adding to the index.html.</p>
+<p>For the Ship and Spot, we can just add the stylesheets to the HTML for the Ship, in the same way we would for the index.html:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="p">&lt;</span><span class="nt">link</span> <span class="na">href</span><span class="o">=</span><span class="s">&quot;../forms.css&quot;</span> <span class="na">rel</span><span class="o">=</span><span class="s">&quot;stylesheet&quot;</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;text/css&quot;</span><span class="p">&gt;</span>
+<a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a><span class="p">&lt;</span><span class="nt">link</span> <span class="na">rel</span><span class="o">=</span><span class="s">&quot;stylesheet&quot;</span> <span class="na">href</span><span class="o">=</span><span class="s">&quot;https://fonts.googleapis.com/icon?family=Material+Icons&quot;</span><span class="p">&gt;</span>
+</code></pre></div>
+<p>Now it's just a case of going through and cleaning up all the inline CSS throughout the application.</p>
 <h2 id="table-of-contents">Table of Contents</h2>
 <ol>
 <li><a href="../../../../2024/08/15/xpages-web-1/">Introduction</a></li>
@@ -3071,13 +2998,13 @@
 <li><a href="../../../../2024/10/21/framework-web-8/">Landing Page Web Component</a></li>
 <li><a href="../../../../2024/10/23/framework-web-9/">Services</a></li>
 <li><a href="../../../../2024/10/30/framework-web-10/">Ship Form Actions</a></li>
-<li><a href="../../../../2024/12/14/framework-web-11/">Ship Search and Save</a></li>
 <li><a href="../../../01/13/framework-web-12/">Ship Spot Component</a></li>
 <li><a href="../../../01/18/framework-web-13/">HTML Layouts</a></li>
 <li><a href="../../../02/07/framework-web-14/">Fields and Save</a></li>
 <li><a href="../../../02/08/framework-web-15/">Dialogs</a></li>
 <li><a href="../../../02/11/framework-web-16/">Spots</a></li>
 <li><a href="./">Lessons Learned</a></li>
+<li><strong>CSP Enhancement</strong></li>
 </ol>
 
 

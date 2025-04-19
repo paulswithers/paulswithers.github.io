@@ -12,7 +12,7 @@
         <meta name="author" content="Paul S. Withers">
       
       
-        <link rel="canonical" href="https://paulswithers.github.io/blog/page/14/">
+        <link rel="canonical" href="https://paulswithers.github.io/blog/page/21/">
       
       
         <link rel="prev" href="../../../professional/documentation/">
@@ -2704,18 +2704,13 @@
     <div class="md-post__meta md-meta">
       <ul class="md-meta__list">
         <li class="md-meta__item">
-          <time datetime="2020-04-01 00:00:00+00:00">Wednesday, April 1, 2020</time></li>
-        
-          <li class="md-meta__item">
-            in
-            
-              <a href="../../category/vertx/" class="md-meta__link">Vert.x</a></li>
+          <time datetime="2016-07-08 00:00:00+00:00">Friday, July 8, 2016</time></li>
         
         
           
           <li class="md-meta__item">
             
-              3 min read
+              2 min read
             
           </li>
         
@@ -2724,183 +2719,13 @@
     </div>
   </header>
   <div class="md-post__content md-typeset">
-    <h2 id="statistics-publishing-and-reporting-part-three-using-micrometer"><a class="toclink" href="../../2020/04/01/statistics-using-micrometer/">Statistics Publishing and Reporting Part Three: Using Micrometer</a></h2>
-<p><a href="../../2020/03/26/statistics-reporting/">Part One: Domino and Statistics</a><br />
-<a href="../../2020/03/30/statistics-for-prometheus/">Part Two: Prometheus</a><br />
-<strong>Part Three: Micrometer and Prometheus</strong>
-<a href="../../2020/04/18/micrometer-composite-registries/">Part Four: Micrometer and Composite Registries</a></p>
-<h3 id="the-easy-way"><a class="toclink" href="../../2020/04/01/statistics-using-micrometer/#the-easy-way">The Easy Way</a></h3>
-<p>In the previous two parts I gave some background on metrics and then described my first pass at coding metrics, quite frankly the hard way. The <a href="https://en.wikipedia.org/wiki/Elephant_in_the_room">elephant in the room</a> should be apparent: the metrics output was manually coded for a specific reporting tool.</p>
+    <h2 id="welcome-to-my-blog"><a class="toclink" href="../../2016/07/08/welcome/">Welcome to My Blog</a></h2>
+<h3 id="about-me"><a class="toclink" href="../../2016/07/08/welcome/#about-me">About Me</a></h3>
+<p>I have been a developer since 2000, primarily with the IBM Domino stack. When IBM introduced XPages, a JSF-based framework, to the stack in 2009 I was one of the early adopters, <a href="http://www.intec.co.uk/blog/">blogging</a>, training, speaking and eventually co-authoring "XPages Extension Library" by IBM Press in 2012 and acting as technical editor for "Mastering XPages 2nd Edition" by IBM Press in 2014. As a technical evangelist I have been recognised by IBM in their IBM Champion program as an ever-present champion since it's inception for the IBM Collaboration Solutions brand (which includes IBM Domino) in 2011. I've been a committed contributor to open source during that time and I firmly believe in learning through sharing and empowering others. I always try to understand the "why" behind the "what", and help verbalise that for others too. By sharing code I've learned a great deal from other contributors and through feature requests. Since October 2013 I've been a board member of the open source organisation <a href="https://openntf.org/main.nsf">OpenNTF</a>.</p>
 
     
       <nav class="md-post__action">
-        <a href="../../2020/04/01/statistics-using-micrometer/">
-          Continue reading
-        </a>
-      </nav>
-    
-  </div>
-</article>
-      
-        <article class="md-post md-post--excerpt">
-  <header class="md-post__header">
-    
-    <div class="md-post__meta md-meta">
-      <ul class="md-meta__list">
-        <li class="md-meta__item">
-          <time datetime="2020-03-30 00:00:00+00:00">Monday, March 30, 2020</time></li>
-        
-          <li class="md-meta__item">
-            in
-            
-              <a href="../../category/vertx/" class="md-meta__link">Vert.x</a></li>
-        
-        
-          
-          <li class="md-meta__item">
-            
-              4 min read
-            
-          </li>
-        
-      </ul>
-      
-    </div>
-  </header>
-  <div class="md-post__content md-typeset">
-    <h2 id="statistics-publishing-and-reporting-part-two-statistics-for-prometheus"><a class="toclink" href="../../2020/03/30/statistics-for-prometheus/">Statistics Publishing and Reporting Part Two: Statistics for Prometheus</a></h2>
-<p><a href="../../2020/03/26/statistics-reporting/">Part One: Domino and Statistics</a><br />
-<strong>Part Two: Prometheus</strong>
-<a href="../../2020/04/01/statistics-using-micrometer/">Part Three: Micrometer and Prometheus</a><br />
-<a href="../../2020/04/18/micrometer-composite-registries/">Part Four: Micrometer and Composite Registries</a></p>
-<p>In the last blog post I covered the differences between different statistical reporting tools. I can't speak for Panopta covered in the recent HCL <a href="https://register.gotowebinar.com/register/7882842366917205516">webinar</a>. I suspect they're using "pull" (they install an agent on the Domino server) and I suspect they're using one of the traditional reporting databases (their monitoring covers time periods, so there must be a database; and their offering is based around pre-built dashboards for various products, so no necessity for their USP to build their own reporting repository).</p>
-
-    
-      <nav class="md-post__action">
-        <a href="../../2020/03/30/statistics-for-prometheus/">
-          Continue reading
-        </a>
-      </nav>
-    
-  </div>
-</article>
-      
-        <article class="md-post md-post--excerpt">
-  <header class="md-post__header">
-    
-    <div class="md-post__meta md-meta">
-      <ul class="md-meta__list">
-        <li class="md-meta__item">
-          <time datetime="2020-03-26 00:00:00+00:00">Thursday, March 26, 2020</time></li>
-        
-          <li class="md-meta__item">
-            in
-            
-              <a href="../../category/domino/" class="md-meta__link">Domino</a></li>
-        
-        
-          
-          <li class="md-meta__item">
-            
-              3 min read
-            
-          </li>
-        
-      </ul>
-      
-    </div>
-  </header>
-  <div class="md-post__content md-typeset">
-    <h2 id="statistics-publishing-and-reporting-part-one"><a class="toclink" href="../../2020/03/26/statistics-reporting/">Statistics Publishing and Reporting Part One</a></h2>
-<p><strong>Part One: Domino and Statistics</strong>
-<a href="../../2020/03/30/statistics-for-prometheus/">Part Two: Prometheus</a><br />
-<a href="../../2020/04/01/statistics-using-micrometer/">Part Three: Micrometer and Prometheus</a><br />
-<a href="../../2020/04/18/micrometer-composite-registries/">Part Four: Micrometer and Composite Registries</a></p>
-<h3 id="domino-v10-and-statistics-publishing"><a class="toclink" href="../../2020/03/26/statistics-reporting/#domino-v10-and-statistics-publishing">Domino V10 and Statistics Publishing</a></h3>
-<p>One of the big additions in Domino V10 was statistics publishing, initially focused on <a href="https://newrelic.com/">New Relic</a>. But as <a href="http://blog.nashcom.de/nashcomblog.nsf/dx/domino-10-statistic-collection.htm">Daniel Nashed showed</a> this can easily be re-routed to other locations, for example a Domino database. When I worked at <a href="https://www.intec.co.uk/">Intec</a> I tried the New Relic reporting on Domino early on and was very impressed at what was provided. My response wasn't focused on what statistics were delivered - what is outputted is not the important factor, it can easily be change. My opinion came from how easy it was to set up. New Relic itself is straightforward, but what needed to be done on the Domino side was even easier - a few Notes.ini settings, restarting and the statistics flowed. Since the days of Embedded Experiences I have been convinced that ease of implementation is critical for adoption, and adoption is key to value for effort.</p>
-
-    
-      <nav class="md-post__action">
-        <a href="../../2020/03/26/statistics-reporting/">
-          Continue reading
-        </a>
-      </nav>
-    
-  </div>
-</article>
-      
-        <article class="md-post md-post--excerpt">
-  <header class="md-post__header">
-    
-    <div class="md-post__meta md-meta">
-      <ul class="md-meta__list">
-        <li class="md-meta__item">
-          <time datetime="2020-03-24 00:00:00+00:00">Tuesday, March 24, 2020</time></li>
-        
-          <li class="md-meta__item">
-            in
-            
-              <a href="../../category/java/" class="md-meta__link">Java</a></li>
-        
-        
-          
-          <li class="md-meta__item">
-            
-              4 min read
-            
-          </li>
-        
-      </ul>
-      
-    </div>
-  </header>
-  <div class="md-post__content md-typeset">
-    <h2 id="lessons-learned-from-junit-and-refactoring"><a class="toclink" href="../../2020/03/24/junit-caution/">Lessons Learned from JUnit and Refactoring</a></h2>
-<p>JUnit testing just makes sense. But writing tests is certainly a skill and your tests can have a big impact on how you structure your code. Sometimes a sensible bit of refactoring can have a large impact, particularly if the code or unit tests were not written in the best way.</p>
-<p>It is inevitable that some code will need to interact with a database, and that database will not be available when the unit tests run. There are multiple approaches for handling code that cannot run in a test.</p>
-
-    
-      <nav class="md-post__action">
-        <a href="../../2020/03/24/junit-caution/">
-          Continue reading
-        </a>
-      </nav>
-    
-  </div>
-</article>
-      
-        <article class="md-post md-post--excerpt">
-  <header class="md-post__header">
-    
-    <div class="md-post__meta md-meta">
-      <ul class="md-meta__list">
-        <li class="md-meta__item">
-          <time datetime="2020-03-01 00:00:00+00:00">Sunday, March 1, 2020</time></li>
-        
-          <li class="md-meta__item">
-            in
-            
-              <a href="../../category/domino/" class="md-meta__link">Domino</a></li>
-        
-        
-          
-          <li class="md-meta__item">
-            
-              5 min read
-            
-          </li>
-        
-      </ul>
-      
-    </div>
-  </header>
-  <div class="md-post__content md-typeset">
-    <h2 id="developing-runjava-addins-for-domino"><a class="toclink" href="../../2020/03/01/runjava/">Developing RunJava Addins for Domino</a></h2>
-<p>Most Domino developers use Windows because that's the only platform Domino Designer runs on. For most of my application development life, my main device has been a Dell laptop of some variety for this reason. For almost a decade now I've also been running a Windows Domino server because Domino Designer local preview is not an effective test environment for a Domino web application. If you're using source control you are also usually testing locally unless you're developing cloud functions. So for development, you typically want a Domino server, and if you're using Domino Designer, the easiest server install to develop against is a Windows Domino server. If you want Linux on Windows and you're using Windows Professional, Docker is a sensible approach, if you take some time to understand port access from Docker.</p>
-
-    
-      <nav class="md-post__action">
-        <a href="../../2020/03/01/runjava/">
+        <a href="../../2016/07/08/welcome/">
           Continue reading
         </a>
       </nav>
@@ -2915,7 +2740,7 @@
 
 
 <nav class="md-pagination">
-  <a class="md-pagination__link" href="../../"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18.41 7.41 17 6l-6 6 6 6 1.41-1.41L13.83 12zm-6 0L11 6l-6 6 6 6 1.41-1.41L7.83 12z"/></svg></a> <a class="md-pagination__link" href="../13/"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15.41 16.58 10.83 12l4.58-4.59L14 6l-6 6 6 6z"/></svg></a> <a class="md-pagination__link" href="../../">1</a> <span class="md-pagination__dots">..</span> <a class="md-pagination__link" href="../12/">12</a> <a class="md-pagination__link" href="../13/">13</a> <span class="md-pagination__current">14</span> <a class="md-pagination__link" href="../15/">15</a> <a class="md-pagination__link" href="../16/">16</a> <span class="md-pagination__dots">..</span> <a class="md-pagination__link" href="../21/">21</a> <a class="md-pagination__link" href="../15/"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58 13.17 12 8.59 7.41 10 6l6 6-6 6z"/></svg></a> <a class="md-pagination__link" href="../21/"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5.59 7.41 7 6l6 6-6 6-1.41-1.41L10.17 12zm6 0L13 6l6 6-6 6-1.41-1.41L16.17 12z"/></svg></a>
+  <a class="md-pagination__link" href="../../"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18.41 7.41 17 6l-6 6 6 6 1.41-1.41L13.83 12zm-6 0L11 6l-6 6 6 6 1.41-1.41L7.83 12z"/></svg></a> <a class="md-pagination__link" href="../20/"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15.41 16.58 10.83 12l4.58-4.59L14 6l-6 6 6 6z"/></svg></a> <a class="md-pagination__link" href="../../">1</a> <span class="md-pagination__dots">..</span> <a class="md-pagination__link" href="../19/">19</a> <a class="md-pagination__link" href="../20/">20</a> <span class="md-pagination__current">21</span>  
 </nav>
         
       
