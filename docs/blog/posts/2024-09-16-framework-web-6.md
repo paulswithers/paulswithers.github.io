@@ -29,6 +29,7 @@ links:
   - blog/2025-02-08-framework-web-15.md
   - blog/2025-02-11-framework-web-16.md
   - blog/2025-04-02-framework-web-17.md
+  - blog/2025-04-19-framework-web-18.md
 comments: true
 ---
 # Framework App to Web App: Part Six - Mocking, DRAPI and CORS
@@ -136,3 +137,4 @@ In the next session we'll add some styling to the application, which will demons
 1. [Dialogs](./2025-02-08-framework-web-15.md)
 1. [Spots](./2025-02-11-framework-web-16.md)
 1. [Lessons Learned](./2025-04-02-framework-web-17.md)
+1. [CSP Enhancement](./2025-04-19-framework-web-18.md)

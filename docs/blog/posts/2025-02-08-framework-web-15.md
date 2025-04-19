@@ -27,6 +27,7 @@ links:
   - blog/2025-02-07-framework-web-14.md
   - blog/2025-02-11-framework-web-16.md
   - blog/2025-04-02-framework-web-17.md
+  - blog/2025-04-19-framework-web-18.md
 comments: true
 ---
 # XPages App to Web App: Part Fifteen - Dialogs
@@ -153,3 +154,4 @@ We programmatically create an instance of the country web component, which is de
 1. **Dialogs**
 1. [Spots](./2025-02-11-framework-web-16.md)
 1. [Lessons Learned](./2025-04-02-framework-web-17.md)
+1. [CSP Enhancement](./2025-04-19-framework-web-18.md)

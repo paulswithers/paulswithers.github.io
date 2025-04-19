@@ -19,6 +19,7 @@
 - [Dialogs](./posts/2025-02-08-framework-web-15.md)
 - [Spots](./posts/2025-02-11-framework-web-16.md)
 - [Lessons Learned](./posts/2025-04-02-framework-web-17.md)
+- [CSP Enhancement](./posts/2025-04-19-framework-web-18.md)
 
 ## Documentation on Domino
 

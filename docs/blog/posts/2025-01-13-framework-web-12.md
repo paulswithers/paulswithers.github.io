@@ -28,6 +28,7 @@ links:
   - blog/2025-02-08-framework-web-15.md
   - blog/2025-02-11-framework-web-16.md
   - blog/2025-04-02-framework-web-17.md
+  - blog/2025-04-19-framework-web-18.md
 comments: true
 ---
 # XPages App to Web App: Part Twelve - Ship Spot Component
@@ -180,3 +181,4 @@ In the next part we'll cover the HTML for the Ship and Spot, as well as validati
 1. [Dialogs](./2025-02-08-framework-web-15.md)
 1. [Spots](./2025-02-11-framework-web-16.md)
 1. [Lessons Learned](./2025-04-02-framework-web-17.md)
+1. [CSP Enhancement](./2025-04-19-framework-web-18.md)
