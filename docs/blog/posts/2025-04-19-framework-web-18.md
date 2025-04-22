@@ -1,7 +1,7 @@
 ---
-slug: framework-web-17
+slug: framework-web-18
 date: 
-  created: 2025-04-02
+  created: 2025-04-19
 categories:
   - Web
 tags: 
@@ -28,7 +28,7 @@ links:
   - blog/2025-02-08-framework-web-15.md
   - blog/2025-02-11-framework-web-16.md
   - blog/2025-04-02-framework-web-17.md
-  - blog/2025-04-19-framework-web-18.md
+  - blog/2025-04-22-framework-web-19.md
 comments: true
 ---
 # XPages App to Web App: Part Eighteen: CSP Enhancement
@@ -115,7 +115,7 @@ template.innerHTML = `
 That style tag needs removing, because it adds inline style to the HTML. Fortunately, there's a great website that covers web components, webcomponents.guide, and it has a page and section covering [styling](https://webcomponents.guide/learn/components/styling/#how-to-include-default-styles-for-a-web-component). There are four options:
 
 - `<style>` tag, which I'm trying to avoid.
-- `<link rel-"styleheet" />` using an external stylesheet.
+- `<link rel-"stylesheet" />` using an external stylesheet.
 - Constructable stylesheets.
 - CSS Module scripts to load external stylesheets.
 
@@ -165,7 +165,7 @@ There are still more inline styles to remove, but that will be the usual way: co
 
 ## All Solved?
 
-Ummm, no. This works for most of the components. But the Ship and Spot components didn't use a shadow DOM. And `.adoptedStyleSheets` can only be used on a Document or Shadow DOM; it can't be added to just an HTML element. So it won't work for the Ship and Spot components.
+Umm, no. This works for most of the components. But the Ship and Spot components didn't use a shadow DOM. And `.adoptedStyleSheets` can only be used on a Document or Shadow DOM; it can't be added to just an HTML element. So it won't work for the Ship and Spot components.
 
 There are two options:
 
@@ -212,3 +212,4 @@ Now it's just a case of going through and cleaning up all the inline CSS through
 1. [Spots](./2025-02-11-framework-web-16.md)
 1. [Lessons Learned](./2025-04-02-framework-web-17.md)
 1. **CSP Enhancement**
+1. [Spots By Date and Stats Pages](./2025-04-22-framework-web-19.md)

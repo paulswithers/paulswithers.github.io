@@ -28,6 +28,7 @@ links:
   - blog/2025-02-08-framework-web-15.md
   - blog/2025-04-02-framework-web-17.md
   - blog/2025-04-19-framework-web-18.md
+  - blog/2025-04-22-framework-web-19.md
 comments: true
 ---
 # XPages App to Web App: Part Sixteen: Spots
@@ -287,3 +288,4 @@ If we have both from and to ports, we list them. If we are missing from or to po
 1. **Spots**
 1. [Lessons Learned](./2025-04-02-framework-web-17.md)
 1. [CSP Enhancement](./2025-04-19-framework-web-18.md)
+1. [Spots By Date and Stats Pages](./2025-04-22-framework-web-19.md)

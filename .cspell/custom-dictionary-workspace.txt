@@ -82,12 +82,14 @@ jdwp
 jigd
 jpda
 keepconfig
+keepweb
 Kilimandjaro
 Knoefzaal
 Leedy
 Leusink's
 LILO
 linenums
+listspivot
 Lites
 Lotusphere
 Lotusscript
