@@ -5,6 +5,7 @@ Addin
 Addins
 adir
 afile
+Agentic
 agentlib
 Agilit
 Almquist
@@ -24,6 +25,7 @@ Busse
 callsign
 CEDT
 centered
+cheatsheets
 Cleanup
 Cloudant
 Cmder
@@ -85,10 +87,12 @@ keepconfig
 keepweb
 Kilimandjaro
 Knoefzaal
+knowledgebase
 Leedy
 Leusink's
 LILO
 linenums
+linters
 listspivot
 Lites
 Lotusphere
@@ -164,9 +168,11 @@ timezones
 Tinkerpop
 TLCC
 Toohey's
+toolbag
 Toscana
 Tripcony
 twemoji
+twistie
 Tycho
 UKLUG
 Unid
