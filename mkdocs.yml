@@ -105,3 +105,4 @@ plugins:
       date_from_meta:
         as_creation: date.created
         as_update: date.updated
+        datetime_format: "%Y-%m-%d"
