@@ -1,7 +1,6 @@
 ---
 slug: framework-web-19
-date: 
-  created: 2025-04-22
+date: 2025-04-22
 categories:
   - Web
 tags: 

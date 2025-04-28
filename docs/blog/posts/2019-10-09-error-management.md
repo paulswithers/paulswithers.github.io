@@ -1,7 +1,6 @@
 ---
 slug: error-management
-date: 
-  created: 2019-10-10
+date: 2019-10-10
 categories:
   - Coding
 tags: 

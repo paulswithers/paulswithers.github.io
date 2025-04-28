@@ -1,7 +1,6 @@
 ---
 slug: framework-web-3
-date: 
-  created: 2024-08-20
+date: 2024-08-20
 categories:
   - Domino
 tags: 

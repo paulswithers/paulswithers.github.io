@@ -1,7 +1,6 @@
 ---
 slug: impress-evangelist
-date: 
-    created: 2016-09-28
+date: 2016-09-28
 categories:
     - Editorial
 ---

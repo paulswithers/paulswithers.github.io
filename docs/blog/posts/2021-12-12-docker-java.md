@@ -1,7 +1,6 @@
 ---
 slug: docker-java
-date: 
-  created: 2021-12-12
+date: 2021-12-12
 categories:
   - Java
 tags: 

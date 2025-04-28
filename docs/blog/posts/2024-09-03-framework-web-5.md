@@ -1,7 +1,6 @@
 ---
 slug: framework-web-5
-date: 
-  created: 2024-09-03
+date: 2024-09-03
 categories:
   - Web
 tags: 

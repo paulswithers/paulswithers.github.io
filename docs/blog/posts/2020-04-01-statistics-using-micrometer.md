@@ -1,7 +1,6 @@
 ---
 slug: statistics-using-micrometer
-date: 
-  created: 2020-04-01
+date: 2020-04-01
 categories:
   - Vert.x
 tags: 

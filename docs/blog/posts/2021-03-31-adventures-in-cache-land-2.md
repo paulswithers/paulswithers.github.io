@@ -1,7 +1,6 @@
 ---
 slug: adventures-in-cache-land-2
-date: 
-  created: 2021-03-31
+date: 2021-03-31
 categories:
   - Domino
 tags: 

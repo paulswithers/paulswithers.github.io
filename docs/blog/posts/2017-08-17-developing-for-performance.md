@@ -1,7 +1,6 @@
 ---
 slug: developing-for-performance
-date: 
-  created: 2017-08-17
+date: 2017-08-17
 categories:
   - Coding
 tags: 

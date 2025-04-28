@@ -1,7 +1,6 @@
 ---
 slug: xpages-tags-renderers
-date: 
-  created: 2024-08-01
+date: 2024-08-01
 categories:
   - XPages
 tags: 

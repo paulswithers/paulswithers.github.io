@@ -1,7 +1,6 @@
 ---
 slug: framework-web-12
-date: 
-  created: 2025-01-13
+date: 2025-01-13
 categories:
   - Web
 tags: 

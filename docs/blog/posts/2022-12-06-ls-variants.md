@@ -1,7 +1,6 @@
 ---
 slug: ls-variants
-date: 
-  created: 2022-12-06
+date: 2022-12-06
 categories:
   - LotusScript
 tags: 

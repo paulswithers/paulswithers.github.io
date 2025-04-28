@@ -1,7 +1,6 @@
 ---
 slug: mkdocs-on-domino
-date: 
-  created: 2022-10-30
+date: 2022-10-30
 categories:
   - Domino
 tags: 

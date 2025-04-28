@@ -1,7 +1,6 @@
 ---
 slug: taking-titan-to-the-next-level
-date: 
-  created: 2016-09-20
+date: 2016-09-20
 categories:
     - Databases
 tags:

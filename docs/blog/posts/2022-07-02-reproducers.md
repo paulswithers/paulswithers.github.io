@@ -1,7 +1,6 @@
 ---
 slug: reproducers
-date: 
-  created: 2022-07-02
+date: 2022-07-02
 categories:
   - Support
 tags: 

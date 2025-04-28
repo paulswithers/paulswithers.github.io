@@ -1,7 +1,6 @@
 ---
 slug: vertx-junit-tests
-date: 
-  created: 2019-12-31
+date: 2019-12-31
 categories:
   - Vert.x
 tags: 

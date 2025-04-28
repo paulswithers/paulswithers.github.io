@@ -1,7 +1,6 @@
 ---
 slug: web-components-ember
-date: 
-  created: 2025-03-14
+date: 2025-03-14
 categories:
   - Web Components
 tags: 

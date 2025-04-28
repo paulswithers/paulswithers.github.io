@@ -1,7 +1,6 @@
 ---
 slug: my-dev-tools
-date:
-  created: 2017-04-26
+date: 2017-04-26
 comments: true
 categories:
   - Dev Tools

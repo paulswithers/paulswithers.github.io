@@ -1,7 +1,6 @@
 ---
 slug: graph-database-news
-date: 
-  created: 2017-01-13
+date: 2017-01-13
 comments: true
 categories:
   - Databases

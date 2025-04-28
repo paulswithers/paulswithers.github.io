@@ -1,7 +1,6 @@
 ---
 slug: framework-web-8
-date: 
-  created: 2024-10-21
+date: 2024-10-21
 categories:
   - Web
 tags: 

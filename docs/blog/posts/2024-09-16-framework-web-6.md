@@ -1,7 +1,6 @@
 ---
 slug: framework-web-6
-date: 
-  created: 2024-09-16
+date: 2024-09-16
 categories:
   - Web
 tags: 

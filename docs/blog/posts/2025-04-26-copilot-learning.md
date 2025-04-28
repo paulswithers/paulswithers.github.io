@@ -1,7 +1,6 @@
 ---
 slug: using-ai
-date:
-  created: 2025-04-26
+date: 2025-04-26
 categories: 
   - AI
 tags:

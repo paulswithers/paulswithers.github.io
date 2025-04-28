@@ -1,7 +1,6 @@
 ---
 slug: framework-web-15
-date: 
-  created: 2025-02-08
+date: 2025-02-08
 categories:
   - Web
 tags: 

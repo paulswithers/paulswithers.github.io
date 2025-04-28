@@ -1,7 +1,6 @@
 ---
 slug: mixing-webxml-and-annotations
-date:
-  created: 2016-10-24
+date: 2016-10-24
 comments: true
 categories:
   - Vaadin

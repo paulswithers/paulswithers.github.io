@@ -1,7 +1,6 @@
 ---
 slug: java-outside-domino-eclipse
-date: 
-  created: 2019-09-17
+date: 2019-09-17
 categories:
   - Java
 tags: 

@@ -1,7 +1,6 @@
 ---
 slug: rancher-desktop
-date: 
-  created: 2022-02-05
+date: 2022-02-05
 categories:
   - Docker
 tags: 

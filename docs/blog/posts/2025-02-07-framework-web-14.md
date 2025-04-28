@@ -1,7 +1,6 @@
 ---
 slug: framework-web-14
-date: 
-  created: 2025-02-07
+date: 2025-02-07
 categories:
   - Web
 tags: 

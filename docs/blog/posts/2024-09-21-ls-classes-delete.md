@@ -1,7 +1,6 @@
 ---
 slug: ls-classes-delete
-date: 
-  created: 2024-09-21
+date: 2024-09-21
 categories:
   - LotusScript
 tags: 

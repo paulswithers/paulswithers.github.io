@@ -1,7 +1,6 @@
 ---
 slug: github-pages-on-domino-3
-date: 
-  created: 2022-08-17
+date: 2022-08-17
 categories:
   - Domino
 tags: 

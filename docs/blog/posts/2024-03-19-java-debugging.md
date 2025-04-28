@@ -1,7 +1,6 @@
 ---
 slug: java-debugging
-date: 
-  created: 2024-03-19
+date: 2024-03-19
 categories:
   - Domino
 tags: 

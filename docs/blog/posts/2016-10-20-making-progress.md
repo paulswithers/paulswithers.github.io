@@ -1,7 +1,6 @@
 ---
 slug: making-progress
-date: 
-  created: 2016-10-20
+date: 2016-10-20
 comments: true
 categories:
   - Editorial

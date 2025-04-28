@@ -1,7 +1,6 @@
 ---
 slug: unit-tests-mocks
-date: 
-  created: 2020-02-03
+date: 2020-02-03
 categories:
   - Vert.x
 tags: 

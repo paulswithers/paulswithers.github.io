@@ -1,6 +1,5 @@
 ---
-date: 
-  created: 2016-07-13
+date: 2016-07-13
 slug: thoughts-on-domino
 categories: 
     - Editorial

@@ -1,7 +1,6 @@
 ---
 slug: negotiating-enhancements
-date: 
-  created: 2022-09-25
+date: 2022-09-25
 categories:
   - Editorial
 tags: 

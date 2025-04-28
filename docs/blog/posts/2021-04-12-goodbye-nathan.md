@@ -1,7 +1,6 @@
 ---
 slug: goodbye-nathan
-date: 
-  created: 2021-04-12
+date: 2021-04-12
 categories:
   - Domino
 tags: 

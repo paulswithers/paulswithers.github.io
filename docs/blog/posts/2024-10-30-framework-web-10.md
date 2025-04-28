@@ -1,7 +1,6 @@
 ---
 slug: framework-web-10
-date: 
-  created: 2024-10-30
+date: 2024-10-30
 categories:
   - Web
 tags: 

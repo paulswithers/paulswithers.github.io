@@ -1,7 +1,6 @@
 ---
 slug: travels-in-manila
-date: 
-  created: 2020-01-14
+date: 2020-01-14
 categories:
   - Editorial
 tags: 

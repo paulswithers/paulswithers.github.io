@@ -1,7 +1,6 @@
 ---
 slug: domino-js-redux
-date: 
-  created: 2023-10-03
+date: 2023-10-03
 categories:
   - Domino
 tags: 

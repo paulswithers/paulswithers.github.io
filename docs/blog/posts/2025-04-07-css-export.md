@@ -1,7 +1,6 @@
 ---
 slug: css-export
-date:
-  created: 2025-04-07
+date: 2025-04-07
 categories: 
   - XPages
 tags:

@@ -1,7 +1,6 @@
 ---
 slug: framework-web-11
-date: 
-  created: 2024-12-14
+date: 2024-12-14
 categories:
   - Web
 tags: 

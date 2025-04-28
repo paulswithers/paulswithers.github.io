@@ -1,7 +1,6 @@
 ---
 slug: wws-java-api
-date: 
-  created: 2016-11-15
+date: 2016-11-15
 comments: true
 categories:
   - Java

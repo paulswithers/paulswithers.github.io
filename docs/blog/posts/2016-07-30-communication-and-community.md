@@ -1,7 +1,6 @@
 ---
 slug: communication-and-community
-date: 
-  created: 2016-07-30
+date: 2016-07-30
 comments: true
 ---
 # Communication and Community

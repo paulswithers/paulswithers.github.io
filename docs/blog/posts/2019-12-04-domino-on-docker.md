@@ -1,7 +1,6 @@
 ---
 slug: domino-on-docker
-date: 
-  created: 2019-12-04
+date: 2019-12-04
 categories:
   - Domino
 tags: 

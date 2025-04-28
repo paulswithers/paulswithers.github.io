@@ -1,7 +1,6 @@
 ---
 slug: framework-web-13
-date: 
-  created: 2025-01-18
+date: 2025-01-18
 categories:
   - Web
 tags: 

@@ -1,7 +1,6 @@
 ---
 slug: framework-web-17
-date: 
-  created: 2025-04-02
+date: 2025-04-02
 categories:
   - Web
 tags: 

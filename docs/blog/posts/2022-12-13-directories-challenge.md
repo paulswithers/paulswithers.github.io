@@ -1,7 +1,6 @@
 ---
 slug: directories-challenge
-date: 
-  created: 2022-12-13
+date: 2022-12-13
 categories:
   - LotusScript
 tags: 

@@ -1,7 +1,6 @@
 ---
 slug: xpages-beyond-nsf
-date: 
-  created: 2023-09-18
+date: 2023-09-18
 categories:
   - XPages
 tags: 

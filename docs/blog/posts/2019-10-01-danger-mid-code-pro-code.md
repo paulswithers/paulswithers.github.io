@@ -1,7 +1,6 @@
 ---
 slug: danger-mid-code-pro-code
-date: 
-  created: 2019-10-01
+date: 2019-10-01
 categories:
   - Coding
 tags: 

@@ -1,7 +1,6 @@
 ---
 slug: ls-classes-5-execute
-date: 
-  created: 2022-08-04
+date: 2022-08-04
 categories:
   - VoltScript
 tags: 

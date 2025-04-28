@@ -1,7 +1,6 @@
 ---
 slug: postman-importance
-date: 
-  created: 2023-07-15
+date: 2023-07-15
 categories:
   - Domino
 tags: 

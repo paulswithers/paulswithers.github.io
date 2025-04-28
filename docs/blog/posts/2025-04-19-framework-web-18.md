@@ -1,7 +1,6 @@
 ---
 slug: framework-web-18
-date: 
-  created: 2025-04-19
+date: 2025-04-19
 categories:
   - Web
 tags: 

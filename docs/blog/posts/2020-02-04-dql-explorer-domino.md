@@ -1,7 +1,6 @@
 ---
 slug: dql-explorer-domino
-date: 
-  created: 2020-02-04
+date: 2020-02-04
 categories:
   - Domino
 tags: 
