@@ -1,6 +1,6 @@
 ---
 date: 
-    created: 2016-07-12
+  created: 2016-07-12
 slug: background-and-purpose
 ---
 # Background and Purpose

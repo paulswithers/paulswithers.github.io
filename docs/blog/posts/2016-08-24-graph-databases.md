@@ -1,7 +1,7 @@
 ---
 slug: graph-databases
 date: 
-    created: 2016-08-24
+  created: 2016-08-24
 Category: Databases
 ---
 # Why Graph?
