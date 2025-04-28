@@ -9,9 +9,6 @@ tags:
   - LotusScript
   - VoltScript
   - REST Clients
-links:
-  - blog/2017-05-26-my-dev-tools-2.md
-  - blog/2020-07-05-postman.md
 comments: true
 ---
 # Postman: The Crucial Tool for Any Microservice Developer
