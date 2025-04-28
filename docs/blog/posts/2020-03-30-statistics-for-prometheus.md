@@ -7,10 +7,6 @@ tags:
   - Vert.x
   - Micrometer
   - Prometheus
-links:
-  - blog/2020-03-26-statistics-reporting.md
-  - blog/2020-04-01-statistics-using-micrometer.md
-  - blog/2020-04-18-micrometer-composite-registries.md
 comments: true
 ---
 # Statistics Publishing and Reporting Part Two: Statistics for Prometheus

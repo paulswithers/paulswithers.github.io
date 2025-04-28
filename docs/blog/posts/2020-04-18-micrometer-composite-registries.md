@@ -7,8 +7,6 @@ tags:
   - Vert.x
   - Micrometer
   - Prometheus
-links:
-
 comments: true
 ---
 # Statistics Publishing and Reporting Part Four: Auto-Configuration and Composite Registries

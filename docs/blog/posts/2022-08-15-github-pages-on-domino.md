@@ -7,9 +7,6 @@ tags:
   - Domino
   - Markdown
   - Documentation
-links:
-  - blog/2022-08-16-github-pages-on-domino-2.md
-  - blog/2022-08-17-github-pages-on-domino-3.md
 comments: true
 ---
 # GitHub Pages Sites on Domino 1: Why

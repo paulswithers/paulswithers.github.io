@@ -7,8 +7,6 @@ tags:
   - LotusScript
   - VoltScript
   - Domino
-links:
-  - blog/2022-06-10-voltscript-a-unique-opportunity.md
 comments: true
 ---
 # Andre's Directories Challenge

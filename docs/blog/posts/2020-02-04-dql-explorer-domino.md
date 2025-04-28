@@ -7,8 +7,6 @@ tags:
   - React
   - Domino
   - LotusScript
-links:
-  - blog/2020-01-21-dql-what-is-it-good-for.md
 comments: true
 ---
 # DQL Explorer and Domino

@@ -8,11 +8,6 @@ tags:
   - LotusScript
   - Domino
   - Volt MX Go
-links: 
-  - blog/2022-07-31-ls-classes-1.md
-  - blog/2022-08-01-ls-classes-2.md
-  - blog/2022-08-02-ls-classes-3.md
-  - blog/2022-08-03-ls-classes-4.md
 comments: true
 ---
 # LotusScript Classes Deep Dive Part Five: Execute

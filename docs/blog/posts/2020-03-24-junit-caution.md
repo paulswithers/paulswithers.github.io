@@ -5,8 +5,6 @@ categories:
   - Java
 tags: 
   - Java
-links:
-  - blog/2020-02-03-unit-tests-mocks.md
 comments: true
 ---
 # Lessons Learned from JUnit and Refactoring

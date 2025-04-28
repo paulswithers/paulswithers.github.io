@@ -8,8 +8,6 @@ tags:
   - LotusScript
   - Domino
   - Volt MX Go
-links:
-  - blog/2022-08-02-ls-classes-3.md
 comments: true
 ---
 # LotusScript Classes - Singleton Addendum
