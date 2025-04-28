@@ -1,7 +1,7 @@
 ---
 slug: app-dev-musings
 date: 
-  2020-06-08
+  created: 2020-06-08
 categories:
   - Vert.x
 tags: 
