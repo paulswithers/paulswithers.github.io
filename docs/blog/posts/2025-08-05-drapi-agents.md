@@ -18,7 +18,7 @@ One of the things I learned when building [HCL Volt MX LotusScript Toolkit](http
 
 Maybe someone has tried checking what's in `NotesSession.DocumentContext`, but I've not seen anyone from the community mention it. But a simple agent will allow you to access the content passed into the agent. Just put this into a LotusScript agent:
 
-```vb
+```vbscript
 Option Public
 Option Declare
 Sub Initialize
