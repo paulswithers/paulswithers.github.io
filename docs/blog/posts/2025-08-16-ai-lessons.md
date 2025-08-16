@@ -9,6 +9,8 @@ tags:
     - GitHub Copilot
 comments: true
 ---
+# More AI Lessons
+
 A little while ago I blogged on [developing at speed](./2025-06-30-rapid-development.md). The obvious omission from all aspects was **AI**. But AI – like an IDE – is just a tool. Unless you understand what it can and can't provide, unless you use it intelligently, you will not reap the benefits. But unlike an IDE, AI doesn't come with a set of menus that hint at what it can and can't do. AI doesn't come with a marketplace of extensions that provide functionality shared by the community. And it's so new that we're all working it out. So what are my thoughts?
 
 <!-- more -->
