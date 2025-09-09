@@ -29,7 +29,7 @@ Then there's **RAG**, Retrieval Augmented Generation, which can add additional s
 
 There is also **CAG**, Cache Augmented Generation, which can be used to avoid calling the LLM by identifying questions already asked and answers already available. However, it depends on the quality of those answers.
 
-Then there is **MCP**, which also has two parts: an **MCP Client**, which the interface needs, otherwise you can't use MCP in that interface; and an **MCP Server** which can provide prompts, tools, and resources. These can be included in the process to bring additional specific information into the mix.
+Then there is **MCP** ([Model Context Protocol](https://modelcontextprotocol.io/docs/getting-started/intro)), which also has two parts: an **MCP Client**, which the interface needs, otherwise you can't use MCP in that interface; and an **MCP Server** which can provide prompts, tools, and resources. These can be included in the process to bring additional specific information into the mix.
 
 Then there's are **AI agents**, which can add automation into the process. Copilot can run in agent mode, performing iterative code updates.
 
@@ -67,7 +67,7 @@ And the initial training isn't the end of the story. There needs to be ongoing t
 
 ## Why Bother With RAG
 
-AI has become pervasive in our personal lives, with NPUs on our phones helping avoid typing, learn about the world around us, or modify photos we take (for improved quality or humorous outcomes). And we never use RAG there. But the fact is we don't really need to. The answers to the personal questions we have are typically in the public domain.
+AI has become pervasive in our personal lives, with NPUs on our phones helping avoid typing, learn about the world around us, or modify photos we take (for improved quality or humorous outcomes). The NPUs or Neural Processing Units are the chips that perform the AI functions, which seem to be quite lightweight. But we never use RAG in our personal lives, and the fact is we don't really need to. The answers to the personal questions we have are typically in the public domain.
 
 That's typically not the case in business AI usage.
 
