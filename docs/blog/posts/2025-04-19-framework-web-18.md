@@ -193,3 +193,4 @@ Now it's just a case of going through and cleaning up all the inline CSS through
 1. [Lessons Learned](./2025-04-02-framework-web-17.md)
 1. **CSP Enhancement**
 1. [Spots By Date and Stats Pages](./2025-04-22-framework-web-19.md)
+1. [Custom CSP Settings](./2025-09-14-framework-web-20.md)

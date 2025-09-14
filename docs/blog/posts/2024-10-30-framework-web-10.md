@@ -208,3 +208,4 @@ There's still more to do on the ship form, like the search and the save. But tha
 1. [Lessons Learned](./2025-04-02-framework-web-17.md)
 1. [CSP Enhancement](./2025-04-19-framework-web-18.md)
 1. [Spots By Date and Stats Pages](./2025-04-22-framework-web-19.md)
+1. [Custom CSP Settings](./2025-09-14-framework-web-20.md)
