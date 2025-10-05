@@ -9,9 +9,9 @@ tags:
     - GitHub Copilot
 comments: true
 ---
-# Effective AI Usage Part Two - AI-fu
+# Effective AI Usage: AI-fu
 
-In [my last blog post](./2025-09-08-effective-ai-1.md) I talked about the many aspects of modern AI and the importance of understanding them all. But even more important than this is what I am terming "ai-fu". So what is ai-fu?
+In [my last blog post](./2025-09-08-effective-ai-1.md) I talked about the many aspects of modern AI and the importance of understanding them all. But even more important than this is what I am terming "AI-fu". So what is AI-fu?
 
 <!-- more -->
 
@@ -19,9 +19,9 @@ In [my last blog post](./2025-09-08-effective-ai-1.md) I talked about the many a
 
 When I started working in IT, the internet was in a nascent form. Database searches were full text with fuzzy matches. Google was not even the predominant search engine. Over the first quarter of this century, the ability to refine a problem into the *right* search criteria has been a differentiator - [google-fu](https://en.wiktionary.org/wiki/Google-fu). Those who have been able to employ good google-fu have solved problems more quickly than those who could not. I often see questions on chat forums that I can easily answer with an online search - if the question is accurately reflecting the requirements.
 
-The trend just starting is what can be called ai-fu, expertise in interacting with AI interfaces to retrieve accurate outcomes effectively.
+The trend just starting is what can be called AI-fu, expertise in interacting with AI interfaces to retrieve accurate outcomes effectively.
 
-Google-fu had some impact. But ai-fu will become a major differentiator, because its transformative power is so much greater. Those who can master effective use of AI will create more, better, faster. Those who can't will be stuck in the slow lane.
+Google-fu had some impact. But AI-fu will become a major differentiator, because its transformative power is so much greater. Those who can master effective use of AI will create more, better, faster. Those who can't will be stuck in the slow lane.
 
 ## Hypotheses
 
@@ -49,7 +49,7 @@ But this all requires an AI implementation that empowers you to control and maxi
 
 Where they do, you need to know what information has been taken into account when answering your questions. Or you need to be able to *anticipate* what information *may have been used*. Or you need to **confirm** what information has been used.
 
-Super-powered ai-fu users will choose an AI implementation that empowers them and will understand what information it's using to ensure they can understand what AI has used to provide its responses.
+Super-powered AI-fu users will choose an AI implementation that empowers them and will understand what information it's using to ensure they can understand what AI has used to provide its responses.
 
 ## Awareness of Content
 
@@ -73,13 +73,13 @@ But that's only part of the job.
 
 When you receive the response, you need good comprehension skills. Responses are often detailed, so the ability to quickly comprehend the response is important. Core to this is being able to quickly identify if there has been a misunderstanding. A human colleague will tell you if they haven't fully understood or if there's some ambiguity in what you were asking. AI does not.
 
-Moreover, AI will only tell you what you ask for. Those with good ai-fu will identify where additional information is needed. They will be able to identify what's missing in a response and ask follow-up questions. This requires an  awareness of your actual requirements, to ensure **all** have been met and, if not, why not.
+Moreover, AI will only tell you what you ask for. Those with good AI-fu will identify where additional information is needed. They will be able to identify what's missing in a response and ask follow-up questions. This requires an  awareness of your actual requirements, to ensure **all** have been met and, if not, why not.
 
 Another key factor to effective AI usage here is *how* you communicate. For example, my typing skills are very good. I can type fast enough and accurate enough to be very productive when conversing with AI through typed interfaces. Others may not be, and an interface that supports speech may be required for optimal effectiveness (regardless of transcription accuracy). It's a factor that needs to be borne in mind.
 
 ## When Response Go Wrong
 
-AI will inevitably provide an incorrect answer. There are two key aspects for ai-fu here. First is providing effective feedback to ensure correct information. Saying "that's wrong" will rarely get a better answer. And at this point it comes to employing everything I've already covered:
+AI will inevitably provide an incorrect answer. There are two key aspects for AI-fu here. First is providing effective feedback to ensure correct information. Saying "that's wrong" will rarely get a better answer. And at this point it comes to employing everything I've already covered:
 
 - reviewing what you asked to identify failings.
 - reviewing the response to identify misunderstandings or confusion.
@@ -95,7 +95,7 @@ There are also some areas where it's not likely to have the right answer. And th
 
 There are some mechanisms with certain AI interfaces where you can improve the outcomes next time. GitHub Copilot in VS Code allows you to change what AI can see or add prompt files to increase the corpus of information it uses. Then there are more complex training improvement approaches. If you're using a RAG, you may need to improve the quality of the information, change chunking, choose a different embedding model. You may need to change the LLM in use.
 
-This takes ai-fu to a whole new level.
+This takes AI-fu to a whole new level.
 
 If you can.
 
@@ -105,6 +105,6 @@ AI implementations in some AI systems and certain IT departments will place barr
 
 As I stated at the start, the difference between those with good google-fu and those with poor google-fu has not had a huge impact on the effectiveness of those individuals. That skill is a minor part of the difference between effective and ineffective employees.
 
-But the potential for AI to speed up work is much more significant. Good ai-fu will maximise both the speed and quality of outcomes, optimised by effective cross-checking. The transformative power will vary depending on what you're trying to use it for. But I'm already seeing big productivity boosts in my daily development work, depending on language and framework choices. And AI is a key tool for me in accelerating my research. AI is often a first-choice go-to for me instead of Google. That does not mean it always gives me the right answer. But it's definitely having a transformative effect on my productivity that I will easily be able to demonstrate when appraisals come round.
+But the potential for AI to speed up work is much more significant. Good AI-fu will maximise both the speed and quality of outcomes, optimised by effective cross-checking. The transformative power will vary depending on what you're trying to use it for. But I'm already seeing big productivity boosts in my daily development work, depending on language and framework choices. And AI is a key tool for me in accelerating my research. AI is often a first-choice go-to for me instead of Google. That does not mean it always gives me the right answer. But it's definitely having a transformative effect on my productivity that I will easily be able to demonstrate when appraisals come round.
 
-That primarily comes from approaching AI with a good awareness of language, good comprehension skills, a healthy awareness that both parties can be wrong, and a desire to understand why AI might be giving the answers it gives. I'm using all the skills in this blog post, as often as possible, and always looking to improve my ai-fu.
+That primarily comes from approaching AI with a good awareness of language, good comprehension skills, a healthy awareness that both parties can be wrong, and a desire to understand why AI might be giving the answers it gives. I'm using all the skills in this blog post, as often as possible, and always looking to improve my AI-fu.

@@ -81,4 +81,4 @@ There are a lot of moving parts to AI and while generic and cloud offerings will
 
 The ability to optimise the various parts of AI offered to the business will be a major requirement of IT departments and third parties. Proper understanding by both sales executives and procurement is crucial to moving beyond the sale and basic POC to implementation.
 
-But even then, **ai-fu** has a major role to play.
+But even then, **AI-fu** has a major role to play.
