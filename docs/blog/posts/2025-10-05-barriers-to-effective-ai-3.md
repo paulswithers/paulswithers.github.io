@@ -9,7 +9,7 @@ tags:
     - GitHub Copilot
 comments: true
 ---
-# Effective AI Usage - Understanding Brains
+# Effective AI Usage: Understanding Brains
 
 I've talked about the (current) [moving parts of AI](./2025-08-16-ai-lessons.md) and [AI-fu](./2025-09-15-barriers-to-effective-ai-2.md). But a fundamental aspect of AI-fu is being aware of how we think and how that's different to how LLMs "think". It's probably true that most people are not consciously aware of how they think or aware of how colleagues thinking works differently. So it's well worth raising that topic, because it's crucial to the quality of results.
 
