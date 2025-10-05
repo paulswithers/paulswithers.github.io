@@ -9,13 +9,13 @@ tags:
     - GitHub Copilot
 comments: true
 ---
-# Effective AI Usage Part Two
+# Effective AI Usage Part Two - AI-fu
 
 In [my last blog post](./2025-09-08-effective-ai-1.md) I talked about the many aspects of modern AI and the importance of understanding them all. But even more important than this is what I am terming "ai-fu". So what is ai-fu?
 
 <!-- more -->
 
-## AI Fu
+## AI-fu
 
 When I started working in IT, the internet was in a nascent form. Database searches were full text with fuzzy matches. Google was not even the predominant search engine. Over the first quarter of this century, the ability to refine a problem into the *right* search criteria has been a differentiator - [google-fu](https://en.wiktionary.org/wiki/Google-fu). Those who have been able to employ good google-fu have solved problems more quickly than those who could not. I often see questions on chat forums that I can easily answer with an online search - if the question is accurately reflecting the requirements.
 

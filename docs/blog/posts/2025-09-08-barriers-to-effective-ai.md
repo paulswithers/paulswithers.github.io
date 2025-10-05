@@ -9,7 +9,7 @@ tags:
     - GitHub Copilot
 comments: true
 ---
-# Effective AI Usage Part One
+# Effective AI Usage Part One - What is AI?
 
 In [my last blog post](./2025-08-16-ai-lessons.md) I talked about some lessons I've learned from using AI. I talked about a follow-up article talking about AI use at a higher level. Recent experience has reinforced my thinking on this. In this blog post we're going to focus on what AI is, the initial interaction, and training.
 
@@ -31,7 +31,7 @@ There is also **CAG**, Cache Augmented Generation, which can be used to avoid ca
 
 Then there is **MCP** ([Model Context Protocol](https://modelcontextprotocol.io/docs/getting-started/intro)), which also has two parts: an **MCP Client**, which the interface needs, otherwise you can't use MCP in that interface; and an **MCP Server** which can provide prompts, tools, and resources. These can be included in the process to bring additional specific information into the mix.
 
-Then there's are **AI agents**, which can add automation into the process. Copilot can run in agent mode, performing iterative code updates.
+Then there are **AI agents**, which can add automation into the process. Copilot can run in agent mode, performing iterative code updates.
 
 There are also IDE integrations, like how Copilot can read code in editors and files, run terminal commands and read terminal responses, and update code in the editors. These could be considered tools.
 
