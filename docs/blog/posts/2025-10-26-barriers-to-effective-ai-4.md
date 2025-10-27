@@ -31,6 +31,12 @@ Having existing code available that uses the right APIs can definitely help. I'v
 
 Similarly, if source code is available and accessible, it can avoid some hallucination.
 
+## Consumer Responsibility
+
+Of course changed APIs becomes a problem when, like me, you're working at the bleeding edge. However, there's the same problem for consumers and customers that are ultra-conservative or use edge-case functionality that gets broken. AI gets trained on what's latest at the time of training, not what most of the customer base uses. So you may get incorrect results if you're working on out-of-date versions of software, languages, or frameworks. Where languages widely publish a Long Term Support version, these may get preference. But if you're on an older LTS, you might get bad results.
+
+It will be interesting if this encouraged customers to stay more up-to-date with non-cloud software. Or whether IT partners or consultants will start charging customers more if they choose not to remain on outdated versions. Because I believe it will have a bigger impact than ever before, as I'll cover in a future blog post.
+
 ### Tailored Content
 
 AI programs have also evolved to add ways to provide specific information to help. GitHub Copilot uses **prompt files** and I've been able to generate prompt files that, at least with brief results, improve the outcomes. That's fine if you want to generate those prompt files yourself, and are willing to invest the time. But what about proprietary content?
