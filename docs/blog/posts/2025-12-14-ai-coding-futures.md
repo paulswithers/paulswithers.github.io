@@ -51,7 +51,7 @@ Let's be clear, I'm not saying low code is dead, for two reasons.
 
 Firstly, human civilization has supreme adaptability, but human individuals are often resistant to change. Many developers will be reluctant to move from low code platforms to AI-enabled development in traditional coding languages. Similarly, customers will be reluctant to redevelop their existing systems, so developers will be needed to perform (frankly dead-end) support of those applications.
 
-Secondly, the skill in using AI with traditional coding languages is knowing how to architect a solution well, knowing how to explain requirements clearly and effectively, and being able to identify which edge cases are not covered but need to be covered. Not all people have this skill. So some will still need low code platforms. The rest will no longer need to start with low code, they will jump-start their development career.
+Secondly, the skill in using AI with traditional coding languages is knowing how to architect a solution well, knowing how to explain requirements clearly and effectively, and being able to identify which edge cases are not covered but need to be covered. Not all people have this skill or will be able to master [AI-fu](./2025-09-15-barriers-to-effective-ai-2.md). So some will still need low code platforms. The rest will no longer need to start with low code, they will jump-start their development career.
 
 The future is clear. A shrinking ecosystem of fewer and fewer customers, admittedly some of whom will be larger organisations. And a shrinking ecosystem of people willing or capable of supporting them, often the less skilful.
 
@@ -107,7 +107,7 @@ It becomes much easier to use AI to understand what the code does, and then migr
 
 ## Final Thoughts
 
-A colleague summarised recently that the output of an IT programmer was restricted by their knowledge and their speed of typing. Junior developers progressed to senior developers through the knowledge they gained. You had a team of developers mixing architects, code monkeys, QA reviewers, test engineers, automation experts. The future is IT experts who have the skills to marshal a team of IT agents who can help them architect, write code, perform QA, write tests, and build automation.
+A colleague summarised recently that the output of an IT programmer was restricted by their knowledge and their speed of typing. Junior developers progressed to senior developers through the knowledge they gained. You had a team of developers mixing architects, code monkeys, QA reviewers, test engineers, automation experts. The future is IT experts who have the skills to marshal a team of IT agents who can help them architect, write code, perform QA, write tests, and build automation. At the heart of this is the ability to develop and master [AI-fu](./2025-09-15-barriers-to-effective-ai-2.md).
 
 A number of technologies will disappear or become very niche. If they're open source, they may survive even if they're only used by the main developer and a handful of others. If they're proprietary, they will struggle more and more, becoming specialised software, with fewer and fewer customers. They will face the Scylla and Charybdis of being expected to add AI into the development process, but knowing that if they do, it makes it easier to gain the knowledge that allows customers to migrate the applications.
 
