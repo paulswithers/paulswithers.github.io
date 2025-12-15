@@ -9,7 +9,7 @@ tags:
     - GitHub Copilot
 comments: true
 ---
-# AI Coding Thoughts
+# AI Coding - Thoughts About The Future of Development
 
 [**Vibe coding**](https://en.wikipedia.org/wiki/Vibe_coding) is probably the term of the year. Since being coined by Andrej Karpathy in a tweet in February the term has gained widespread adoption. My job is research, so I'm not one to accept code without review. But I absolutely need to be aware of new technologies and approaches, and evaluate their usefulness. And all technologies improve over time. So AI-assisted coding has been a regular part of my work for 18 months. Over recent weeks I've used it more and more, for a wide variety of purposes. And research is not just about trying things, it's about extrapolating and anticipating future usage.
 
