@@ -12,6 +12,8 @@ comments: true
 
 The ability of AI to generate software applications has taken gigantic leaps forward in just the last few months. A team of agents using Claude Opus 4.6 wrote a C compiler with minimal human interaction. In the [press release for Opus 4.6](https://www.anthropic.com/news/claude-opus-4-6) Anthropic build Claude with Claude. I personally use coding agents more and more, and I’ve seen significant rapid application development with AI.
 
+<!-- more -->
+
 But that becomes more challenging when you’re trying to integrate AI into existing software that!s developed over years or decade of sprawl, as [Nate B. Jones](https://youtu.be/bDcgHzCBgmQ?si=eD2ZAfLKK3A42UjV) discussed recently. But there are definite ways you can use AI more effectively, and recent experiences have taught me that even more.
 
 ## Planning
