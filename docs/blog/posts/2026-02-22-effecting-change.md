@@ -12,7 +12,7 @@ comments: true
 
 More than ten years ago, Christian Guedemann and I worked with various IBMers to try to get a free Domino server entitlement for developers. It took time - not an unacceptable amount of time, in my personal opinion - but we got more than we hoped. The dev and test server license is no longer available, because licensing for customers changed. Some are critical of that decision. But none, as far as I’m aware, have demonstrated taken the [high-agency mindset](./2026-02-19-ai-high-agency.md) that Christian and I demonstrated and which is crucial to effect change.
 
-<!-- more -—>
+<!-- more -->
 
 ## The Initial Approach
 
