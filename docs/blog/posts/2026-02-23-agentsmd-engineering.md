@@ -13,7 +13,7 @@ comments: true
 
 AGENTS.md has become the de facto standard for directing your agent. Claude Code had CLAUDE.md but with AGENTS.md becoming part of the [Agentic AI Foundation](https://aaif.io/ ) last year, even Claude Code now recognises and uses AGENTS.md. But the benefits of AGENTS.md are now being discussed and challenged in academic circles. However, maybe what’s being discussed is just the *first* iteration. And just as the AI world went through Prompt Engineering and then Context Engineering, maybe the next phase (or *a* next phase) is “AGENTS.md Engineering”.
 
-<!— more —>
+<!-- more -->
 
 ## What is AGENTS.md
 
