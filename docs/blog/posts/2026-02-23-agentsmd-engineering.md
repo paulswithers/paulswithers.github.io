@@ -39,7 +39,7 @@ And here is the key. AI agents aim their output at **humans**. Ask it how long a
 
 This means more tokens. More processing time. And all because the standard input format is Markdown text…for an agent optimised for coding.
 
-A brief perusal of some of the AGENTS.md files linked from https://agents.md/ demonstrates a wide variety of styles and levels of verbosity. The [WordPress AGENTS.md](https://github.com/WPBoilerplate/wordpress-plugin-boilerplate/blob/main/agents.md?plain=1 ] is over 1000 lines long, a massive amount of content before the first question is asked. Some use tables and gate-checks. Some cover only the basics. In his video Theo makes a good point that structure and technology stack may not be relevant and can have minimal impact on whether the agent works well or not.
+A brief perusal of some of the AGENTS.md files linked from https://agents.md/ demonstrates a wide variety of styles and levels of verbosity. The [WordPress AGENTS.md](https://github.com/WPBoilerplate/wordpress-plugin-boilerplate/blob/main/agents.md?plain=1) is over 1000 lines long, a massive amount of content before the first question is asked. Some use tables and gate-checks. Some cover only the basics. In his video Theo makes a good point that structure and technology stack may not be relevant and can have minimal impact on whether the agent works well or not.
 
 ## AGENTS.md Engineering
 
