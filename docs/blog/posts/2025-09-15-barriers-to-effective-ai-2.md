@@ -11,7 +11,7 @@ comments: true
 ---
 # Effective AI Usage: AI-fu
 
-In [my last blog post](./2025-09-08-effective-ai-1.md) I talked about the many aspects of modern AI and the importance of understanding them all. But even more important than this is what I am terming "AI-fu". So what is AI-fu?
+In [my last blog post](./2025-09-08-effective-ai.md) I talked about the many aspects of modern AI and the importance of understanding them all. But even more important than this is what I am terming "AI-fu". So what is AI-fu?
 
 <!-- more -->
 
