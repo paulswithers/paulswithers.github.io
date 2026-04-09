@@ -17,7 +17,7 @@ In [my last blog post](./2025-08-16-ai-lessons.md) I talked about some lessons I
 
 ## What Is AI?
 
-First off, "AI" is a misnomer. This isn't the first time that I've talked about the importance of [understanding the processes](./2024/07/22/research/#understanding) behind how technology works. It's the same with AI, we have multiple aspects in play, and it's evolving. We have the **interface**, but we need to understand what it allows *and doesn't allow* access to.
+First off, "AI" is a misnomer. This isn't the first time that I've talked about the importance of [understanding the processes](./2024-07-22-research.md#understanding) behind how technology works. It's the same with AI, we have multiple aspects in play, and it's evolving. We have the **interface**, but we need to understand what it allows *and doesn't allow* access to.
 
 First off, there's the **LLM** (Large Language Model). GitHub Copilot offers a limited number of LLMs to choose from, the most common ones I've used are GPT-4.1 and Claude Sonnet 3.5. Later in the year Copilot will allow BYOM - Bring Your Own Model, but that's not available yet. And different models are suited for different things. Alternative extensions like [Continue](https://docs.continue.dev/getting-started/overview) and other IDEs allow you to integrate with different LLMs, local or cloud.
 
