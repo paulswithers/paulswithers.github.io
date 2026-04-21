@@ -13,7 +13,7 @@ comments: true
 
 AI usage has evolved over the years as the power and limitations of LLMs and agents have progressed. The community has learned that they needed ways to provide additional abilities. Coding clients have adapted to provide those capabilities. Thankfully the IT ecosystem has changed dramatically since the birth of enterprise IT, so open source and standards have become the default mechanism instead of a last resort after community pushback. But we’re starting to see yet another approach, one I’ll call **Token Engineering**.
 
-<!-- more -—>
+<!-- more -->
 
 ##  History of AI Engineering
 
