@@ -1,6 +1,6 @@
 ---
 slug: token-engineering
-date: 2026-02-23
+date: 2026-04-21
 categories: 
     - AI
 tags:
