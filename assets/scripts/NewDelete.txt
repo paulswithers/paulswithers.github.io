@@ -1,0 +1,49 @@
+Option Public
+Option Declare
+
+Private fromHere as Boolean
+Public globalSession as LogSession
+
+Sub Initialize
+    Print "Creating new logSession"
+    fromHere = true
+    Set globalSession = new LogSession()
+    fromHere = false
+End Sub
+
+Class LogSession
+    Private logWriter as BaseLogWriter
+
+    Sub addLogWriter(lw as BaseLogWriter)
+        Set Me.logWriter = lw
+    End Sub
+
+    Sub New()
+
+        If not fromHere Then
+            Error 1001, "Use globalSession"
+        End If
+
+    End Sub
+
+    Sub Delete
+        Print "In LogSession Delete"
+        Print "Testing logWriter - " & CStr(logWriter is Nothing)
+    End Sub
+
+End Class
+
+Class BaseLogWriter
+
+    Sub WriteToLog(localSession as LogSession)
+        Print "Testing globalSession - " & CStr(localSession is nothing)
+        Print "Writing out"
+    End Sub
+
+    Sub Delete
+        Print "In BaseLogWriter delete"
+        Print "Testing globalSession - " & CStr(globalSession is nothing)
+        
+    End Sub
+
+End Class
