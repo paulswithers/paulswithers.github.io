@@ -21,6 +21,7 @@
 - [Lessons Learned](./posts/2025-04-02-framework-web-17.md)
 - [CSP Enhancement](./posts/2025-04-19-framework-web-18.md)
 - [Spots By Date and Stats Pages](./posts/2025-04-22-framework-web-19.md)
+- [Custom CSP Settings](./posts/2025-09-14-framework-web-20.md)
 
 ## Documentation on Domino
 
