@@ -42,7 +42,7 @@ Once the debugger is attached, the process of debugging is standard. Breakpoints
 
 The debugger and functionality available is standard for all Java development. When the breakpoint hits, you are prompted to switch to the Debug perspective unless Eclipse has been set to always switch to it. I would recommend setting this, I've only ever used the Debug perspective when a breakpoint has hit.
 
-<img src="../../images/post-images/2024/debug-1.png" alt="Debug Perspective" height="400px" />
+<img src="../../assets/post-images/2024/debug-1.png" alt="Debug Perspective" height="400px" />
 
 Let's get acquainted with the Debug perspective. The **Debug** view in the left-hand part of the page shows the stack trace. There's not much to see here, but in a more complex Java application you will see much more. This can help you see where the code went before getting to the breakpoint, as well as navigating up the stack to see the variables etc at the point the code called the next method in the stack.
 

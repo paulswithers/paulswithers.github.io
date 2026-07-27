@@ -21,17 +21,17 @@ Unlike a lot of databases, Domino has two identifiers for a document, the UNID a
 
 Both can be used to access the document. The following code sample demonstrates the usage of both. Line 55 gets the document by UNID, line 56 gets it by Note ID.
 
-![ById and ByUnid](../../images/post-images/2022/byid_byunid_code.png)
+![ById and ByUnid](../../assets/post-images/2022/byid_byunid_code.png)
 
 You might not think there is much difference in the performance of those two lines. You would be right.
 
 But would you expect that the performance of the overall agent differs by almost ten seconds depending which one you choose? That may seem astounding, but it was true. Agent profiling proves it, but also gives the reason. This is the agent profiling document for `getDocumentById()`.
 
-![ById](../../images/post-images/2022/byId_profiling.png)
+![ById](../../assets/post-images/2022/byId_profiling.png)
 
 And this is the agent profiling document for `getDocumentByUNID()`.
 
-![ByUNID](../../images/post-images/2022/byUnid_profiling.png)
+![ByUNID](../../assets/post-images/2022/byUnid_profiling.png)
 
 There are additional API calls, because it's also profiling the retrieval and writing to the agent profiling document itself, but those have minimal impact on performance. The key is in the highlighted lines. As I mentioned, the performance of `getDocumentByID()` vs `getDocumentByUNID()` is very similar. But it's the `NotesDocument.LastModified` which has a massive impact on performance.
 

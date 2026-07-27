@@ -19,17 +19,17 @@ So it was extremely useful to work in person with the team, with a variety of pl
 
 I also got the chance for some downtime in Manila. As [Mat Newman](https://twitter.com/matnewman) will attest, a weekend with [Stephan Wissel](https://twitter.com/notessensei) is rather a baptism of fire. We went hiking up [Mount Maculot](https://www.adventurouslens.com/mt-maculot/) to the Rockies. To give you an idea of what's involved, here's a photo from the bottom.
 
-![Mount Maculot](../../images/post-images/2020-01/mount_maculot.jpg)
+![Mount Maculot](../../assets/post-images/2020-01/mount_maculot.jpg)
 
 For one not accustomed to hiking up about 400m, often with quite steep terrain, it was a challenge. I think this photo from where I stopped highlights the effort involved.
 
-![Paul Withers](../../images/post-images/2020-01/paul_withers_mt_maculot.jpg)
+![Paul Withers](../../assets/post-images/2020-01/paul_withers_mt_maculot.jpg)
 
 But just as the climb was breath-taking, so was the view of Lake Taal.
 
-![Lake Taal](../../images/post-images/2020-01/lake_taal_1.jpg)
-![Lake Taal](../../images/post-images/2020-01/lake_taal_2.jpg)
-![Lake Taal](../../images/post-images/2020-01/lake_taal_3.jpg)
+![Lake Taal](../../assets/post-images/2020-01/lake_taal_1.jpg)
+![Lake Taal](../../assets/post-images/2020-01/lake_taal_2.jpg)
+![Lake Taal](../../assets/post-images/2020-01/lake_taal_3.jpg)
 
 If the name sounds familiar, that's because Lake Taal is home to the Taal Volcano. The same Taal Volcano that erupted, starting with emitting steam at 1pm, as we were descending, then ash just two hours after we had left, progressing to a magmatic eruption overnight Sunday into Monday at 02:49am. If you zoom in on the last photo, there is a plume of smoke to the left of Mount Maculot. I'm not sure if that's the volcano. To give you an idea how close we were, Mount Maculot is within the red dotted 14km exclusion zone, just north of Cuenca at the southern end of Lake Taal.
 

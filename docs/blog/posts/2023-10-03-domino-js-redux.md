@@ -21,7 +21,7 @@ I approached John because I didn't feel qualified to talk about building a JavaS
 
 The architecture of the application we built is very important:
 
-![Architecture](../../images/post-images/2023/domino_js_arch.png)
+![Architecture](../../assets/post-images/2023/domino_js_arch.png)
 
 The JavaScript application talks via REST, reading and writing JSON. But the architecture very specifically talks about an **API Gateway**. Slides 15 and 16 go into greater detail about this. REST means basic CRUD access, whereas the focus on an API gateway emphasised coding for data quality, managing security, and ensuring specific data items are only editable via specific APIs - not via basic CRUD REST API.
 

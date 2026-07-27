@@ -371,7 +371,7 @@ We find the relevant ship on lines 2-3 and create a div to hold the ship details
 
 This provides quick, simple reporting with the ability to drill down and navigate around, as needed. You can see an example of the output below:
 
-![Stats](../../images/post-images/2025/stats.png){ width="300px" }
+![Stats](../../assets/post-images/2025/stats.png){ width="300px" }
 
 ## Table of Contents
 

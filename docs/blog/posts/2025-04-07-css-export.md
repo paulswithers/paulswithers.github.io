@@ -23,17 +23,17 @@ I'm not interested in the rights or wrongs of inline content (and there are plen
 
 Domino has had StyleSheet design elements since Domino 6, over twenty years ago. But when XPages was introduced, many developers were still unfamiliar with CSS. So XPages provided a no-code option for adding CSS, with Font, Background, and Margins tabs with various pickers on "pretty panels", as Maureen Leland called them.
 
-![Pretty panels](../../images/post-images/2025/css-1.png){ width="500px" }
+![Pretty panels](../../assets/post-images/2025/css-1.png){ width="500px" }
 
 There were two ways to use these. The first was to primarily use the no-code option. The second was to use it to minimise the amount that was new, but once comfortable with the new IDE, learn CSS and progress to code over GUI. This is similar to SSJS: one approach was to only ever use SSJS; the other was to use it while learning the IDE and then move to Java.
 
 The difference that CSS pretty panels provided was that it provided a quick and easy way to move the CSS to a stylesheet. It's probably not noticed because it's on the parent `Style` tab, and only appears when inline styles have been added. It is the **Export** button, as in this screenshot.
 
-![Export styles](../../images/post-images/2025/css-2.png){ width="600px" }
+![Export styles](../../assets/post-images/2025/css-2.png){ width="600px" }
 
 When you click this, you can export all styles to a stylesheet of your choice or cherry pick which styles to add. It also allows you to replace the inline styles.
 
-![Export dialog](../../images/post-images/2025/css-3.png){ width="500px" }
+![Export dialog](../../assets/post-images/2025/css-3.png){ width="500px" }
 
 What this means is that manually moving inline styles to comply with CSP settings is very easy - in fact probably easier than in standard web development, if developers wish. The inbuilt Eclipse Search menu functionality in Domino Designer will allow you to search for `style=` on just XPages and Custom Controls, to easily find where you need to change. Because they're textual design elements, the Eclipse search is well-suited to the task.
 

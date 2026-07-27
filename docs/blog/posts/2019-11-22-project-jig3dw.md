@@ -12,7 +12,7 @@ comments: true
 
 # Project Jig3dw: Tutorials Re-Imagined
 
-![Project Jig3dw](../../images/post-images/2019-11-22-project-jig3dw.png)
+![Project Jig3dw](../../assets/post-images/2019-11-22-project-jig3dw.png)
 
 The world of HCL Digital Solutions is evolving rapidly. This brings a lot of excitement but also a lot of challenges. The last certification exams for Domino were in the era of Domino 8.5. Training materials have also languished a lot - official ones from the vendor and from elsewhere, as the ecosystem has contracted. At the same time, the product has diversified and expanded.
 

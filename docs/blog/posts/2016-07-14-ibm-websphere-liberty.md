@@ -23,7 +23,7 @@ The server can be configured via XML and other files, or editors from the Eclips
 - **server.env** which holds environment variables for the server to use.
 - **server.xml** which holds the main server configuration. A screenshot is shown below.
 
-![server.xml](../../images/post-images/2016-07-14-server-xml.jpg)
+![server.xml](../../assets/post-images/2016-07-14-server-xml.jpg)
 
 I've not gone beyond basic configuration so far. But changing the post the server uses is very straightforward, just defined in the HTTP Endpoint feature. I also set up HTTPS for one server following instructions on a blog post, which was also easy. But I know a real-world deployment would require a lot of additional configuration and questions answering, possible pitfalls and probably optimisation.
 

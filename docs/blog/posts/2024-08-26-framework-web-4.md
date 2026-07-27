@@ -97,7 +97,7 @@ DQL will be used in this application for retrieving small collections of documen
 
 I don't need the ability to run code from Domino REST API here and none of the data is encrypted. SO I can turn off those settings. The way to do that is via the "Source" tab on the schema. This allows you to edit the overall schema's JSON object (more of that later). Edit buttons on each object or value allow you to change the settings. In this case I've changed "allowCode" and "allowDecryption" to false.
 
-![DRAPI code](../../images/post-images/2024/drapi-1.png)
+![DRAPI code](../../assets/post-images/2024/drapi-1.png)
 
 ## Form Access Mode Specifics
 
@@ -111,7 +111,7 @@ We can improve on that.
 
 Domino REST API has an "On Save Formula" section. This allows you to run formula whenever a user saves a document with that Form at that Form Access Mode. In this case, I can set the Abbreviation dynamically during the save.
 
-![DRAPI Port Save](../../images/post-images/2024/drapi-2.png)
+![DRAPI Port Save](../../assets/post-images/2024/drapi-2.png)
 
 This improves in several ways. Firstly, the Port form only needs to contact the server on save, it doesn't need to round-trip to update the Abbreviation just to set on save. Of course we could have performed that update client-side based on local storage of the ports. But this way we ensure it _cannot_ be set incorrectly by a user, whether it's sent properly through the application, whether the browser's request is tampered with, or whether the request comes in via another source like Postman.
 
@@ -123,7 +123,7 @@ Similarly, Trip form has an "On Save Formula" to set "Active" field to "Yes", a 
 
 In the XPages application, whenever a Spot was created, I set a field for the created date and mapped it to the current active Trip. Both can also be done with the On Save Formula. Spots were never updated outside the current Trip, but occasionally I forgot to create the Trip before creating the first Spot. We can improve here too, thanks to the "On Save Formula" again. We can look up the active Trip, and set its UNID.
 
-![DRAPI Spot Form](../../images/post-images/2024/drapi-3.png)
+![DRAPI Spot Form](../../assets/post-images/2024/drapi-3.png)
 
 ## Required Fields
 
@@ -133,13 +133,13 @@ However, there is a way, again on the Source tab of the schema.
 
 If you scroll down through the Forms and Form Access Modes, you'll see a setting for "required". This is an array of fields that have to have a value in order to save the document. Needless to say, I went through and set this on all Form Access Modes.
 
-![DRAPI Required](../../images/post-images/2024/drapi-4.png)
+![DRAPI Required](../../assets/post-images/2024/drapi-4.png)
 
 ## Validation Rules
 
 If you scrolled through the Source tab to see the "required" option, you probably also saw the "validationRules" option. This is a bit more complex, but even more powerful. "validationRules" are a formula type (currently just "domino"), a formula that **must** pass and an error message if the formula validation fails. You can have multiple validation rules, as you can see I've added here for the Ship form.
 
-![DRAPI validation](../../images/post-images/2024/drapi-5.png)
+![DRAPI validation](../../assets/post-images/2024/drapi-5.png)
 
 Here I'm validating that YearBuilt is 4 characters, that conversion to a number doesn't throw an error, and that the first two digits are "18", "19", or "20".
 
@@ -153,7 +153,7 @@ Here we've seen editing the scope via The "Styled Object" option in the Source t
 
 Another option is to export the JSON (or perform a GET on the relevant API), and make the change via a REST API call. You can find the relevant request by going to the OpenAPIv3 page on your server, changing the drop-down at the top to the "setup" API, opening the "schema" section and going to "POST" for "/schema". You just need to get the schema format correct.
 
-[!POST Schema](../../images/post-images/2024/drapi-6.png)
+![POST Schema](../../assets/post-images/2024/drapi-6.png)
 
 ## Downloading Data
 

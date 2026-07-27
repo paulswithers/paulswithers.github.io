@@ -62,7 +62,7 @@ When we come to the Ship and Ship Spot web components, flexbox doesn't provide e
 
 CSS Grid is extremely powerful and flexible. It also allows you to make the layout responsive. But browser tools make it easier to work with as well. My preferred browser for development is Chrome. When you inspect an element in developer tools in Chrome, if an element uses CSS Grid you see a button that says "grid" beside the HTML tag. Clicking this allows you to inspect the grid in the browser, which can help identify layout issues.
 
-![Grid layout](../../images/post-images/2025/grid-1.png)
+![Grid layout](../../assets/post-images/2025/grid-1.png)
 
 The screenshot above shows the grid I'm using for the Ship Spot. Similarly to Flexbox, a div uses CSS Grid if it has `display: grid`. You'll see the second setting is **grid-template-columns**. This defines the number of columns the grid should have and, should you wish to define a number of rows, there is a corresponding **grid-template-rows**. The third setting is **column-gap**, which defines the size of the gap between the columns. There is a corresponding **row-gap** property to define the gap between rows and a **gap** property to set row and column gaps in a single property.
 
@@ -94,7 +94,7 @@ For what to repeat, we use `minmax()`, which takes a minimum size and a maximum 
 
 Now let's use developer tools to display *all* the grids:
 
-![All grids](../../images/post-images/2025/grid-2.png)
+![All grids](../../assets/post-images/2025/grid-2.png)
 
 The salmon-coloured numbers show the grid we've been talking about until now, with four cells. The numbers (1, 2, 3) show the start and end of a grid element, which can be used to map placement. But you'll notice there are also negative numbers on the right-hand size of each column and bottom of each row, which can be used to map placement working backwards from the end of the row or column.
 
@@ -114,7 +114,7 @@ input-group {
 
 But why lay it out like this? It becomes clearer when we reduce the browser window size.
 
-![Grid 1-col](../../images/post-images/2025/grid-3.png)
+![Grid 1-col](../../assets/post-images/2025/grid-3.png)
 
 Compare the two and you now see we get the ship fields first and the spot fields afterwards. But because each inner grid is its own "row" now, `align-content` is effectively irrelevant now.
 
