@@ -7,6 +7,7 @@ tags:
     - AI
     - Editorial
     - GitHub Copilot
+    - MCP
 comments: true
 ---
 # Effective AI Usage Part One - What is AI?

@@ -7,6 +7,7 @@ tags:
     - AI
     - Domino
     - Domino REST API
+    - MCP
 comments: true
 ---
 
