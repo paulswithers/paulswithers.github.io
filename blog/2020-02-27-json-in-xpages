@@ -1,0 +1,111 @@
+---
+slug: json-in-xpages
+date: 2020-02-27
+categories:
+  - Domino
+tags: 
+  - XPages
+  - Domino
+  - Vert.x
+comments: true
+---
+# JSON handling in XPages
+
+My forays into Domino Designer are few and far between these days. But in preparation for Engage next week I needed to create a couple of XPages to output JSON. As ever, the way of least pain is to make a call in the `beforeRenderResponse` to a static Java method, as I did in my blog series on [scheduling XPages code](https://www.intec.co.uk/scheduling-xpages-code-part-four/), for which the repo is on [GitHub](https://github.com/paulswithers/scheduled-xots/).
+
+But there is still the requirement to create JSON objects. For that I used the in-built IBM classes like `com.ibm.commons.util.io.json.JsonJavaObject`. As I was writing this new code, I was reminded of Jesse Gallagher's blog post from November on [avoiding Base64 trouble in XPages](https://frostillic.us/blog/posts/2019/11/14/quick-tip-thursday-avoid-future-base64-trouble-in-java) by not using the IBM classes one may have used in the past. So I was very interested when I saw a very familiar alternative in Domino Designer 11. When I typed "JsonObject" and used content assist for the relevant imports I was presented with the following:
+
+<img src="/images/post-images/vertx-json.png" alt="Vert.x JSON" height="150px" />
+
+Those who haven't stepped into the arcane world of [Stephan Wissel](https://www.wissel.net/blog/categories/vertx.html) and I may be unfamiliar with [Vert.x](https://vertx.io/). We'll cover it at [Engage](https://engage.ug) next week in our sessions, because it's at the heart of Project Keep. But in essence it's an **open source** multi-modular lightweight polyglot framework. One of those languages is [Java](https://vertx.io/docs/vertx-core/java/) and in the core APIs is JSON handling. The [documentation](https://vertx.io/docs/vertx-core/java/#_json) has an introduction into JSON in Vert.x or if you prefer a JavaDoc, of course there is [Javadoc](https://vertx.io/docs/apidocs/).
+
+If you read through the documentation, welcome back. But let me draw your attention to one the section "Mapping between JSON objects and Java objects" where it says that Vert.x's JsonObjects use **Jackson's ObjectMapper** to convert between objects and JSON. This is another big, big win. No more manual converting between your Java objects and JSON. However, as ever with advanced and modern Java in XPages, there is a caveat. Jackson uses _Java reflection_ to access getters and setters in your Java classes and the out-of-the-box Java security policy prevents that. So you'll need to add these two lines to your java.policy and `res task http` to use the benefits of Jackson.
+
+``` java
+permission java.lang.RuntimePermission "accessDeclaredMembers";
+permission java.lang.reflect.ReflectPermission "suppressAccessChecks";
+```
+
+One other caveat is that dates are converted by default into timestamps, e.g. `date: 1582792614197` rather than an ISO 8601 date format. Of course Jackson is extensible to add customer serializers and deserializers to manipulate values from and to JSON. But I'll leave that for someone else to cover.
+
+So now I'm sure you want to see some code, right? Let's show some.
+
+The XPage is very basic, just calling my Utils method.
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view xmlns:xp="http://www.ibm.com/xsp/core">
+	<xp:this.beforePageLoad><![CDATA[#{javascript:com.paulwithers.Utils.outputJson()}]]></xp:this.beforePageLoad>
+
+</xp:view>
+```
+
+To convert from objects to JSON, we need an object class which, for ease, I also put in my Utils class. as a result it needs to be a static class to utilise it:
+
+```java
+	public static class FoolsAndHorses {
+		private String firstName;
+		private String lastName;
+		private String nickName;
+
+		public FoolsAndHorses(String firstName, String lastName, String nickName) {
+			super();
+			this.firstName = firstName;
+			this.lastName = lastName;
+			this.nickName = nickName;
+		}
+
+		public String getFirstName() {
+			return firstName;
+		}
+
+		public void setFirstName(String firstName) {
+			this.firstName = firstName;
+		}
+
+		public String getLastName() {
+			return lastName;
+		}
+
+		public void setLastName(String lastName) {
+			this.lastName = lastName;
+		}
+
+		public String getNickName() {
+			return nickName;
+		}
+
+		public void setNickName(String nickName) {
+			this.nickName = nickName;
+		}
+
+	}
+```
+
+This is all pretty straightforward, a simple class with three String properties - `firstName`, `lastName`, `nickname`. Now onto the code that creates objects based on those classes and writes the JSON.
+
+```java
+	public static void outputJson() throws IOException {
+		List<FoolsAndHorses> list = new ArrayList<FoolsAndHorses>();
+		list.add(new FoolsAndHorses("Derek", "Trotter", "Del Boy"));
+		list.add(new FoolsAndHorses("Rodney", "Trotter", "Dave"));
+		list.add(new FoolsAndHorses("Colin", "Ball", "Trigger"));
+		list.add(new FoolsAndHorses("Herman Terrance Aubrey", "Boyce", "Boycie"));
+		JsonArray david = new JsonArray(list);
+
+		FacesContext ctx = FacesContext.getCurrentInstance();
+		ExternalContext ext = ctx.getExternalContext();
+		XspHttpServletResponse response = (XspHttpServletResponse) ext.getResponse();
+		response.setContentType("application/json");
+		response.setHeader("Cache-Control", "no-cache");
+		PrintWriter writer = response.getWriter();
+		writer.write(david.encode());
+		ctx.responseComplete();
+	}
+```
+
+Because we're not creating an instance of the Utils class before calling it, the method is static. Using the `PrintWriter` can cause an IOException, so we throw that. We then create an ArrayList of `FoolsAndHorses` objects, and pass that list to an `io.vertx.core.json.JsonArray`. Of course we call our JSON "david". Note that the Vert.x JsonObject can be created from any Java Map and JsonArray can be created from any Java List. The List can contain other lists, Java maps or objects - as long as you have a deserializer to convert that Java object's class to JSON. In our case we don't need one - Jackson already knows how to serialize and deserialize simple strings and numbers in a format that's acceptable for our output. The final section is pretty standard, getting the `XspHttpServletResponse`, adding some HTTP headers, getting the response's PrintWriter, writing out the JSON object as a String and completing the FacesContext to abort rendering an XPages response.
+
+`JsonArray.encode()`is used to convert the JsonArray to a String. If you wanted pretty output, there is `JsonArray.encodePrettily()`.
+
+If you want a Java security policy that's more amenable to modern Java development, I'd recommend supporting [this Aha idea](https://domino-ideas.hcltechsw.com/ideas/search?utf8=%E2%9C%93&query=java+security+policy) I created before I joined HCL.
